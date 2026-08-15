@@ -13,7 +13,6 @@
 - [Ranked plugins](#ranked-plugins)
 - [Install plugins carefully](#install-plugins-carefully)
 - [Related resources](#related-resources)
-- [Contributing](#contributing)
 
 ## What qualifies
 
