@@ -7,7 +7,7 @@ Thank you for helping maintain Awesome DeepSeek Harness Plugins. Meeting the Sta
 A new entry must satisfy every requirement:
 
 - The link points to the canonical public GitHub repository.
-- The repository has at least 100 GitHub Stars when the pull request opens.
+- The repository has at least 50 GitHub Stars when the pull request opens.
 - The repository is active, is not archived, and is not a mirror or minimally changed fork.
 - A `package.json` declares `dsh.bundle`, either at the root or in an independently installable subpackage.
 - The bundle patch identifies the Cordis or DSH plugin entry that the host loads.
@@ -57,7 +57,7 @@ Describe any required companion app, service, credential, platform, or build ste
 
 ## Update or remove an entry
 
-Submit corrections when a project moves, changes its package, loses its bundle, changes its license, becomes archived, or stops working with the current preview. An entry that later drops below 100 Stars stays listed until a maintainer reviews it.
+Submit corrections when a project moves, changes its package, loses its bundle, changes its license, becomes archived, or stops working with the current preview. An entry that later drops below 50 Stars stays listed until a maintainer reviews it.
 
 ## Validate your change
 

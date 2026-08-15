@@ -5,7 +5,7 @@
 ## Checklist
 
 - [ ] The repository is canonical, public, active, and not archived.
-- [ ] A new entry has at least 100 GitHub Stars.
+- [ ] A new entry has at least 50 GitHub Stars.
 - [ ] The package declares `dsh.bundle` and has a bundle patch.
 - [ ] I linked the manifest, patch, entrypoint, and supported installation command below.
 - [ ] This is a DSH plugin, not a topic-only project, generic Skill, standalone client, preset, or Awesome list.
