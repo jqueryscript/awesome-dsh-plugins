@@ -66,14 +66,10 @@ DSH plugins run third-party code with your account permissions. A plugin can rea
 
 ## Related resources
 
-- [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - Official repository and developer preview.
 - [DeepSeek Harness documentation](https://deepseek-harness.github.io/deepseek-harness/) - Official installation, configuration, and development guides.
+- [Official `dsh-plugin` topic](https://github.com/topics/dsh-plugin) - A discovery feed that still requires code-level verification.
 - [ScriptByAI](https://www.scriptbyai.com/) - AI tools, coding agents, and practical technical guides.
 
 ## Contributing
 
 Read the [contribution guidelines](CONTRIBUTING.md) before opening a pull request. Additions must provide code-level DSH evidence and meet the admission threshold.
-
-## License
-
-[CC0-1.0](LICENSE)
