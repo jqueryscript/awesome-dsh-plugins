@@ -31,13 +31,13 @@ Entries are sorted by exact live GitHub Stars. The displayed count is shortened 
   - Install: `dsh plugin --profile web add @linxin666/dsh-web-ui-all`
 - [Modlens](https://github.com/liustack/modlens) - **1.4k stars** | `Vision` | `MIT`. A vision plugin that returns structured OCR, layout, and semantic evidence to text-only DSH models.
   - Install: `dsh plugin --profile web add @liustack/modlens@3.16.6`
-- [DSH TUI](https://github.com/ccch1mneyyy/dsh-TUI) - **964 stars** | `UI & Interfaces` | `MIT`. A full-screen terminal interface with streaming output, a status line, rollback controls, and context usage indicators.
+- [DSH TUI](https://github.com/ccch1mneyyy/dsh-TUI) - **966 stars** | `UI & Interfaces` | `MIT`. A full-screen terminal interface with streaming output, a status line, rollback controls, and context usage indicators.
   - Install: `dsh plugin --profile dsh-tui add @deepseek-harness-tui/dsh-tui`
-- [DSH Better Sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) - **838 stars** | `UI & Interfaces` | `MIT`. A Web UI workbench with file editing, terminal access, Git tools, subagent views, and extension tabs.
+- [DSH Better Sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) - **840 stars** | `UI & Interfaces` | `MIT`. A Web UI workbench with file editing, terminal access, Git tools, subagent views, and extension tabs.
   - Install: `dsh plugin --profile web add dsh-better-sidebar`
-- [DSH Deep Whale](https://github.com/Small-tailqwq/dsh-deep-whale) - **661 stars** | `Themes & Appearance` | `CC-BY-NC-SA-4.0`. A maid-atelier whale character skin for the DSH Web interface.
+- [DSH Deep Whale](https://github.com/Small-tailqwq/dsh-deep-whale) - **662 stars** | `Themes & Appearance` | `CC-BY-NC-SA-4.0`. A maid-atelier whale character skin for the DSH Web interface.
   - Install: `git clone https://github.com/Small-tailqwq/dsh-deep-whale.git && dsh plugin --profile web add ./dsh-deep-whale/maid-atelier`
-- [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) - **578 stars** | `Files & Runtime` | `Apache-2.0`. A DSH bundle that connects the managed-agents runtime through the official stdio MCP client.
+- [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) - **579 stars** | `Files & Runtime` | `Apache-2.0`. A DSH bundle that connects the managed-agents runtime through the official stdio MCP client.
   - Install: `npm ci && npm run build:runtime && npm link && dsh plugin --profile web add managed-agents`
 - [Mnemon](https://github.com/mnemon-dev/mnemon) - **440 stars** | `Memory & Knowledge` | `Apache-2.0`. A persistent memory plugin that supplies graph-based recall and cross-session knowledge to DSH agents.
   - Install: `dsh plugin --profile web add dsh-mnemon`

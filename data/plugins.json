@@ -27,7 +27,7 @@
       "install_command": "dsh plugin --profile web add @linxin666/dsh-web-ui-all",
       "manifest_path": "packages/dsh-web-ui-all/package.json",
       "entrypoint": "@linxin666/dsh-web-ui-all",
-      "stars": 2087,
+      "stars": 2095,
       "stars_at_addition": 2079,
       "added_at": "2026-08-15",
       "verified_at": "2026-08-15"
@@ -42,7 +42,7 @@
       "install_command": "dsh plugin --profile web add @liustack/modlens@3.16.6",
       "manifest_path": "package.json",
       "entrypoint": "@liustack/modlens",
-      "stars": 1406,
+      "stars": 1411,
       "stars_at_addition": 1399,
       "added_at": "2026-08-15",
       "verified_at": "2026-08-15"
@@ -57,7 +57,7 @@
       "install_command": "dsh plugin --profile dsh-tui add @deepseek-harness-tui/dsh-tui",
       "manifest_path": "package.json",
       "entrypoint": "@deepseek-harness-tui/dsh-tui",
-      "stars": 964,
+      "stars": 966,
       "stars_at_addition": 962,
       "added_at": "2026-08-15",
       "verified_at": "2026-08-15"
@@ -72,7 +72,7 @@
       "install_command": "dsh plugin --profile web add dsh-better-sidebar",
       "manifest_path": "package.json",
       "entrypoint": "dsh-better-sidebar",
-      "stars": 838,
+      "stars": 840,
       "stars_at_addition": 834,
       "added_at": "2026-08-15",
       "verified_at": "2026-08-15"
@@ -87,7 +87,7 @@
       "install_command": "git clone https://github.com/Small-tailqwq/dsh-deep-whale.git && dsh plugin --profile web add ./dsh-deep-whale/maid-atelier",
       "manifest_path": "maid-atelier/package.json",
       "entrypoint": "@dsh-external/dsh-client-ui-skin-maid-atelier",
-      "stars": 661,
+      "stars": 662,
       "stars_at_addition": 654,
       "added_at": "2026-08-15",
       "verified_at": "2026-08-15"
@@ -102,7 +102,7 @@
       "install_command": "npm ci && npm run build:runtime && npm link && dsh plugin --profile web add managed-agents",
       "manifest_path": "package.json",
       "entrypoint": "@deepseek-ai/dsh-mcp-client",
-      "stars": 578,
+      "stars": 579,
       "stars_at_addition": 578,
       "added_at": "2026-08-15",
       "verified_at": "2026-08-15"
