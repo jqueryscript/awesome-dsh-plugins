@@ -5,7 +5,7 @@
 [![Quality](https://github.com/jqueryscript/awesome-dsh-plugins/actions/workflows/quality.yml/badge.svg)](https://github.com/jqueryscript/awesome-dsh-plugins/actions/workflows/quality.yml)
 [![Update Stars](https://github.com/jqueryscript/awesome-dsh-plugins/actions/workflows/update-stars.yml/badge.svg)](https://github.com/jqueryscript/awesome-dsh-plugins/actions/workflows/update-stars.yml)
 
-**Last verified:** 2026-08-16 | **Minimum at admission:** 50 stars | **Plugins:** 33
+**Last verified:** 2026-08-15 | **Minimum at admission:** 50 stars | **Plugins:** 33
 
 ## Contents
 
@@ -37,7 +37,7 @@ Entries are sorted by exact live GitHub Stars. The displayed count is shortened 
   - Install: `dsh plugin --profile dsh-tui add @deepseek-harness-tui/dsh-tui`
 - [DSH Better Sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) - **1.2k stars** | `UI & Interfaces` | `MIT`. A Web UI workbench with file editing, terminal access, Git tools, subagent views, and extension tabs.
   - Install: `dsh plugin --profile web add dsh-better-sidebar`
-- [DSH Deep Whale](https://github.com/Small-tailqwq/dsh-deep-whale) - **884 stars** | `Themes & Appearance` | `CC-BY-NC-SA-4.0`. A maid-atelier whale character skin for the DSH Web interface.
+- [DSH Deep Whale](https://github.com/Small-tailqwq/dsh-deep-whale) - **885 stars** | `Themes & Appearance` | `CC-BY-NC-SA-4.0`. A maid-atelier whale character skin for the DSH Web interface.
   - Install: `git clone https://github.com/Small-tailqwq/dsh-deep-whale.git && dsh plugin --profile web add ./dsh-deep-whale/maid-atelier`
 - [Working Activity](https://github.com/ccch1mneyyy/working-activity) - **644 stars** | `UI & Interfaces` | `MIT`. A live status line that shows model activity, running tools, elapsed time, and turn summaries in DSH.
   - Install: `dsh plugin --profile web add dsh-working-activity`
@@ -55,13 +55,13 @@ Entries are sorted by exact live GitHub Stars. The displayed count is shortened 
   - Install: `dsh plugin --profile web add github:Nagi-ovo/dsh-ads`
 - [DSH Agent Teams](https://github.com/NanmiCoder/dsh-agent-teams) - **327 stars** | `Workflow & Automation` | `MIT`. A team orchestration plugin that adds tools for creating agent groups, assigning work, and tracking shared state.
   - Install: `dsh plugin --profile web add @nanmicoder/dsh-agent-teams`
-- [DSH At File](https://github.com/omdsh-dev/dsh-at-file) - **214 stars** | `Input & Navigation` | `MIT`. A composer extension for searching workspace paths with at-file mentions and attaching file contents to prompts.
+- [DSH At File](https://github.com/omdsh-dev/dsh-at-file) - **215 stars** | `Input & Navigation` | `MIT`. A composer extension for searching workspace paths with at-file mentions and attaching file contents to prompts.
   - Install: `dsh plugin --profile web add https://github.com/omdsh-dev/dsh-at-file/archive/refs/tags/v0.6.0.tar.gz`
 - [Whale Girl](https://github.com/vlln/whale-girl) - **168 stars** | `Themes & Appearance` | `MIT`. A draggable Web UI desktop pet with interaction, feeding, progress, and persistent state.
   - Install: `dsh plugin --profile web add github:vlln/whale-girl#main`
-- [DSH Tianshu TUI](https://github.com/huiliyi37/dsh-tianshu-tui) - **160 stars** | `UI & Interfaces` | `Apache-2.0`. A terminal interface that adds Tianshu workflows, evidence gates, TDD controls, and optional vision modules.
+- [DSH Tianshu TUI](https://github.com/huiliyi37/dsh-tianshu-tui) - **162 stars** | `UI & Interfaces` | `Apache-2.0`. A terminal interface that adds Tianshu workflows, evidence gates, TDD controls, and optional vision modules.
   - Install: `dsh plugin --profile tui add @huiliyi37/dsh-tianshu-tui`
-- [DSH Browser](https://github.com/Lum1104/dsh-browser) - **156 stars** | `UI & Interfaces` | `MIT`. A Chrome side-panel integration with a DSH bridge for reading pages and operating supported browser content.
+- [DSH Browser](https://github.com/Lum1104/dsh-browser) - **157 stars** | `UI & Interfaces` | `MIT`. A Chrome side-panel integration with a DSH bridge for reading pages and operating supported browser content.
   - Install: `curl -fsSL https://raw.githubusercontent.com/Lum1104/dsh-browser/refs/heads/main/scripts/install.sh | bash`
 - [Engramory](https://github.com/tinqiao-oss/engramory) - **153 stars** | `Memory & Knowledge` | `MIT`. A file-based DSH memory plugin that keeps human-readable notes in a versioned store with deterministic limits.
   - Install: `dsh plugin --profile web add dsh-engramory`
@@ -69,9 +69,9 @@ Entries are sorted by exact live GitHub Stars. The displayed count is shortened 
   - Install: `dsh plugin --profile web add @zhaoolee/dsh-notes`
 - [DSH Vision Router](https://github.com/ysr666/dsh-vision-router) - **135 stars** | `Vision` | `MIT`. A vision routing plugin with image questions, grounding, crops, pixel comparison, OCR, and screenshot tools.
   - Install: `npx @deepseek-ai/dsh plugin --profile web add dsh-vision-router`
-- [DSH Visualize](https://github.com/Nagi-ovo/dsh-visualize) - **114 stars** | `UI & Interfaces` | `BSD-3-Clause`. An inline visualization plugin that renders interactive HTML fragments as sandboxed cards in DSH conversations.
+- [DSH Visualize](https://github.com/Nagi-ovo/dsh-visualize) - **115 stars** | `UI & Interfaces` | `BSD-3-Clause`. An inline visualization plugin that renders interactive HTML fragments as sandboxed cards in DSH conversations.
   - Install: `dsh plugin --profile web add github:Nagi-ovo/dsh-visualize`
-- [DSH GenUI](https://github.com/omdsh-dev/dsh-genui) - **105 stars** | `UI & Interfaces` | `MIT`. A DSH rendering plugin for interactive UI components, charts, forms, quizzes, diagrams, and 3D scenes.
+- [DSH GenUI](https://github.com/omdsh-dev/dsh-genui) - **106 stars** | `UI & Interfaces` | `MIT`. A DSH rendering plugin for interactive UI components, charts, forms, quizzes, diagrams, and 3D scenes.
   - Install: `dsh plugin --profile web add git+https://github.com/omdsh-dev/dsh-genui.git`
 - [ModSearch](https://github.com/liustack/modsearch) - **104 stars** | `Workflow & Automation` | `MIT`. A DSH web-search plugin that adds search, X search, and focused page reading through the ModSearch engine chain.
   - Install: `npx -y @deepseek-ai/dsh plugin --profile web add @liustack/modsearch@latest`
@@ -89,7 +89,7 @@ Entries are sorted by exact live GitHub Stars. The displayed count is shortened 
   - Install: `dsh plugin --profile web add git+https://github.com/omdsh-dev/dsh-annotation.git`
 - [DSH Auto Mode](https://github.com/NanmiCoder/dsh-auto-mode) - **53 stars** | `Workflow & Automation` | `MIT`. A fail-closed permission policy plugin that classifies DSH tool calls before automatic execution.
   - Install: `dsh plugin --profile web add @nanmicoder/dsh-auto-mode`
-- [DSH Turn Rewind](https://github.com/Anionex/dsh-turn-rewind) - **52 stars** | `Memory & Knowledge` | `BSD-3-Clause`. A DSH recovery plugin that records workspace changes and restores a conversation turn through its Change Ledger.
+- [DSH Turn Rewind](https://github.com/Anionex/dsh-turn-rewind) - **53 stars** | `Memory & Knowledge` | `BSD-3-Clause`. A DSH recovery plugin that records workspace changes and restores a conversation turn through its Change Ledger.
   - Install: `dsh plugin --profile web add @anionex/dsh-turn-rewind`
 <!-- END GENERATED RANKING -->
 
