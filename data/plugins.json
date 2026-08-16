@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-15",
+  "last_updated": "2026-08-16",
   "minimum_stars": 50,
   "plugins": [
     {
@@ -12,10 +12,10 @@
       "install_command": "dsh plugin --profile web add deepseek-idesign",
       "manifest_path": "external-plugins/deepseek-harness/design-studio/package.json",
       "entrypoint": "deepseek-idesign",
-      "stars": 4111,
+      "stars": 4130,
       "stars_at_addition": 4108,
       "added_at": "2026-08-16",
-      "verified_at": "2026-08-15"
+      "verified_at": "2026-08-16"
     },
     {
       "name": "Mirage DSH",
@@ -27,10 +27,10 @@
       "install_command": "dsh plugin --profile web add @struktoai/mirage-dsh",
       "manifest_path": "typescript/packages/dsh/package.json",
       "entrypoint": "@struktoai/mirage-dsh",
-      "stars": 3443,
+      "stars": 3458,
       "stars_at_addition": 3419,
       "added_at": "2026-08-15",
-      "verified_at": "2026-08-15"
+      "verified_at": "2026-08-16"
     },
     {
       "name": "DSH Web UI",
@@ -42,10 +42,10 @@
       "install_command": "dsh plugin --profile web add @linxin666/dsh-web-ui-all",
       "manifest_path": "packages/dsh-web-ui-all/package.json",
       "entrypoint": "@linxin666/dsh-web-ui-all",
-      "stars": 2633,
+      "stars": 3116,
       "stars_at_addition": 2079,
       "added_at": "2026-08-15",
-      "verified_at": "2026-08-15"
+      "verified_at": "2026-08-16"
     },
     {
       "name": "Modlens",
@@ -57,25 +57,10 @@
       "install_command": "dsh plugin --profile web add @liustack/modlens@3.16.6",
       "manifest_path": "package.json",
       "entrypoint": "@liustack/modlens",
-      "stars": 1849,
+      "stars": 2178,
       "stars_at_addition": 1399,
       "added_at": "2026-08-15",
-      "verified_at": "2026-08-15"
-    },
-    {
-      "name": "DSH TUI",
-      "repo": "ccch1mneyyy/dsh-TUI",
-      "package": "@deepseek-harness-tui/dsh-tui",
-      "category": "UI & Interfaces",
-      "license": "MIT",
-      "description": "A full-screen terminal interface with streaming output, a status line, rollback controls, and context usage indicators.",
-      "install_command": "dsh plugin --profile dsh-tui add @deepseek-harness-tui/dsh-tui",
-      "manifest_path": "package.json",
-      "entrypoint": "@deepseek-harness-tui/dsh-tui",
-      "stars": 1234,
-      "stars_at_addition": 962,
-      "added_at": "2026-08-15",
-      "verified_at": "2026-08-15"
+      "verified_at": "2026-08-16"
     },
     {
       "name": "DSH Better Sidebar",
@@ -87,10 +72,25 @@
       "install_command": "dsh plugin --profile web add dsh-better-sidebar",
       "manifest_path": "package.json",
       "entrypoint": "dsh-better-sidebar",
-      "stars": 1207,
+      "stars": 1471,
       "stars_at_addition": 834,
       "added_at": "2026-08-15",
-      "verified_at": "2026-08-15"
+      "verified_at": "2026-08-16"
+    },
+    {
+      "name": "DSH TUI",
+      "repo": "ccch1mneyyy/dsh-TUI",
+      "package": "@deepseek-harness-tui/dsh-tui",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "A full-screen terminal interface with streaming output, a status line, rollback controls, and context usage indicators.",
+      "install_command": "dsh plugin --profile dsh-tui add @deepseek-harness-tui/dsh-tui",
+      "manifest_path": "package.json",
+      "entrypoint": "@deepseek-harness-tui/dsh-tui",
+      "stars": 1428,
+      "stars_at_addition": 962,
+      "added_at": "2026-08-15",
+      "verified_at": "2026-08-16"
     },
     {
       "name": "DSH Deep Whale",
@@ -102,10 +102,10 @@
       "install_command": "git clone https://github.com/Small-tailqwq/dsh-deep-whale.git && dsh plugin --profile web add ./dsh-deep-whale/maid-atelier",
       "manifest_path": "maid-atelier/package.json",
       "entrypoint": "@dsh-external/dsh-client-ui-skin-maid-atelier",
-      "stars": 885,
+      "stars": 1007,
       "stars_at_addition": 654,
       "added_at": "2026-08-15",
-      "verified_at": "2026-08-15"
+      "verified_at": "2026-08-16"
     },
     {
       "name": "Working Activity",
@@ -120,7 +120,7 @@
       "stars": 644,
       "stars_at_addition": 644,
       "added_at": "2026-08-16",
-      "verified_at": "2026-08-15"
+      "verified_at": "2026-08-16"
     },
     {
       "name": "SandBase Harness",
@@ -132,10 +132,10 @@
       "install_command": "npm ci && npm run build:runtime && npm link && dsh plugin --profile web add managed-agents",
       "manifest_path": "package.json",
       "entrypoint": "@deepseek-ai/dsh-mcp-client",
-      "stars": 588,
+      "stars": 597,
       "stars_at_addition": 578,
       "added_at": "2026-08-15",
-      "verified_at": "2026-08-15"
+      "verified_at": "2026-08-16"
     },
     {
       "name": "Graph Memory",
@@ -147,25 +147,10 @@
       "install_command": "npx @deepseek-ai/dsh plugin --profile web add /absolute/path/to/graph-memory-1.6.0-beta.1.tgz",
       "manifest_path": "package.json",
       "entrypoint": "graph-memory/dsh",
-      "stars": 516,
+      "stars": 523,
       "stars_at_addition": 516,
       "added_at": "2026-08-16",
-      "verified_at": "2026-08-15"
-    },
-    {
-      "name": "Mnemon",
-      "repo": "mnemon-dev/mnemon",
-      "package": "dsh-mnemon",
-      "category": "Memory & Knowledge",
-      "license": "Apache-2.0",
-      "description": "A persistent memory plugin that supplies graph-based recall and cross-session knowledge to DSH agents.",
-      "install_command": "dsh plugin --profile web add dsh-mnemon",
-      "manifest_path": "package.json",
-      "entrypoint": "dsh-mnemon",
-      "stars": 453,
-      "stars_at_addition": 440,
-      "added_at": "2026-08-15",
-      "verified_at": "2026-08-15"
+      "verified_at": "2026-08-16"
     },
     {
       "name": "DSH Vision Toolkit",
@@ -177,25 +162,40 @@
       "install_command": "dsh plugin --profile web add @anionex/dsh-vision-toolkit",
       "manifest_path": "package.json",
       "entrypoint": "@anionex/dsh-vision-toolkit",
-      "stars": 422,
+      "stars": 483,
       "stars_at_addition": 361,
       "added_at": "2026-08-15",
-      "verified_at": "2026-08-15"
+      "verified_at": "2026-08-16"
     },
     {
-      "name": "Treg DSH",
-      "repo": "superdesigndev/treg",
-      "package": "treg-dsh",
-      "category": "Workflow & Automation",
-      "license": "Apache-2.0 + additional terms",
-      "description": "A DSH bundle that exposes the Treg tool registry as an optional MCP connector and packaged Skill.",
-      "install_command": "dsh plugin --profile web add github:superdesigndev/treg",
+      "name": "Mnemon",
+      "repo": "mnemon-dev/mnemon",
+      "package": "dsh-mnemon",
+      "category": "Memory & Knowledge",
+      "license": "Apache-2.0",
+      "description": "A persistent memory plugin that supplies graph-based recall and cross-session knowledge to DSH agents.",
+      "install_command": "dsh plugin --profile web add dsh-mnemon",
       "manifest_path": "package.json",
-      "entrypoint": "treg-dsh",
-      "stars": 416,
-      "stars_at_addition": 416,
+      "entrypoint": "dsh-mnemon",
+      "stars": 457,
+      "stars_at_addition": 440,
+      "added_at": "2026-08-15",
+      "verified_at": "2026-08-16"
+    },
+    {
+      "name": "DSH Market",
+      "repo": "dsh-market/dsh-market",
+      "package": "dshmarket",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "A visual DSH plugin market for browsing, searching, installing, updating, and switching community plugins and themes.",
+      "install_command": "dsh plugin --profile web add dshmarket",
+      "manifest_path": "package.json",
+      "entrypoint": "dshmarket",
+      "stars": 443,
+      "stars_at_addition": 443,
       "added_at": "2026-08-16",
-      "verified_at": "2026-08-15"
+      "verified_at": "2026-08-16"
     },
     {
       "name": "DSH Ads",
@@ -207,10 +207,25 @@
       "install_command": "dsh plugin --profile web add github:Nagi-ovo/dsh-ads",
       "manifest_path": "package.json",
       "entrypoint": "@dsh-external/dsh-ads",
-      "stars": 404,
+      "stars": 440,
       "stars_at_addition": 357,
       "added_at": "2026-08-15",
-      "verified_at": "2026-08-15"
+      "verified_at": "2026-08-16"
+    },
+    {
+      "name": "Treg DSH",
+      "repo": "superdesigndev/treg",
+      "package": "treg-dsh",
+      "category": "Workflow & Automation",
+      "license": "Apache-2.0 + additional terms",
+      "description": "A DSH bundle that exposes the Treg tool registry as an optional MCP connector and packaged Skill.",
+      "install_command": "dsh plugin --profile web add github:superdesigndev/treg",
+      "manifest_path": "package.json",
+      "entrypoint": "treg-dsh",
+      "stars": 423,
+      "stars_at_addition": 416,
+      "added_at": "2026-08-16",
+      "verified_at": "2026-08-16"
     },
     {
       "name": "DSH Agent Teams",
@@ -222,100 +237,10 @@
       "install_command": "dsh plugin --profile web add @nanmicoder/dsh-agent-teams",
       "manifest_path": "package.json",
       "entrypoint": "@nanmicoder/dsh-agent-teams",
-      "stars": 327,
+      "stars": 382,
       "stars_at_addition": 263,
       "added_at": "2026-08-15",
-      "verified_at": "2026-08-15"
-    },
-    {
-      "name": "DSH At File",
-      "repo": "omdsh-dev/dsh-at-file",
-      "package": "dsh-at-file",
-      "category": "Input & Navigation",
-      "license": "MIT",
-      "description": "A composer extension for searching workspace paths with at-file mentions and attaching file contents to prompts.",
-      "install_command": "dsh plugin --profile web add https://github.com/omdsh-dev/dsh-at-file/archive/refs/tags/v0.6.0.tar.gz",
-      "manifest_path": "package.json",
-      "entrypoint": "dsh-at-file",
-      "stars": 215,
-      "stars_at_addition": 147,
-      "added_at": "2026-08-15",
-      "verified_at": "2026-08-15"
-    },
-    {
-      "name": "Whale Girl",
-      "repo": "vlln/whale-girl",
-      "package": "whale-girl",
-      "category": "Themes & Appearance",
-      "license": "MIT",
-      "description": "A draggable Web UI desktop pet with interaction, feeding, progress, and persistent state.",
-      "install_command": "dsh plugin --profile web add github:vlln/whale-girl#main",
-      "manifest_path": "package.json",
-      "entrypoint": "whale-girl",
-      "stars": 168,
-      "stars_at_addition": 142,
-      "added_at": "2026-08-15",
-      "verified_at": "2026-08-15"
-    },
-    {
-      "name": "DSH Tianshu TUI",
-      "repo": "huiliyi37/dsh-tianshu-tui",
-      "package": "@huiliyi37/dsh-tianshu-tui",
-      "category": "UI & Interfaces",
-      "license": "Apache-2.0",
-      "description": "A terminal interface that adds Tianshu workflows, evidence gates, TDD controls, and optional vision modules.",
-      "install_command": "dsh plugin --profile tui add @huiliyi37/dsh-tianshu-tui",
-      "manifest_path": "package.json",
-      "entrypoint": "@huiliyi37/dsh-tianshu-tui",
-      "stars": 162,
-      "stars_at_addition": 139,
-      "added_at": "2026-08-15",
-      "verified_at": "2026-08-15"
-    },
-    {
-      "name": "DSH Browser",
-      "repo": "Lum1104/dsh-browser",
-      "package": "@deepseek-ai/dsh-bridge-browser",
-      "category": "UI & Interfaces",
-      "license": "MIT",
-      "description": "A Chrome side-panel integration with a DSH bridge for reading pages and operating supported browser content.",
-      "install_command": "curl -fsSL https://raw.githubusercontent.com/Lum1104/dsh-browser/refs/heads/main/scripts/install.sh | bash",
-      "manifest_path": "packages/browser/bridge-browser/package.json",
-      "entrypoint": "@deepseek-ai/dsh-bridge-browser",
-      "stars": 157,
-      "stars_at_addition": 101,
-      "added_at": "2026-08-15",
-      "verified_at": "2026-08-15"
-    },
-    {
-      "name": "Engramory",
-      "repo": "tinqiao-oss/engramory",
-      "package": "dsh-engramory",
-      "category": "Memory & Knowledge",
-      "license": "MIT",
-      "description": "A file-based DSH memory plugin that keeps human-readable notes in a versioned store with deterministic limits.",
-      "install_command": "dsh plugin --profile web add dsh-engramory",
-      "manifest_path": "adapters/dsh/plugin/package.json",
-      "entrypoint": "dsh-engramory",
-      "stars": 153,
-      "stars_at_addition": 153,
-      "added_at": "2026-08-16",
-      "verified_at": "2026-08-15"
-    },
-    {
-      "name": "DSH Notes",
-      "repo": "zhaoolee/notes",
-      "package": "@zhaoolee/dsh-notes",
-      "category": "Memory & Knowledge",
-      "license": "MIT",
-      "description": "A DSH tool plugin that exports agent output into a self-hosted Notes service.",
-      "install_command": "dsh plugin --profile web add @zhaoolee/dsh-notes",
-      "manifest_path": "dsh-plugin/package.json",
-      "entrypoint": "@zhaoolee/dsh-notes",
-      "stars": 142,
-      "stars_at_addition": 141,
-      "added_at": "2026-08-15",
-      "verified_at": "2026-08-15"
+      "verified_at": "2026-08-16"
     },
     {
       "name": "DSH Vision Router",
@@ -327,10 +252,100 @@
       "install_command": "npx @deepseek-ai/dsh plugin --profile web add dsh-vision-router",
       "manifest_path": "package.json",
       "entrypoint": "dsh-vision-router",
-      "stars": 135,
+      "stars": 300,
       "stars_at_addition": 135,
       "added_at": "2026-08-16",
-      "verified_at": "2026-08-15"
+      "verified_at": "2026-08-16"
+    },
+    {
+      "name": "DSH At File",
+      "repo": "omdsh-dev/dsh-at-file",
+      "package": "dsh-at-file",
+      "category": "Input & Navigation",
+      "license": "MIT",
+      "description": "A composer extension for searching workspace paths with at-file mentions and attaching file contents to prompts.",
+      "install_command": "dsh plugin --profile web add https://github.com/omdsh-dev/dsh-at-file/archive/refs/tags/v0.6.0.tar.gz",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-at-file",
+      "stars": 245,
+      "stars_at_addition": 147,
+      "added_at": "2026-08-15",
+      "verified_at": "2026-08-16"
+    },
+    {
+      "name": "DSH Browser",
+      "repo": "Lum1104/dsh-browser",
+      "package": "@deepseek-ai/dsh-bridge-browser",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "A Chrome side-panel integration with a DSH bridge for reading pages and operating supported browser content.",
+      "install_command": "curl -fsSL https://raw.githubusercontent.com/Lum1104/dsh-browser/refs/heads/main/scripts/install.sh | bash",
+      "manifest_path": "packages/browser/bridge-browser/package.json",
+      "entrypoint": "@deepseek-ai/dsh-bridge-browser",
+      "stars": 183,
+      "stars_at_addition": 101,
+      "added_at": "2026-08-15",
+      "verified_at": "2026-08-16"
+    },
+    {
+      "name": "DSH Tianshu TUI",
+      "repo": "huiliyi37/dsh-tianshu-tui",
+      "package": "@huiliyi37/dsh-tianshu-tui",
+      "category": "UI & Interfaces",
+      "license": "Apache-2.0",
+      "description": "A terminal interface that adds Tianshu workflows, evidence gates, TDD controls, and optional vision modules.",
+      "install_command": "dsh plugin --profile tui add @huiliyi37/dsh-tianshu-tui",
+      "manifest_path": "package.json",
+      "entrypoint": "@huiliyi37/dsh-tianshu-tui",
+      "stars": 182,
+      "stars_at_addition": 139,
+      "added_at": "2026-08-15",
+      "verified_at": "2026-08-16"
+    },
+    {
+      "name": "Whale Girl",
+      "repo": "vlln/whale-girl",
+      "package": "whale-girl",
+      "category": "Themes & Appearance",
+      "license": "MIT",
+      "description": "A draggable Web UI desktop pet with interaction, feeding, progress, and persistent state.",
+      "install_command": "dsh plugin --profile web add github:vlln/whale-girl#main",
+      "manifest_path": "package.json",
+      "entrypoint": "whale-girl",
+      "stars": 182,
+      "stars_at_addition": 142,
+      "added_at": "2026-08-15",
+      "verified_at": "2026-08-16"
+    },
+    {
+      "name": "Engramory",
+      "repo": "tinqiao-oss/engramory",
+      "package": "dsh-engramory",
+      "category": "Memory & Knowledge",
+      "license": "MIT",
+      "description": "A file-based DSH memory plugin that keeps human-readable notes in a versioned store with deterministic limits.",
+      "install_command": "dsh plugin --profile web add dsh-engramory",
+      "manifest_path": "adapters/dsh/plugin/package.json",
+      "entrypoint": "dsh-engramory",
+      "stars": 154,
+      "stars_at_addition": 153,
+      "added_at": "2026-08-16",
+      "verified_at": "2026-08-16"
+    },
+    {
+      "name": "DSH Notes",
+      "repo": "zhaoolee/notes",
+      "package": "@zhaoolee/dsh-notes",
+      "category": "Memory & Knowledge",
+      "license": "MIT",
+      "description": "A DSH tool plugin that exports agent output into a self-hosted Notes service.",
+      "install_command": "dsh plugin --profile web add @zhaoolee/dsh-notes",
+      "manifest_path": "dsh-plugin/package.json",
+      "entrypoint": "@zhaoolee/dsh-notes",
+      "stars": 141,
+      "stars_at_addition": 141,
+      "added_at": "2026-08-15",
+      "verified_at": "2026-08-16"
     },
     {
       "name": "DSH Visualize",
@@ -342,10 +357,10 @@
       "install_command": "dsh plugin --profile web add github:Nagi-ovo/dsh-visualize",
       "manifest_path": "package.json",
       "entrypoint": "@dsh-external/dsh-visualize",
-      "stars": 115,
+      "stars": 141,
       "stars_at_addition": 114,
       "added_at": "2026-08-16",
-      "verified_at": "2026-08-15"
+      "verified_at": "2026-08-16"
     },
     {
       "name": "DSH GenUI",
@@ -357,10 +372,10 @@
       "install_command": "dsh plugin --profile web add git+https://github.com/omdsh-dev/dsh-genui.git",
       "manifest_path": "package.json",
       "entrypoint": "@omdsh-dev/dsh-genui",
-      "stars": 106,
+      "stars": 123,
       "stars_at_addition": 105,
       "added_at": "2026-08-16",
-      "verified_at": "2026-08-15"
+      "verified_at": "2026-08-16"
     },
     {
       "name": "ModSearch",
@@ -372,10 +387,40 @@
       "install_command": "npx -y @deepseek-ai/dsh plugin --profile web add @liustack/modsearch@latest",
       "manifest_path": "package.json",
       "entrypoint": "@liustack/modsearch",
-      "stars": 104,
+      "stars": 107,
       "stars_at_addition": 104,
       "added_at": "2026-08-16",
-      "verified_at": "2026-08-15"
+      "verified_at": "2026-08-16"
+    },
+    {
+      "name": "DSH OpenPencil",
+      "repo": "ZSeven-W/dsh-openpencil",
+      "package": "@zseven-w/dsh-openpencil",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "An OpenPencil plugin that lets DSH agents preview, inspect, and edit real multi-frame design documents.",
+      "install_command": "pnpm dlx --package=@deepseek-ai/dsh@0.1.0-rc.6 dsh plugin --profile web add @zseven-w/dsh-openpencil@latest",
+      "manifest_path": "package.json",
+      "entrypoint": "@zseven-w/dsh-openpencil",
+      "stars": 93,
+      "stars_at_addition": 80,
+      "added_at": "2026-08-16",
+      "verified_at": "2026-08-16"
+    },
+    {
+      "name": "Argo DSH",
+      "repo": "taxueseek/argo",
+      "package": "@taxueseek/argo-dsh",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DSH profile bundle that mounts Argo search MCP tools and an evidence-oriented research workflow.",
+      "install_command": "dsh plugin --profile web add \"github:taxueseek/argo#main&path:packages/dsh-plugin\"",
+      "manifest_path": "packages/dsh-plugin/package.json",
+      "entrypoint": "@deepseek-ai/dsh-mcp-client",
+      "stars": 89,
+      "stars_at_addition": 81,
+      "added_at": "2026-08-16",
+      "verified_at": "2026-08-16"
     },
     {
       "name": "Odai DSH Plugin",
@@ -390,37 +435,7 @@
       "stars": 84,
       "stars_at_addition": 84,
       "added_at": "2026-08-16",
-      "verified_at": "2026-08-15"
-    },
-    {
-      "name": "Argo DSH",
-      "repo": "taxueseek/argo",
-      "package": "@taxueseek/argo-dsh",
-      "category": "Workflow & Automation",
-      "license": "MIT",
-      "description": "A DSH profile bundle that mounts Argo search MCP tools and an evidence-oriented research workflow.",
-      "install_command": "dsh plugin --profile web add \"github:taxueseek/argo#main&path:packages/dsh-plugin\"",
-      "manifest_path": "packages/dsh-plugin/package.json",
-      "entrypoint": "@deepseek-ai/dsh-mcp-client",
-      "stars": 81,
-      "stars_at_addition": 81,
-      "added_at": "2026-08-16",
-      "verified_at": "2026-08-15"
-    },
-    {
-      "name": "DSH OpenPencil",
-      "repo": "ZSeven-W/dsh-openpencil",
-      "package": "@zseven-w/dsh-openpencil",
-      "category": "UI & Interfaces",
-      "license": "MIT",
-      "description": "An OpenPencil plugin that lets DSH agents preview, inspect, and edit real multi-frame design documents.",
-      "install_command": "pnpm dlx --package=@deepseek-ai/dsh@0.1.0-rc.6 dsh plugin --profile web add @zseven-w/dsh-openpencil@latest",
-      "manifest_path": "package.json",
-      "entrypoint": "@zseven-w/dsh-openpencil",
-      "stars": 80,
-      "stars_at_addition": 80,
-      "added_at": "2026-08-16",
-      "verified_at": "2026-08-15"
+      "verified_at": "2026-08-16"
     },
     {
       "name": "DSH Super Injector",
@@ -432,10 +447,25 @@
       "install_command": "dsh plugin --profile web add github:yjh051108/dsh-super-injector",
       "manifest_path": "package.json",
       "entrypoint": "@dsh-external/dsh-super-injector",
-      "stars": 66,
+      "stars": 82,
       "stars_at_addition": 65,
       "added_at": "2026-08-16",
-      "verified_at": "2026-08-15"
+      "verified_at": "2026-08-16"
+    },
+    {
+      "name": "DSH Auto Mode",
+      "repo": "NanmiCoder/dsh-auto-mode",
+      "package": "@nanmicoder/dsh-auto-mode",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A fail-closed permission policy plugin that classifies DSH tool calls before automatic execution.",
+      "install_command": "dsh plugin --profile web add @nanmicoder/dsh-auto-mode",
+      "manifest_path": "package.json",
+      "entrypoint": "@nanmicoder/dsh-auto-mode",
+      "stars": 69,
+      "stars_at_addition": 53,
+      "added_at": "2026-08-16",
+      "verified_at": "2026-08-16"
     },
     {
       "name": "ForkProbe DSH",
@@ -450,37 +480,7 @@
       "stars": 66,
       "stars_at_addition": 66,
       "added_at": "2026-08-16",
-      "verified_at": "2026-08-15"
-    },
-    {
-      "name": "DSH Annotation",
-      "repo": "omdsh-dev/dsh-annotation",
-      "package": "@omdsh-dev/dsh-annotation",
-      "category": "Input & Navigation",
-      "license": "MIT",
-      "description": "A DSH Web selection tool that annotates assistant text and sends numbered annotation blocks with a message.",
-      "install_command": "dsh plugin --profile web add git+https://github.com/omdsh-dev/dsh-annotation.git",
-      "manifest_path": "package.json",
-      "entrypoint": "@omdsh-dev/dsh-annotation",
-      "stars": 53,
-      "stars_at_addition": 53,
-      "added_at": "2026-08-16",
-      "verified_at": "2026-08-15"
-    },
-    {
-      "name": "DSH Auto Mode",
-      "repo": "NanmiCoder/dsh-auto-mode",
-      "package": "@nanmicoder/dsh-auto-mode",
-      "category": "Workflow & Automation",
-      "license": "MIT",
-      "description": "A fail-closed permission policy plugin that classifies DSH tool calls before automatic execution.",
-      "install_command": "dsh plugin --profile web add @nanmicoder/dsh-auto-mode",
-      "manifest_path": "package.json",
-      "entrypoint": "@nanmicoder/dsh-auto-mode",
-      "stars": 53,
-      "stars_at_addition": 53,
-      "added_at": "2026-08-16",
-      "verified_at": "2026-08-15"
+      "verified_at": "2026-08-16"
     },
     {
       "name": "DSH Turn Rewind",
@@ -492,10 +492,25 @@
       "install_command": "dsh plugin --profile web add @anionex/dsh-turn-rewind",
       "manifest_path": "package.json",
       "entrypoint": "@anionex/dsh-turn-rewind",
-      "stars": 53,
+      "stars": 61,
       "stars_at_addition": 52,
       "added_at": "2026-08-16",
-      "verified_at": "2026-08-15"
+      "verified_at": "2026-08-16"
+    },
+    {
+      "name": "DSH Annotation",
+      "repo": "omdsh-dev/dsh-annotation",
+      "package": "@omdsh-dev/dsh-annotation",
+      "category": "Input & Navigation",
+      "license": "MIT",
+      "description": "A DSH Web selection tool that annotates assistant text and sends numbered annotation blocks with a message.",
+      "install_command": "dsh plugin --profile web add git+https://github.com/omdsh-dev/dsh-annotation.git",
+      "manifest_path": "package.json",
+      "entrypoint": "@omdsh-dev/dsh-annotation",
+      "stars": 59,
+      "stars_at_addition": 53,
+      "added_at": "2026-08-16",
+      "verified_at": "2026-08-16"
     }
   ]
 }
