@@ -19,7 +19,7 @@ SPEC.loader.exec_module(update_stars)
 def make_plugin(
     name: str = "Example Plugin",
     repo: str = "example/dsh-plugin",
-    stars: int = 50,
+    stars: int = 30,
 ) -> dict:
     slug = name.lower().replace(" ", "-")
     return {
@@ -33,7 +33,7 @@ def make_plugin(
         "manifest_path": "package.json",
         "entrypoint": slug,
         "stars": stars,
-        "stars_at_addition": max(stars, 50),
+        "stars_at_addition": max(stars, 30),
         "added_at": "2026-08-15",
         "verified_at": "2026-08-15",
     }
@@ -42,7 +42,7 @@ def make_plugin(
 def make_data(*plugins: dict) -> dict:
     return {
         "last_updated": "2026-08-15",
-        "minimum_stars": 50,
+        "minimum_stars": 30,
         "plugins": list(plugins),
     }
 
@@ -74,14 +74,14 @@ class AdmissionTests(unittest.TestCase):
         with self.assertRaisesRegex(update_stars.ValidationError, "category"):
             update_stars.validate_data(make_data(plugin))
 
-    def test_rejects_49_star_admission(self) -> None:
-        plugin = make_plugin(stars=49)
-        plugin["stars_at_addition"] = 49
-        with self.assertRaisesRegex(update_stars.ValidationError, "50-star threshold"):
+    def test_rejects_29_star_admission(self) -> None:
+        plugin = make_plugin(stars=29)
+        plugin["stars_at_addition"] = 29
+        with self.assertRaisesRegex(update_stars.ValidationError, "30-star threshold"):
             update_stars.validate_data(make_data(plugin))
 
-    def test_accepts_50_star_admission(self) -> None:
-        update_stars.validate_data(make_data(make_plugin(stars=50)))
+    def test_accepts_30_star_admission(self) -> None:
+        update_stars.validate_data(make_data(make_plugin(stars=30)))
 
     def test_accepts_missing_license_label(self) -> None:
         plugin = make_plugin()
@@ -144,12 +144,12 @@ class RefreshTests(unittest.TestCase):
         self.assertIn("fork", warnings[1])
 
     def test_below_threshold_is_kept_and_flagged(self) -> None:
-        plugin = make_plugin(stars=50)
-        values = {plugin["repo"]: metadata(plugin["repo"], 49)}
+        plugin = make_plugin(stars=30)
+        values = {plugin["repo"]: metadata(plugin["repo"], 29)}
         refreshed, warnings = update_stars.refresh_data(
             make_data(plugin), values.__getitem__, "2026-08-16"
         )
-        self.assertEqual(refreshed["plugins"][0]["stars"], 49)
+        self.assertEqual(refreshed["plugins"][0]["stars"], 29)
         self.assertIn("pending review", warnings[0])
 
 
@@ -158,7 +158,7 @@ class ReadmeTests(unittest.TestCase):
         data = make_data(make_plugin(stars=100))
         template = (
             "# Title\n\n"
-            "**Last verified:** 2026-01-01 | **Minimum at admission:** 50 stars | "
+            "**Last verified:** 2026-01-01 | **Minimum at admission:** 30 stars | "
             "**Plugins:** 0\n\n"
             f"{update_stars.START_MARKER}\nold\n{update_stars.END_MARKER}\n"
         )
