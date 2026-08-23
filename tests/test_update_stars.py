@@ -160,6 +160,8 @@ class ReadmeTests(unittest.TestCase):
             "# Title\n\n"
             "**Last verified:** 2026-01-01 | **Minimum at admission:** 30 stars | "
             "**Plugins:** 0\n\n"
+            f"{update_stars.CATEGORY_START_MARKER}\nold category index\n"
+            f"{update_stars.CATEGORY_END_MARKER}\n\n"
             f"{update_stars.START_MARKER}\nold\n{update_stars.END_MARKER}\n"
         )
         first = update_stars.build_readme(template, data)
@@ -167,6 +169,8 @@ class ReadmeTests(unittest.TestCase):
         self.assertEqual(first, second)
         self.assertIn("**Plugins:** 1", first)
         self.assertIn("https://github.com/example/dsh-plugin", first)
+        self.assertIn("[Example Plugin](https://github.com/example/dsh-plugin)", first)
+        self.assertIn("**UI & Interfaces (1)**", first)
         self.assertIn("Install:", first)
 
 

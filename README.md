@@ -10,6 +10,7 @@
 ## Contents
 
 - [What qualifies](#what-qualifies)
+- [Browse by category](#browse-by-category)
 - [Ranked plugins](#ranked-plugins)
 - [Install plugins carefully](#install-plugins-carefully)
 - [Related resources](#related-resources)
@@ -19,6 +20,33 @@
 Every listed project has at least 30 GitHub Stars at admission and a public repository with an identifiable `dsh.bundle` manifest, bundle patch, plugin entry, and documented installation path. Multi-platform projects qualify only when they ship a separate DSH bundle.
 
 The `dsh-plugin` GitHub topic is a discovery signal, not proof. This list excludes topic-only repositories, generic Skills, standalone clients without a bundle, MCP servers without a DSH package, API wrappers, presets, tutorials, Awesome lists, archived repositories, and minimally changed forks.
+
+## Browse by category
+
+Use the category index to find projects by task. The full list below remains sorted by exact live GitHub Stars.
+
+<!-- BEGIN GENERATED CATEGORY INDEX -->
+**Files & Runtime (12)**
+Mirage DSH (3.6k stars), SandBase Harness (629 stars), DSH Git Bash Preset (134 stars), Invoice Downloader DSH (132 stars), DSH Undo Savepoint (115 stars), Univer Office DSH (77 stars), Multica DSH Runtime (54 stars), Local Shell MCP (53 stars), DSH Codex Shell (45 stars), DSH Benign Exit (43 stars), DSH MinerU (41 stars), DSH Remote (32 stars)
+
+**Input & Navigation (13)**
+DSH Pocket (472 stars), DSH At File (458 stars), DSH Mobile (121 stars), DSH Annotation (91 stars), DSH Claude UX (63 stars), DSH Navbar (55 stars), Open in VS Code (54 stars), DSH Turn Delete (53 stars), DSH Free Search (48 stars), DSH Meme (45 stars), DSH EasyRewrite (43 stars), DSH Prompt Enhancer (43 stars), DSH Message Edit (38 stars)
+
+**Memory & Knowledge (20)**
+OpenViking Memory (32.1k stars), WeKnora Knowledge (20.4k stars), EverOS Memory (12.3k stars), MemOS Local Memory (10.9k stars), ReMe (3.3k stars), MemSearch (2.5k stars), mem9 (1.2k stars), DSH Context (891 stars), Graph Memory (566 stars), Mnemon (507 stars), Flowix Memory (343 stars), DSH Memory Evolve (227 stars), Mnemon DSH Plugin (182 stars), Engramory (169 stars), DSH Notes (150 stars), DSH Noema (121 stars), DSH Turn Rewind (96 stars), DSH Chat Import (90 stars), DSH Git Memory (63 stars), DSH Memento (59 stars)
+
+**Themes & Appearance (15)**
+DSH Deep Whale (1.6k stars), DSH Balance Whale (588 stars), DSH Ads (542 stars), DSH Transparent UI (364 stars), DSH Pet (333 stars), Whale Girl (269 stars), DSH Dafeiyu (236 stars), Open Sea Skin (186 stars), DSH Wallpaper Engine (154 stars), DSH Liang Intensity Skin (131 stars), Deep Whale Day/Night Theme (100 stars), DSH Dream Skin (84 stars), DSH Skin Market (79 stars), BeautiCode (61 stars), DSH Endfield UI (30 stars)
+
+**UI & Interfaces (40)**
+DSH Web UI (5.6k stars), iPolloWork Design Studio (4.6k stars), DSH Better Sidebar (2.7k stars), DSH TUI (2.3k stars), DSH Market (1.9k stars), Working Activity (654 stars), DSH Browser (397 stars), DeepSeek PPT Studio (321 stars), DSH GenUI (298 stars), Pilot Harness Bundles (251 stars), DSH Tianshu TUI (231 stars), DSH iOS (210 stars), DSH Visualize (205 stars), DSH Synapse (168 stars), DSH OpenPencil (148 stars), GAL View (124 stars), DSH Oil Creator (121 stars), DSH Reasoning Effort (105 stars), DSH Web UI Market (100 stars), DSH Skill & MCP Panel (95 stars), Tabbit Browser (95 stars), DSH Damage Pulse (92 stars), DeepSeek Harness GenUI (84 stars), ZAT DSH Engine (77 stars), DSH Notification (71 stars), DSH Plugin Console (67 stars), DSH Plugin Store (65 stars), DSH Popout Sidebar (63 stars), DSH Web Plugin Manager (63 stars), DSH Stock Watch (59 stars), DSH Thin Plugin Console (56 stars), SeekTTY (56 stars), DSH Smooth Stream (49 stars), OpenMA DSH TUI (48 stars), DSH Session Manager (47 stars), DSH Status Rotator (47 stars), DSH Web Mobile (45 stars), DSH Auto Collapse (44 stars), DSH Trace Compare (41 stars), DSH Status Label (40 stars)
+
+**Vision (6)**
+Modlens (3.5k stars), DSH Vision Router (937 stars), DSH Vision Toolkit (810 stars), DSH Image Gen (135 stars), DSH Vision (85 stars), PictureReader (33 stars)
+
+**Workflow & Automation (57)**
+Ouroboros (5.6k stars), Codex Taskboard DSH Integration (2.5k stars), Chorus DSH (1.1k stars), Aegis (1.1k stars), TongFlow DSH Plugin (914 stars), DSH Agent Teams (848 stars), Treg DSH (569 stars), DSH IM (560 stars), DSH Plugin Subscriptions (246 stars), ModSearch (230 stars), AnySearch DSH (206 stars), DSH Pentest (201 stars), DSH Agent RP (175 stars), DSH Cost Meter (162 stars), Anime Find (159 stars), pi2dsh (157 stars), DSH Data Agent (152 stars), DSH Super Injector (142 stars), Oh Story DSH (137 stars), TokenLedger (134 stars), DSH Remote Web Gateway (131 stars), DSH Auto Mode (120 stars), DSH Agent Team GUI (117 stars), DSH Usage Stats (108 stars), Argo DSH (105 stars), DSH Crew (101 stars), DSH Plugin Bridge (101 stars), DSH Taskboard (101 stars), DSH Agent Workflow (96 stars), DSH Workflow (95 stars), Odai DSH Plugin (95 stars), DSH CommandCode Provider (87 stars), DSH Auto Review (81 stars), Superpowers DSH (81 stars), DSH Plugin Finder (79 stars), Dockyard DSH (76 stars), DSH QQ Bot (73 stars), DSH Automation (72 stars), ForkProbe DSH (70 stars), DSH Reverse Skill (66 stars), DSH Evolve Modes (61 stars), DSH Toy (61 stars), DSH Harness Wallet (60 stars), DSH Notifier (58 stars), DSH Auth In One (55 stars), DSH Balance Monitor (54 stars), SpecFusion (54 stars), Morning Star DSH (52 stars), OpenBiliClaw (50 stars), DeepSeek Flow (49 stars), DSH Remote QR (42 stars), DSH Lark (40 stars), DSH Auto Continue (36 stars), AX Feishu Bridge (35 stars), DSH Usage Plugin (35 stars), DSH Interconnect (34 stars), DSH Save Money (33 stars)
+<!-- END GENERATED CATEGORY INDEX -->
 
 ## Ranked plugins
 
