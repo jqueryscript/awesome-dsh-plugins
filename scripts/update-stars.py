@@ -20,10 +20,8 @@ from typing import Any, Callable
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "data" / "plugins.json"
 README_PATH = ROOT / "README.md"
-START_MARKER = "<!-- BEGIN GENERATED RANKING -->"
-END_MARKER = "<!-- END GENERATED RANKING -->"
-CATEGORY_START_MARKER = "<!-- BEGIN GENERATED CATEGORY INDEX -->"
-CATEGORY_END_MARKER = "<!-- END GENERATED CATEGORY INDEX -->"
+CATEGORY_START_MARKER = "<!-- BEGIN GENERATED CATEGORY LIST -->"
+CATEGORY_END_MARKER = "<!-- END GENERATED CATEGORY LIST -->"
 ALLOWED_CATEGORIES = {
     "Files & Runtime",
     "Input & Navigation",
@@ -177,77 +175,46 @@ def format_stars(count: int) -> str:
     return str(count)
 
 
-def render_category_index(data: dict[str, Any]) -> str:
+def render_categories(data: dict[str, Any]) -> str:
     grouped = {category: [] for category in CATEGORY_ORDER}
     for plugin in data["plugins"]:
         grouped[plugin["category"]].append(plugin)
 
     lines: list[str] = []
     for category in CATEGORY_ORDER:
-        plugins = sorted(grouped[category], key=sort_key)
-        entries = ", ".join(
-            f"{plugin['name']} ({format_stars(plugin['stars'])} stars)"
-            for plugin in plugins
-        )
-        lines.extend(
-            [
-                f"**{category} ({len(plugins)})**",
-                entries,
-                "",
-            ]
-        )
+        lines.extend([f"### {category}", ""])
+        for plugin in sorted(grouped[category], key=sort_key):
+            lines.extend(
+                [
+                    f"- [{plugin['name']}](https://github.com/{plugin['repo']}) - "
+                    f"**{format_stars(plugin['stars'])} stars** | "
+                    f"`{plugin['license']}`. "
+                    f"{plugin['description']}",
+                    f"  - Install: `{plugin['install_command']}`",
+                    "",
+                ]
+            )
     return "\n".join(lines).rstrip()
 
 
-def render_ranking(data: dict[str, Any]) -> str:
-    lines: list[str] = []
-    for plugin in data["plugins"]:
-        lines.extend(
-            [
-                f"- [{plugin['name']}](https://github.com/{plugin['repo']}) - "
-                f"**{format_stars(plugin['stars'])} stars** | "
-                f"`{plugin['category']}` | "
-                f"`{plugin['license']}`. "
-                f"{plugin['description']}",
-                f"  - Install: `{plugin['install_command']}`",
-            ]
-        )
-    return "\n".join(lines)
-
-
 def build_readme(template: str, data: dict[str, Any]) -> str:
-    markers = (
-        (CATEGORY_START_MARKER, CATEGORY_END_MARKER, "category index"),
-        (START_MARKER, END_MARKER, "ranking"),
-    )
-    for start_marker, end_marker, label in markers:
-        if template.count(start_marker) != 1 or template.count(end_marker) != 1:
-            raise ValidationError(f"README must contain one generated {label} block")
+    if (
+        template.count(CATEGORY_START_MARKER) != 1
+        or template.count(CATEGORY_END_MARKER) != 1
+    ):
+        raise ValidationError("README must contain one generated category list block")
 
-    category_start = template.index(CATEGORY_START_MARKER)
-    category_end = template.index(CATEGORY_END_MARKER)
-    start = template.index(START_MARKER)
-    end = template.index(END_MARKER)
-    if category_start >= category_end or start >= end:
-        raise ValidationError("README generated markers are out of order")
-    if category_end > start:
-        raise ValidationError("README category index must appear before the ranking")
+    start = template.index(CATEGORY_START_MARKER)
+    end = template.index(CATEGORY_END_MARKER)
+    if start >= end:
+        raise ValidationError("README category list markers are out of order")
 
     generated = (
-        template[: category_start + len(CATEGORY_START_MARKER)]
+        template[: start + len(CATEGORY_START_MARKER)]
         + "\n"
-        + render_category_index(data)
+        + render_categories(data)
         + "\n"
-        + template[category_end:]
-    )
-    start = generated.index(START_MARKER)
-    end = generated.index(END_MARKER)
-    generated = (
-        generated[: start + len(START_MARKER)]
-        + "\n"
-        + render_ranking(data)
-        + "\n"
-        + generated[end:]
+        + template[end:]
     )
     summary = (
         f"**Last verified:** {data['last_updated']} | "
