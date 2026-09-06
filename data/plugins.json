@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02",
+  "last_updated": "2026-09-06",
   "minimum_stars": 30,
   "plugins": [
     {
@@ -1938,6 +1938,21 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "DSH Trading Terminal",
+      "repo": "zhu1090093659/dsh-trading",
+      "package": "@dshtrading/all",
+      "category": "Workflow & Automation",
+      "license": "PolyForm Noncommercial 1.0.0",
+      "description": "An agent-native trading terminal for DeepSeek Harness with market data connectors, research roles, chart context, and approval-gated execution.",
+      "install_command": "dsh plugin --profile trading-web add @dshtrading/base @dshtrading/crypto @dshtrading/us @dshtrading/cn @dshtrading/hk",
+      "manifest_path": "packages/all/package.json",
+      "entrypoint": "@dshtrading/all",
+      "stars": 106,
+      "stars_at_addition": 106,
+      "added_at": "2026-09-06",
+      "verified_at": "2026-09-06"
+    },
+    {
       "name": "DSH Turn Delete",
       "repo": "hanshenmesen/dsh-turn-delete",
       "package": "dsh-turn-delete",
@@ -3363,6 +3378,21 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "DSH Tether",
+      "repo": "zexadev/dsh-tether",
+      "package": "dsh-plugin-tether",
+      "category": "Input & Navigation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness remote-access bundle that connects to Android and iOS clients over a peer-to-peer iroh transport.",
+      "install_command": "dsh plugin --profile web add .",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-plugin-tether",
+      "stars": 43,
+      "stars_at_addition": 43,
+      "added_at": "2026-09-06",
+      "verified_at": "2026-09-06"
+    },
+    {
       "name": "DeepSeek Pet",
       "repo": "keleus/deepseek-pet",
       "package": "deepseek-pet",
@@ -3423,6 +3453,21 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "DSH Filesnap",
+      "repo": "extracurricular-ai/dsh-filesnap",
+      "package": "dsh-filesnap",
+      "category": "Files & Runtime",
+      "license": "Apache-2.0",
+      "description": "A DeepSeek Harness rewind bundle that restores conversation state and changed files without requiring a Git repository.",
+      "install_command": "dsh plugin --profile web add dsh-filesnap",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-filesnap",
+      "stars": 42,
+      "stars_at_addition": 42,
+      "added_at": "2026-09-06",
+      "verified_at": "2026-09-06"
+    },
+    {
       "name": "DSH ImageGen",
       "repo": "dickpy/dsh-imagegen",
       "package": "@dickpy/dsh-imagegen",
@@ -3453,6 +3498,21 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "Unity DSH Plugin",
+      "repo": "opdsh/unity-plugin",
+      "package": "@opdsh/unity-plugin",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness bundle for controlling the Unity Editor, creating scenes, attaching scripts, importing assets, and running builds.",
+      "install_command": "dsh plugin --profile <name> add @opdsh/unity-plugin",
+      "manifest_path": "package.json",
+      "entrypoint": "@opdsh/unity-plugin",
+      "stars": 42,
+      "stars_at_addition": 42,
+      "added_at": "2026-09-06",
+      "verified_at": "2026-09-06"
+    },
+    {
       "name": "DSH DeepRead",
       "repo": "xiehuan123/dsh-deepread",
       "package": "dsh-deepread",
@@ -3481,6 +3541,21 @@
       "stars_at_addition": 39,
       "added_at": "2026-08-25",
       "verified_at": "2026-08-28"
+    },
+    {
+      "name": "DSH Rewind",
+      "repo": "SiriLee/dsh-rewind",
+      "package": "dsh-rewind-plugin",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness bundle for rewinding conversation turns and restoring the associated workspace changes.",
+      "install_command": "dsh plugin --profile web add dsh-rewind-plugin",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-rewind-plugin",
+      "stars": 41,
+      "stars_at_addition": 41,
+      "added_at": "2026-09-06",
+      "verified_at": "2026-09-06"
     },
     {
       "name": "DSH WSL Workspace",
@@ -3648,6 +3723,21 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "DSH Agency Agents",
+      "repo": "MichengAI/dsh-agency-agents",
+      "package": "@michengai/dsh-agency-agents",
+      "category": "Workflow & Automation",
+      "license": "Apache-2.0",
+      "description": "A DeepSeek Harness bundle with 271 summonable specialist agents for research, engineering, writing, and other tasks.",
+      "install_command": "dsh plugin --profile web add @michengai/dsh-agency-agents@latest --registry=https://registry.npmjs.org/",
+      "manifest_path": "package.json",
+      "entrypoint": "@michengai/dsh-agency-agents",
+      "stars": 38,
+      "stars_at_addition": 38,
+      "added_at": "2026-09-06",
+      "verified_at": "2026-09-06"
+    },
+    {
       "name": "DSH Gov Portal",
       "repo": "ExElectron/dsh-gov-portal",
       "package": "dsh-gov-portal",
@@ -3663,6 +3753,36 @@
       "verified_at": "2026-08-31"
     },
     {
+      "name": "DSH Scholar",
+      "repo": "lzszq/dsh-scholar",
+      "package": "@dsh-scholar/research-plugin",
+      "category": "Memory & Knowledge",
+      "license": "BSD-3-Clause",
+      "description": "A DeepSeek Harness research workspace for evidence-linked investigations, project context, review stages, and durable research artifacts.",
+      "install_command": "pnpm install --frozen-lockfile && pnpm run build && dsh plugin --profile web add /absolute/path/to/dsh-scholar",
+      "manifest_path": "package.json",
+      "entrypoint": "@dsh-scholar/research-plugin",
+      "stars": 38,
+      "stars_at_addition": 38,
+      "added_at": "2026-09-06",
+      "verified_at": "2026-09-06"
+    },
+    {
+      "name": "DSH WorkBuddy Connect",
+      "repo": "corrinehu/dsh-workbuddy-connect",
+      "package": "dsh-workbuddy-connect",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness provider plugin that connects the models available in the WorkBuddy desktop app without separate model configuration.",
+      "install_command": "dsh plugin --profile web add dsh-workbuddy-connect",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-workbuddy-connect",
+      "stars": 37,
+      "stars_at_addition": 37,
+      "added_at": "2026-09-06",
+      "verified_at": "2026-09-06"
+    },
+    {
       "name": "MattSkillsDeck DSH",
       "repo": "FeatherHunter/dsh-mattpocock-skills-deck",
       "package": "dsh-mattpocock-skills-deck",
@@ -3676,6 +3796,21 @@
       "stars_at_addition": 37,
       "added_at": "2026-09-02",
       "verified_at": "2026-09-02"
+    },
+    {
+      "name": "DSH IDE",
+      "repo": "chenw2759-wq/dsh-IDE",
+      "package": "dsh-easyssh",
+      "category": "UI & Interfaces",
+      "license": "BSD-3-Clause",
+      "description": "A DeepSeek Harness IDE suite with a file tree, code editor, diff views, terminal, and SSH workspace plugins for the Web interface.",
+      "install_command": "pnpm install && pnpm --filter ./packages/dsh-aionui-panel build && pnpm --filter ./packages/dsh-ssh build && pnpm --filter ./packages/dsh-easyssh build && dsh plugin --profile web add file:<absolute-path>/packages/dsh-aionui-panel && dsh plugin --profile web add file:<absolute-path>/packages/dsh-ssh && dsh plugin --profile web add file:<absolute-path>/packages/dsh-easyssh",
+      "manifest_path": "packages/dsh-easyssh/package.json",
+      "entrypoint": "dsh-easyssh",
+      "stars": 36,
+      "stars_at_addition": 36,
+      "added_at": "2026-09-06",
+      "verified_at": "2026-09-06"
     },
     {
       "name": "DSH Lark Bot",
@@ -3706,6 +3841,21 @@
       "stars_at_addition": 35,
       "added_at": "2026-08-24",
       "verified_at": "2026-08-28"
+    },
+    {
+      "name": "DSH LikeTavern",
+      "repo": "Amakurai/dsh-liketavern",
+      "package": "dsh-liketavern",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness roleplay frontend with character cards, prompt presets, lorebooks, personas, long-term memory, and rollback support.",
+      "install_command": "dsh plugin --profile web add github:Amakurai/dsh-liketavern",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-liketavern",
+      "stars": 36,
+      "stars_at_addition": 36,
+      "added_at": "2026-09-06",
+      "verified_at": "2026-09-06"
     },
     {
       "name": "DSH Usage Plugin",
@@ -3918,6 +4068,21 @@
       "verified_at": "2026-09-02"
     },
     {
+      "name": "StrataGate DSH Memory",
+      "repo": "diqierjia/StrataGate-AgentMemory",
+      "package": "stratagate-dsh",
+      "category": "Memory & Knowledge",
+      "license": "MIT",
+      "description": "A DeepSeek Harness memory bundle for capturing sessions, building evidence-linked local memory, and reviewing recalled context.",
+      "install_command": "dsh plugin --profile web add stratagate-dsh",
+      "manifest_path": "package.json",
+      "entrypoint": "stratagate-dsh",
+      "stars": 34,
+      "stars_at_addition": 34,
+      "added_at": "2026-09-06",
+      "verified_at": "2026-09-06"
+    },
+    {
       "name": "DSH AGY Link",
       "repo": "amlyczz/dsh-agy-link",
       "package": "dsh-agy-link",
@@ -4098,6 +4263,36 @@
       "verified_at": "2026-08-31"
     },
     {
+      "name": "Catppuccin DSH Theme",
+      "repo": "NoNameLeGo/dsh-catppuccin-theme",
+      "package": "@nonamelego/dsh-catppuccin",
+      "category": "Themes & Appearance",
+      "license": "MIT",
+      "description": "A DeepSeek Harness Web theme plugin with Latte, Frappé, Macchiato, and Mocha palettes plus optional glass effects.",
+      "install_command": "dsh plugin --profile web add @nonamelego/dsh-catppuccin",
+      "manifest_path": "package.json",
+      "entrypoint": "@nonamelego/dsh-catppuccin",
+      "stars": 31,
+      "stars_at_addition": 31,
+      "added_at": "2026-09-06",
+      "verified_at": "2026-09-06"
+    },
+    {
+      "name": "DSH AGY",
+      "repo": "chaos-03x/dsh-agy",
+      "package": "dsh-agy",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness provider plugin for Google Antigravity OAuth login, model access, and multi-account rotation.",
+      "install_command": "dsh plugin --profile web add dsh-agy",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-agy",
+      "stars": 31,
+      "stars_at_addition": 31,
+      "added_at": "2026-09-06",
+      "verified_at": "2026-09-06"
+    },
+    {
       "name": "DSH File Review",
       "repo": "left0ver/dsh-file-review",
       "package": "dsh-file-review",
@@ -4111,6 +4306,36 @@
       "stars_at_addition": 31,
       "added_at": "2026-08-31",
       "verified_at": "2026-08-31"
+    },
+    {
+      "name": "DSH Kimino Theme",
+      "repo": "niiang/dsh-kimino-theme",
+      "package": "dsh-kimino-theme",
+      "category": "Themes & Appearance",
+      "license": "MIT",
+      "description": "A DeepSeek Harness Web theme inspired by Kimi no Na wa with switchable visual styles that restore cleanly when removed.",
+      "install_command": "dsh plugin --profile web add dsh-kimino-theme",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-kimino-theme",
+      "stars": 31,
+      "stars_at_addition": 31,
+      "added_at": "2026-09-06",
+      "verified_at": "2026-09-06"
+    },
+    {
+      "name": "DSH Recall Plugin",
+      "repo": "limbo947/dsh-recall-plugin",
+      "package": "dsh-recall-plugin",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness bundle that returns a conversation to the state captured when a message was sent.",
+      "install_command": "dsh plugin --profile web add dsh-recall-plugin",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-recall-plugin",
+      "stars": 31,
+      "stars_at_addition": 31,
+      "added_at": "2026-09-06",
+      "verified_at": "2026-09-06"
     },
     {
       "name": "DSH TUI Front End",
@@ -4186,6 +4411,21 @@
       "stars_at_addition": 30,
       "added_at": "2026-08-31",
       "verified_at": "2026-08-31"
+    },
+    {
+      "name": "DSH Bottom Info Bar",
+      "repo": "songoao25/dsh-bottom-info-bar",
+      "package": "dsh-bottom-info-bar",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "A DeepSeek Harness information bar that shows the active provider and model, live balance, pricing status, and persisted session spending.",
+      "install_command": "dsh plugin --profile web add dsh-bottom-info-bar",
+      "manifest_path": "plugin/package.json",
+      "entrypoint": "dsh-bottom-info-bar",
+      "stars": 30,
+      "stars_at_addition": 30,
+      "added_at": "2026-09-06",
+      "verified_at": "2026-09-06"
     },
     {
       "name": "DSH ComfyUI",
@@ -4276,6 +4516,21 @@
       "stars_at_addition": 30,
       "added_at": "2026-09-02",
       "verified_at": "2026-09-02"
+    },
+    {
+      "name": "DSH Wallpaper Share",
+      "repo": "YRN-playmaker/dsh-wallpaper_share",
+      "package": "dsh-wallpaper_share",
+      "category": "Themes & Appearance",
+      "license": "GPL-3.0",
+      "description": "A DeepSeek Harness bundle that synchronizes Wallpaper Engine scenes and exposes the current wallpaper to DSH workflows.",
+      "install_command": "dsh plugin --profile web add dsh-wallpaper_share",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-wallpaper_share",
+      "stars": 30,
+      "stars_at_addition": 30,
+      "added_at": "2026-09-06",
+      "verified_at": "2026-09-06"
     }
   ]
 }
