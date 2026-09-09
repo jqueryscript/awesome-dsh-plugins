@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06",
+  "last_updated": "2026-09-09",
   "minimum_stars": 30,
   "plugins": [
     {
@@ -1113,6 +1113,21 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "PLUR DSH",
+      "repo": "plur-ai/plur",
+      "package": "@plur-ai/dsh",
+      "category": "Memory & Knowledge",
+      "license": "Apache-2.0",
+      "description": "A DeepSeek Harness memory plugin that injects PLUR engrams into prompts without an MCP tool call.",
+      "install_command": "dsh plugin add @plur-ai/dsh",
+      "manifest_path": "packages/dsh/package.json",
+      "entrypoint": "@plur-ai/dsh",
+      "stars": 248,
+      "stars_at_addition": 248,
+      "added_at": "2026-09-09",
+      "verified_at": "2026-09-09"
+    },
+    {
       "name": "DSH Synapse",
       "repo": "liangmianya/dsh-synapse",
       "package": "dsh-synapse",
@@ -1338,6 +1353,21 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "DSH Tavern Suite",
+      "repo": "flizzywine/dsh-tavern",
+      "package": "dsh-tavern-plugin",
+      "category": "Workflow & Automation",
+      "license": "AGPL-3.0-only",
+      "description": "A DeepSeek Harness profile for Tavern workflows with character-card editing, scenario support, and asset extraction.",
+      "install_command": "curl -fsSL https://cdn.jsdelivr.net/gh/flizzywine/dsh-tavern@main/install.sh | DSH_TAVERN_HOST=cli sh",
+      "manifest_path": "tavern-plugin/package.json",
+      "entrypoint": "dsh-tavern-plugin",
+      "stars": 173,
+      "stars_at_addition": 173,
+      "added_at": "2026-09-09",
+      "verified_at": "2026-09-09"
+    },
+    {
       "name": "DSH Mobile",
       "repo": "saya-ch/dsh-mobile",
       "package": "dsh-mobile",
@@ -1548,6 +1578,21 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "DSH SEV",
+      "repo": "Buzzso/dsh-sev",
+      "package": "dsh-sev",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness plugin for managing a headless DSH server through SSH tunnels, remote session controls, and a browser interface.",
+      "install_command": "dsh plugin --profile web add dsh-sev",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-sev",
+      "stars": 138,
+      "stars_at_addition": 138,
+      "added_at": "2026-09-09",
+      "verified_at": "2026-09-09"
+    },
+    {
       "name": "DSH Popout Sidebar",
       "repo": "e2mcc/dsh-popout-sidebar",
       "package": "dsh-popout-sidebar",
@@ -1711,6 +1756,21 @@
       "stars_at_addition": 63,
       "added_at": "2026-08-23",
       "verified_at": "2026-08-28"
+    },
+    {
+      "name": "Consensus Pipeline DSH",
+      "repo": "fangqian616/consensus-pipeline",
+      "package": "@fangqian616/dsh-consensus-pipeline",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness plugin for multi-agent research pipelines with department debates, progress updates, and report previews.",
+      "install_command": "npx -p @deepseek-ai/dsh dsh plugin --profile web add file:./consensus-pipeline/dsh-plugin",
+      "manifest_path": "dsh-plugin/package.json",
+      "entrypoint": "@fangqian616/dsh-consensus-pipeline",
+      "stars": 121,
+      "stars_at_addition": 121,
+      "added_at": "2026-09-09",
+      "verified_at": "2026-09-09"
     },
     {
       "name": "DSH Harness Remote",
@@ -2356,6 +2416,21 @@
       "stars_at_addition": 73,
       "added_at": "2026-08-19",
       "verified_at": "2026-08-28"
+    },
+    {
+      "name": "Sealos Skills",
+      "repo": "labring/sealos-skills",
+      "package": "sealos",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness bundle that registers Sealos Cloud deployment, database, object-storage, and canvas skills through the native skill catalog.",
+      "install_command": "npx @deepseek-ai/dsh plugin --profile web add github:labring/sealos-skills",
+      "manifest_path": "package.json",
+      "entrypoint": "sealos",
+      "stars": 78,
+      "stars_at_addition": 78,
+      "added_at": "2026-09-09",
+      "verified_at": "2026-09-09"
     },
     {
       "name": "Russian Marketplace DSH",
@@ -3303,6 +3378,21 @@
       "verified_at": "2026-09-02"
     },
     {
+      "name": "DSH Passwords",
+      "repo": "slywalker2006/dsh-passwords",
+      "package": "dsh-passwords",
+      "category": "Workflow & Automation",
+      "license": "GPL-3.0-only",
+      "description": "A DeepSeek Harness gateway plugin for login protection, per-user permissions and quotas, rate limits, audit logs, and automatic HTTPS.",
+      "install_command": "curl -fsSL https://raw.githubusercontent.com/slywalker2006/dsh-passwords/main/install.sh | bash",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-passwords",
+      "stars": 46,
+      "stars_at_addition": 46,
+      "added_at": "2026-09-09",
+      "verified_at": "2026-09-09"
+    },
+    {
       "name": "Lowtide DSH",
       "repo": "KelaoHu/dsh-lowtide",
       "package": "dsh-lowtide",
@@ -3316,6 +3406,21 @@
       "stars_at_addition": 46,
       "added_at": "2026-08-31",
       "verified_at": "2026-08-31"
+    },
+    {
+      "name": "DSH Design QA",
+      "repo": "sunxin-ai/dsh-design-qa",
+      "package": "dsh-design-qa",
+      "category": "Vision",
+      "license": "MIT",
+      "description": "A DeepSeek Harness plugin for on-demand image inspection, design-fidelity checks, and a reproducible visual defect benchmark.",
+      "install_command": "dsh plugin --profile web add dsh-design-qa",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-design-qa",
+      "stars": 44,
+      "stars_at_addition": 44,
+      "added_at": "2026-09-09",
+      "verified_at": "2026-09-09"
     },
     {
       "name": "DSH IM Gateway",
@@ -3663,6 +3768,21 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "DSH Usage Billing",
+      "repo": "kenz1117/dsh-ui-usage-billing",
+      "package": "@kenz1117/dsh-ui-usage-billing",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "A DeepSeek Harness Web dashboard plugin that aggregates usage, provider pricing, balances, and estimated session costs.",
+      "install_command": "dsh plugin add npm:@kenz1117/dsh-ui-usage-billing@stable",
+      "manifest_path": "package.json",
+      "entrypoint": "@kenz1117/dsh-ui-usage-billing",
+      "stars": 39,
+      "stars_at_addition": 39,
+      "added_at": "2026-09-09",
+      "verified_at": "2026-09-09"
+    },
+    {
       "name": "DSH with ChatGPT",
       "repo": "BeforeWave/dsh-with-chatgpt",
       "package": "@beforewave/dsh-with-chatgpt",
@@ -3768,6 +3888,21 @@
       "verified_at": "2026-09-06"
     },
     {
+      "name": "DSH Skills Manager",
+      "repo": "MichengAI/dsh-skills-manager",
+      "package": "@michengai/dsh-skills-manager",
+      "category": "UI & Interfaces",
+      "license": "Apache-2.0",
+      "description": "A DeepSeek Harness Web plugin for loading, organizing, and safely managing local Agent Skills.",
+      "install_command": "dsh plugin --profile web add @michengai/dsh-skills-manager@latest --registry=https://registry.npmjs.org/",
+      "manifest_path": "package.json",
+      "entrypoint": "@michengai/dsh-skills-manager",
+      "stars": 38,
+      "stars_at_addition": 38,
+      "added_at": "2026-09-09",
+      "verified_at": "2026-09-09"
+    },
+    {
       "name": "DSH WorkBuddy Connect",
       "repo": "corrinehu/dsh-workbuddy-connect",
       "package": "dsh-workbuddy-connect",
@@ -3783,6 +3918,21 @@
       "verified_at": "2026-09-06"
     },
     {
+      "name": "DSH-KRouter",
+      "repo": "398894496-arch/DSH-KRouter",
+      "package": "dsh-krouter",
+      "category": "Memory & Knowledge",
+      "license": "MIT",
+      "description": "A DeepSeek Harness bundle for an Obsidian-backed knowledge system with recall, daily distillation, and self-evolution controls.",
+      "install_command": "dsh plugin --profile web add github:398894496-arch/runtime36",
+      "manifest_path": "extras/dsh/package.json",
+      "entrypoint": "dsh-krouter",
+      "stars": 37,
+      "stars_at_addition": 37,
+      "added_at": "2026-09-09",
+      "verified_at": "2026-09-09"
+    },
+    {
       "name": "MattSkillsDeck DSH",
       "repo": "FeatherHunter/dsh-mattpocock-skills-deck",
       "package": "dsh-mattpocock-skills-deck",
@@ -3796,6 +3946,21 @@
       "stars_at_addition": 37,
       "added_at": "2026-09-02",
       "verified_at": "2026-09-02"
+    },
+    {
+      "name": "OpenGuardrails DSH",
+      "repo": "openguardrails/openguardrails",
+      "package": "@openguardrails/dsh",
+      "category": "Workflow & Automation",
+      "license": "Apache-2.0",
+      "description": "A DeepSeek Harness bundle that evaluates model-loop steps before and after generation, redacts local secrets, and routes approvals through verdicts.",
+      "install_command": "dsh plugin --profile web add @openguardrails/dsh",
+      "manifest_path": "integrations/agent/dsh/package.json",
+      "entrypoint": "@openguardrails/dsh",
+      "stars": 37,
+      "stars_at_addition": 37,
+      "added_at": "2026-09-09",
+      "verified_at": "2026-09-09"
     },
     {
       "name": "DSH IDE",
@@ -4143,6 +4308,21 @@
       "verified_at": "2026-09-02"
     },
     {
+      "name": "DSH Writing Guard",
+      "repo": "xmutfyh/dsh-plugin-writing-guard",
+      "package": "dsh-plugin-writing-guard",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness plugin for scientific writing checks, journal-fit guidance, and deterministic DOCX integrity validation.",
+      "install_command": "dsh plugin add dsh-plugin-writing-guard",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-plugin-writing-guard",
+      "stars": 33,
+      "stars_at_addition": 33,
+      "added_at": "2026-09-09",
+      "verified_at": "2026-09-09"
+    },
+    {
       "name": "OpenMAIC DSH",
       "repo": "THU-MAIC/dsh-openmaic",
       "package": "@openmaic/dsh-openmaic",
@@ -4171,6 +4351,21 @@
       "stars_at_addition": 32,
       "added_at": "2026-09-02",
       "verified_at": "2026-09-02"
+    },
+    {
+      "name": "DSH Agent Team",
+      "repo": "limuyang2/agent-team",
+      "package": "@limuyang2/dsh-agent-team",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness plugin for coordinating multi-agent teams with per-agent models, tools, skills, and a shared workspace.",
+      "install_command": "npx @deepseek-ai/dsh plugin --profile web add @limuyang2/dsh-agent-team",
+      "manifest_path": "package.json",
+      "entrypoint": "@limuyang2/dsh-agent-team",
+      "stars": 32,
+      "stars_at_addition": 32,
+      "added_at": "2026-09-09",
+      "verified_at": "2026-09-09"
     },
     {
       "name": "DSH Codex Subscription",
@@ -4338,6 +4533,21 @@
       "verified_at": "2026-09-06"
     },
     {
+      "name": "DSH Session Delete",
+      "repo": "lsz-asd/dsh-plugin-session-delete",
+      "package": "@huanlin/dsh-plugin-session-delete",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "A DeepSeek Harness Web plugin for deleting sessions with confirmation, running-agent handling, and sidebar refresh.",
+      "install_command": "dsh plugin --profile <profile> add file:C:/path/to/dsh-plugin-session-delete",
+      "manifest_path": "package.json",
+      "entrypoint": "@huanlin/dsh-plugin-session-delete",
+      "stars": 31,
+      "stars_at_addition": 31,
+      "added_at": "2026-09-09",
+      "verified_at": "2026-09-09"
+    },
+    {
       "name": "DSH TUI Front End",
       "repo": "dsh-tui/dsh-tui",
       "package": "@dsh-tui/dsh-tui",
@@ -4381,6 +4591,21 @@
       "stars_at_addition": 31,
       "added_at": "2026-09-02",
       "verified_at": "2026-09-02"
+    },
+    {
+      "name": "DSH Workbench",
+      "repo": "loadingvx/deepseek-harness-workbench-plugin",
+      "package": "dsh-workbench-plugin",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "A DeepSeek Harness Web workbench plugin with an editor, file and Git tools, session inspection, and workspace panels.",
+      "install_command": "dsh plugin --profile web add dsh-workbench-plugin@0.1.32",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-workbench-plugin",
+      "stars": 31,
+      "stars_at_addition": 31,
+      "added_at": "2026-09-09",
+      "verified_at": "2026-09-09"
     },
     {
       "name": "Helmd",
