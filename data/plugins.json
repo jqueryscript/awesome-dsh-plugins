@@ -2313,6 +2313,21 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "DSH Antibrow",
+      "repo": "antibrow/dsh-antibrow",
+      "package": "dsh-antibrow",
+      "category": "Input & Navigation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness browser plugin with persistent identities, per-profile cookies and passkeys, and optional residential proxy egress.",
+      "install_command": "dsh plugin --profile <name> add dsh-antibrow",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-antibrow",
+      "stars": 81,
+      "stars_at_addition": 81,
+      "added_at": "2026-09-09",
+      "verified_at": "2026-09-09"
+    },
+    {
       "name": "DSH QQ Bot",
       "repo": "tencent-connect/dsh-qqbot",
       "package": "@tencent-connect/dsh-qqbot",
@@ -2401,6 +2416,21 @@
       "stars_at_addition": 79,
       "added_at": "2026-08-31",
       "verified_at": "2026-08-31"
+    },
+    {
+      "name": "DSH Personal Center",
+      "repo": "PolinniZhong/dsh-personal-center",
+      "package": "dsh-personal-center",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "A DeepSeek Harness Web plugin that adds usage and cost views, custom instructions, font settings, a session overview, and desktop-pet skins.",
+      "install_command": "dsh plugin --profile web add github:PolinniZhong/dsh-personal-center",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-personal-center",
+      "stars": 79,
+      "stars_at_addition": 79,
+      "added_at": "2026-09-09",
+      "verified_at": "2026-09-09"
     },
     {
       "name": "ZAT DSH Engine",

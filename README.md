@@ -5,7 +5,7 @@
 [![Quality](https://github.com/jqueryscript/awesome-dsh-plugins/actions/workflows/quality.yml/badge.svg)](https://github.com/jqueryscript/awesome-dsh-plugins/actions/workflows/quality.yml)
 [![Update Stars](https://github.com/jqueryscript/awesome-dsh-plugins/actions/workflows/update-stars.yml/badge.svg)](https://github.com/jqueryscript/awesome-dsh-plugins/actions/workflows/update-stars.yml)
 
-**Last verified:** 2026-09-09 | **Minimum at admission:** 30 stars | **Plugins:** 317
+**Last verified:** 2026-09-09 | **Minimum at admission:** 30 stars | **Plugins:** 319
 
 ## Contents
 
@@ -140,6 +140,9 @@ Each category below contains the actual plugin entries. Entries within a categor
 
 - [DSH EasyRewrite](https://github.com/Renzic-Stone/DSH-EasyRewrite) - **96 stars** | `MIT`. A DSH Web editing plugin for recalling, rewriting, versioning, and restoring user messages.
   - Install: `dsh plugin --profile web add dsh-easyrewrite`
+
+- [DSH Antibrow](https://github.com/antibrow/dsh-antibrow) - **81 stars** | `MIT`. A DeepSeek Harness browser plugin with persistent identities, per-profile cookies and passkeys, and optional residential proxy egress.
+  - Install: `dsh plugin --profile <name> add dsh-antibrow`
 
 - [DSH Free Search](https://github.com/DDDMUC/dsh-free-search) - **79 stars** | `MIT`. A multi-engine DSH search provider with free backends, automatic fallback, settings, and platform search.
   - Install: `git clone https://github.com/DDDMUC/dsh-free-search.git && dsh plugin --profile web add ./dsh-free-search`
@@ -479,6 +482,9 @@ Each category below contains the actual plugin entries. Entries within a categor
 
 - [DSH Market Sidebar](https://github.com/2BingLing/dsh-market) - **88 stars** | `MIT`. A DeepSeek Harness sidebar market for discovering, searching, and installing community plugins.
   - Install: `npx @deepseek-ai/dsh plugin --profile web add @dsh-market/plugin`
+
+- [DSH Personal Center](https://github.com/PolinniZhong/dsh-personal-center) - **79 stars** | `MIT`. A DeepSeek Harness Web plugin that adds usage and cost views, custom instructions, font settings, a session overview, and desktop-pet skins.
+  - Install: `dsh plugin --profile web add github:PolinniZhong/dsh-personal-center`
 
 - [ZAT DSH Engine](https://github.com/mishibeikejie/zat-dsh-engine) - **79 stars** | `MIT`. A Web UI marketplace for searching, installing, updating, and rolling back community DSH plugins.
   - Install: `dsh plugin --profile web add github:mishibeikejie/zat-dsh-engine`
