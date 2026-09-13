@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09",
+  "last_updated": "2026-09-13",
   "minimum_stars": 30,
   "plugins": [
     {
@@ -348,6 +348,21 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "DSH Infinite Gen 4",
+      "repo": "Minglink/dsh-infinite-gen-4",
+      "package": "dsh-infinite-gen-4",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness bundle for controlled red-team prompt evaluation with system-prompt injection and a live client status bar.",
+      "install_command": "bash install.sh",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-infinite-gen-4",
+      "stars": 1388,
+      "stars_at_addition": 1388,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
+    },
+    {
       "name": "DSH Balance Whale",
       "repo": "MeteorNOX/DeepSeek-Balance-Whale-Widget",
       "package": "dsh-whale-widget",
@@ -603,6 +618,21 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "OpenWrite DSH",
+      "repo": "LiPu-jpg/Openwrite",
+      "package": "dsh-openwrite",
+      "category": "Workflow & Automation",
+      "license": "Apache-2.0",
+      "description": "An interactive DeepSeek Harness writing suite for planning, drafting, and revising long-form fiction in a Web profile.",
+      "install_command": "dsh plugin --profile web add -w dsh-openwrite@latest",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-openwrite",
+      "stars": 718,
+      "stars_at_addition": 718,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
+    },
+    {
       "name": "Treg DSH",
       "repo": "superdesigndev/treg",
       "package": "treg-dsh",
@@ -723,6 +753,21 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "Superdesign DSH",
+      "repo": "superdesigndev/superdesign-skill",
+      "package": "superdesign-dsh",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness bundle that brings Superdesign's code-aware interface design workflow into an agent session.",
+      "install_command": "dsh plugin --profile <name> add github:superdesigndev/superdesign-skill",
+      "manifest_path": "package.json",
+      "entrypoint": "superdesign-dsh",
+      "stars": 547,
+      "stars_at_addition": 547,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
+    },
+    {
       "name": "Mnemon",
       "repo": "mnemon-dev/mnemon",
       "package": "@mnemon-dev/dsh-mnemon",
@@ -781,6 +826,21 @@
       "stars_at_addition": 147,
       "added_at": "2026-08-15",
       "verified_at": "2026-08-28"
+    },
+    {
+      "name": "DSH k8e Sandbox",
+      "repo": "xiaods/k8e",
+      "package": "@k8e-sandbox/dsh-k8e-sandbox-bundle",
+      "category": "Files & Runtime",
+      "license": "Apache-2.0",
+      "description": "A DeepSeek Harness sandbox bundle that routes filesystem and subprocess services through the k8e sandbox runtime.",
+      "install_command": "dsh plugin --profile <name> add @k8e-sandbox/dsh-k8e-sandbox-bundle",
+      "manifest_path": "plugins/deepseek-harness/packages/dsh-k8e-sandbox-bundle/package.json",
+      "entrypoint": "@k8e-sandbox/dsh-k8e-sandbox-bundle",
+      "stars": 484,
+      "stars_at_addition": 484,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
     },
     {
       "name": "DSH Pet",
@@ -901,6 +961,21 @@
       "stars_at_addition": 342,
       "added_at": "2026-08-28",
       "verified_at": "2026-08-28"
+    },
+    {
+      "name": "Bailian Knowledge DSH",
+      "repo": "modelstudioai/cli",
+      "package": "bailian-kb-dsh",
+      "category": "Memory & Knowledge",
+      "license": "Apache-2.0",
+      "description": "A DeepSeek Harness bundle that connects agents to Aliyun Model Studio knowledge bases through search and grounded Q&A tools.",
+      "install_command": "dsh plugin --profile web add bailian-kb-dsh",
+      "manifest_path": "packages/bailian-kb-dsh/package.json",
+      "entrypoint": "bailian-kb-dsh",
+      "stars": 331,
+      "stars_at_addition": 331,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
     },
     {
       "name": "DSH Worktable",
@@ -1158,6 +1233,21 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "Hypatia DSH",
+      "repo": "MarchLiu/hypatia",
+      "package": "dsh-hypatia",
+      "category": "Memory & Knowledge",
+      "license": "MIT",
+      "description": "A DSH bundle that adds Hypatia skills, memory helpers, and a configurable auto-approval answerer to a profile.",
+      "install_command": "dsh plugin --profile web add dsh-hypatia",
+      "manifest_path": "dsh-hypatia/package.json",
+      "entrypoint": "dsh-hypatia",
+      "stars": 239,
+      "stars_at_addition": 239,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
+    },
+    {
       "name": "Invoice Downloader DSH",
       "repo": "EthanYoQ/Invoice-Downloader",
       "package": "@ethanyoq/dsh-invoice-downloader",
@@ -1396,6 +1486,21 @@
       "stars_at_addition": 155,
       "added_at": "2026-08-22",
       "verified_at": "2026-08-28"
+    },
+    {
+      "name": "DSH Plugins Marketplace",
+      "repo": "bradeGithub/DSH-Plugins-Marketplace",
+      "package": "dsh-plugin-marketplace",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "A Web plugin market for discovering, installing, updating, and removing community DSH plugins from the settings interface.",
+      "install_command": "dsh plugin --profile web install bradeGithub/DSH-Plugins-Marketplace",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-plugin-marketplace",
+      "stars": 164,
+      "stars_at_addition": 164,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
     },
     {
       "name": "Anime Find",
@@ -2673,6 +2778,21 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "DSH Watcher",
+      "repo": "aa2246740/dsh-watcher",
+      "package": "dsh-watcher",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "A DSH Web plugin that shows live working activity, tool progress, and turn summaries in the conversation interface.",
+      "install_command": "dsh plugin --profile web add github:aa2246740/dsh-watcher",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-watcher",
+      "stars": 68,
+      "stars_at_addition": 68,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
+    },
+    {
       "name": "DSH Claude UX",
       "repo": "eri64/dsh-claude-ux",
       "package": "dsh-claude-ux",
@@ -2838,6 +2958,21 @@
       "verified_at": "2026-08-31"
     },
     {
+      "name": "DSH Approval Gate",
+      "repo": "moon09300731/dsh-approval-gate",
+      "package": "dsh-approval-gate",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DSH Web plugin that adds approval gates and configurable permission presets for tool execution.",
+      "install_command": "dsh plugin --profile web add dsh-approval-gate",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-approval-gate",
+      "stars": 63,
+      "stars_at_addition": 63,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
+    },
+    {
       "name": "DSH Mneme",
       "repo": "modusensus/dsh-mneme",
       "package": "@modusensus/dsh-mneme",
@@ -2928,6 +3063,21 @@
       "verified_at": "2026-09-02"
     },
     {
+      "name": "DSH Council",
+      "repo": "a1exsun/dsh-council",
+      "package": "@a1exsun/dsh-council",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A multi-model deliberation bundle for running bounded councils inside DeepSeek Harness sessions.",
+      "install_command": "npx -p @deepseek-ai/dsh@latest dsh plugin --profile web add @a1exsun/dsh-council@0.1.0",
+      "manifest_path": "package.json",
+      "entrypoint": "@a1exsun/dsh-council",
+      "stars": 59,
+      "stars_at_addition": 59,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
+    },
+    {
       "name": "DSH Navbar",
       "repo": "vlln/dsh-navbar",
       "package": "@vlln/dsh-navbar",
@@ -2941,6 +3091,21 @@
       "stars_at_addition": 36,
       "added_at": "2026-08-17",
       "verified_at": "2026-08-28"
+    },
+    {
+      "name": "DSH YOLO",
+      "repo": "hanshanyike/dsh-yolo",
+      "package": "dsh-plugin-yolo",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DSH assistant that tracks todos, deadlines, milestones, reminders, and cross-session changes in a Web dashboard.",
+      "install_command": "npx @deepseek-ai/dsh plugin --profile web add dsh-plugin-yolo@0.5.0",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-plugin-yolo",
+      "stars": 59,
+      "stars_at_addition": 59,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
     },
     {
       "name": "SpecFusion",
@@ -3063,6 +3228,21 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "OpenCode2DSH",
+      "repo": "FishBottle7/opencode2dsh",
+      "package": "@opencode2dsh/dsh-plugin",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness bundle that connects OpenCode Zen models through a native llm-pi-ai adapter without an API key.",
+      "install_command": "dsh plugin --profile web add @opencode2dsh/dsh-plugin",
+      "manifest_path": "packages/plugin/package.json",
+      "entrypoint": "@opencode2dsh/dsh-plugin",
+      "stars": 57,
+      "stars_at_addition": 57,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
+    },
+    {
       "name": "Local Shell MCP",
       "repo": "fwerkor/local-shell-mcp",
       "package": "local-shell-mcp-dsh",
@@ -3091,6 +3271,21 @@
       "stars_at_addition": 49,
       "added_at": "2026-08-17",
       "verified_at": "2026-08-28"
+    },
+    {
+      "name": "DSH Token Pet",
+      "repo": "Jimmy0123-ux/dsh-token-pet",
+      "package": "dsh-token-pet",
+      "category": "Themes & Appearance",
+      "license": "MIT",
+      "description": "A DSH Web companion that displays token usage and task status as a configurable animated pet.",
+      "install_command": "dsh plugin --profile web add dsh-token-pet",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-token-pet",
+      "stars": 55,
+      "stars_at_addition": 55,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
     },
     {
       "name": "OpenBiliClaw",
@@ -3166,6 +3361,21 @@
       "stars_at_addition": 36,
       "added_at": "2026-08-25",
       "verified_at": "2026-08-28"
+    },
+    {
+      "name": "DSH Novel Writer",
+      "repo": "akira399/dsh-novel-writer",
+      "package": "@dsh-external/dsh-novel-writer",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness writing suite for planning, drafting, and revising novels with a Web sidebar and project workflow.",
+      "install_command": "dsh plugin --profile web add <latest dsh-novel-writer release tarball path>",
+      "manifest_path": "package.json",
+      "entrypoint": "@dsh-external/dsh-novel-writer",
+      "stars": 53,
+      "stars_at_addition": 53,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
     },
     {
       "name": "AgentDebugX DSH",
@@ -3333,6 +3543,21 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "DSH Nested Followups",
+      "repo": "sluminositys/dsh-nested-followups",
+      "package": "dsh-nested-followups",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DSH Web plugin for creating isolated follow-up branches from any answer and continuing them at arbitrary depth.",
+      "install_command": "dsh plugin --profile web add dsh-nested-followups",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-nested-followups",
+      "stars": 49,
+      "stars_at_addition": 49,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
+    },
+    {
       "name": "DSH Codex Shell",
       "repo": "Ephemeral-AI-Lab/dsh-plugins",
       "package": "dsh-codex-shell",
@@ -3436,6 +3661,21 @@
       "stars_at_addition": 46,
       "added_at": "2026-08-31",
       "verified_at": "2026-08-31"
+    },
+    {
+      "name": "Project Orrery DSH Adapter",
+      "repo": "ItIsMixian/Orrery",
+      "package": "project-orrery-deepseek-harness-adapter",
+      "category": "Memory & Knowledge",
+      "license": "MIT",
+      "description": "A DeepSeek Harness adapter that exposes Project Orrery's traceable Markdown documentation workflow as a packaged skill.",
+      "install_command": "dsh plugin --profile orrery-test add <adapter-directory-or-tarball>",
+      "manifest_path": "adapters/deepseek-harness/package.json",
+      "entrypoint": "project-orrery-deepseek-harness-adapter",
+      "stars": 45,
+      "stars_at_addition": 45,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
     },
     {
       "name": "DSH Design QA",
@@ -3618,6 +3858,21 @@
       "verified_at": "2026-08-31"
     },
     {
+      "name": "DSH Raw HTML v2",
+      "repo": "plolpl789/dsh-raw-html-v2",
+      "package": "dsh-raw-html-v2",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "A DSH Web bundle that renders raw HTML documents in a sandboxed panel for agent-generated output.",
+      "install_command": "dsh plugin --profile web add <built dsh-raw-html-v2 package path>",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-raw-html-v2",
+      "stars": 42,
+      "stars_at_addition": 42,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
+    },
+    {
       "name": "DSH Status Label",
       "repo": "alingalingling/ui-status-label",
       "package": "dsh-ui-status-label",
@@ -3691,6 +3946,21 @@
       "stars_at_addition": 41,
       "added_at": "2026-09-06",
       "verified_at": "2026-09-06"
+    },
+    {
+      "name": "DSH Win32",
+      "repo": "sjh9714/dsh-win32",
+      "package": "dsh-win32",
+      "category": "Files & Runtime",
+      "license": "MIT",
+      "description": "A Windows-focused DSH bundle with PowerShell execution, preset management, and sandbox-aware runtime checks.",
+      "install_command": "dsh plugin --profile web add dsh-win32",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-win32",
+      "stars": 41,
+      "stars_at_addition": 41,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
     },
     {
       "name": "DSH WSL Workspace",
@@ -3781,6 +4051,21 @@
       "stars_at_addition": 34,
       "added_at": "2026-08-25",
       "verified_at": "2026-08-28"
+    },
+    {
+      "name": "DSH Web UI Suite",
+      "repo": "CAPTAIN1275/dsh-ui-web",
+      "package": "@captain1275/dsh-web-ui-all",
+      "category": "UI & Interfaces",
+      "license": "Apache-2.0",
+      "description": "A DSH Web UI suite that bundles task boards, Git views, usage panels, SSH tools, pets, and selectable skins.",
+      "install_command": "dsh plugin --profile web add @captain1275/dsh-web-ui-all",
+      "manifest_path": "packages/dsh-web-ui-all/package.json",
+      "entrypoint": "@captain1275/dsh-web-ui-all",
+      "stars": 40,
+      "stars_at_addition": 40,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
     },
     {
       "name": "DSH Remote",
@@ -3933,6 +4218,36 @@
       "verified_at": "2026-09-09"
     },
     {
+      "name": "DSH Web Startup Auth",
+      "repo": "GDWhisper/dsh-web-startup-auth",
+      "package": "dsh-web-startup-auth",
+      "category": "Input & Navigation",
+      "license": "MIT",
+      "description": "A DSH Web bundle that adds authenticated remote startup and configurable access controls for the local server.",
+      "install_command": "dsh plugin --profile web add dsh-web-startup-auth@latest",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-web-startup-auth",
+      "stars": 38,
+      "stars_at_addition": 38,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "name": "Logion DSH Plugin",
+      "repo": "nicolasmelo1/logion",
+      "package": "@logionsh/dsh-plugin",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DSH bundle that registers Logion artifact acquisition, inventory, and reconciliation tools in a profile.",
+      "install_command": "dsh plugin --profile <name> add @logionsh/dsh-plugin",
+      "manifest_path": "plugins/dsh-plugin/package.json",
+      "entrypoint": "@logionsh/dsh-plugin",
+      "stars": 38,
+      "stars_at_addition": 38,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
+    },
+    {
       "name": "DSH WorkBuddy Connect",
       "repo": "corrinehu/dsh-workbuddy-connect",
       "package": "dsh-workbuddy-connect",
@@ -3991,6 +4306,21 @@
       "stars_at_addition": 37,
       "added_at": "2026-09-09",
       "verified_at": "2026-09-09"
+    },
+    {
+      "name": "Denia DSH Skin",
+      "repo": "Ewnscat-ya/dsh-client-ui-skin-denia",
+      "package": "@dsh-external/dsh-client-ui-skin-denia",
+      "category": "Themes & Appearance",
+      "license": "CC-BY-NC-SA-4.0",
+      "description": "A DSH Web skin bundle with the Denia visual theme and a configurable client roster entry.",
+      "install_command": "dsh plugin --profile web add ../dsh-client-ui-skin-denia",
+      "manifest_path": "package.json",
+      "entrypoint": "@dsh-external/dsh-client-ui-skin-denia",
+      "stars": 36,
+      "stars_at_addition": 36,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
     },
     {
       "name": "DSH IDE",
@@ -4068,6 +4398,36 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "Marketing Mindset DSH",
+      "repo": "axelfreeman/marketing-mindset",
+      "package": "dsh-marketing-mindset",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DSH bundle that adds the Marketing Mindset skill and workflow guidance to a Harness profile.",
+      "install_command": "dsh plugin --profile <name> add github:axelfreeman/marketing-mindset",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-marketing-mindset",
+      "stars": 36,
+      "stars_at_addition": 36,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "name": "WorkBuddy DSH",
+      "repo": "Axiaohungry/dsh-llm-workbuddy",
+      "package": "@axiaohungry/dsh-llm-workbuddy",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DSH Web plugin that connects WorkBuddy model providers and account management to the profile settings interface.",
+      "install_command": "dsh plugin --profile web add @axiaohungry/dsh-llm-workbuddy@latest",
+      "manifest_path": "package.json",
+      "entrypoint": "@axiaohungry/dsh-llm-workbuddy",
+      "stars": 36,
+      "stars_at_addition": 36,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
+    },
+    {
       "name": "DSH Archive Manager",
       "repo": "MichengAI/dsh-archive-manager",
       "package": "@michengai/dsh-archive-manager",
@@ -4096,6 +4456,21 @@
       "stars_at_addition": 35,
       "added_at": "2026-09-02",
       "verified_at": "2026-09-02"
+    },
+    {
+      "name": "DSH Model Context Catalog",
+      "repo": "HOWILLMAKEIT/dsh-model-context-catalog",
+      "package": "dsh-model-context-catalog",
+      "category": "Memory & Knowledge",
+      "license": "MIT",
+      "description": "A DSH plugin that catalogs model context limits and displays provider metadata in a Web settings panel.",
+      "install_command": "dsh plugin --profile web add dsh-model-context-catalog",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-model-context-catalog",
+      "stars": 35,
+      "stars_at_addition": 35,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
     },
     {
       "name": "DSH Plugin Guard",
@@ -4203,6 +4578,21 @@
       "verified_at": "2026-08-31"
     },
     {
+      "name": "DSH Fund Research",
+      "repo": "PerryLink/dsh-fund-research",
+      "package": "dsh-fund-research",
+      "category": "Memory & Knowledge",
+      "license": "Apache-2.0",
+      "description": "A DeepSeek Harness bundle for producing traceable fund research reports from sealed market snapshots.",
+      "install_command": "dsh plugin --profile web add dsh-fund-research",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-fund-research",
+      "stars": 34,
+      "stars_at_addition": 34,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
+    },
+    {
       "name": "DSH Interconnect",
       "repo": "Chinesezjc/dsh-interconnect",
       "package": "dsh-interconnect",
@@ -4231,6 +4621,21 @@
       "stars_at_addition": 34,
       "added_at": "2026-09-02",
       "verified_at": "2026-09-02"
+    },
+    {
+      "name": "DSH Trading",
+      "repo": "maddogfinance/dsh-trading",
+      "package": "@dsh-trading/bundle",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness trading bundle with market data, analysis tools, risk guards, verdicts, and Web chart support.",
+      "install_command": "export DSH_HOME=~/.dsh-trading && dsh plugin --profile trading add @dsh-trading/bundle",
+      "manifest_path": "bundle/trading/package.json",
+      "entrypoint": "@dsh-trading/bundle",
+      "stars": 34,
+      "stars_at_addition": 34,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
     },
     {
       "name": "Industry Research DSH",
@@ -4338,6 +4743,21 @@
       "verified_at": "2026-09-02"
     },
     {
+      "name": "DSH Remote Suite",
+      "repo": "Blank-not-black/dsh-Remote",
+      "package": "dsh-remote-plugin",
+      "category": "Input & Navigation",
+      "license": "MIT",
+      "description": "A DSH remote-access suite with a profile plugin, gateway, mobile client, and Web management panel.",
+      "install_command": "dsh plugin --profile web add dsh-remote-plugin",
+      "manifest_path": "packages/plugin/package.json",
+      "entrypoint": "dsh-remote-plugin",
+      "stars": 33,
+      "stars_at_addition": 33,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
+    },
+    {
       "name": "DSH Writing Guard",
       "repo": "xmutfyh/dsh-plugin-writing-guard",
       "package": "dsh-plugin-writing-guard",
@@ -4398,6 +4818,21 @@
       "verified_at": "2026-09-09"
     },
     {
+      "name": "DSH Bloom Theme",
+      "repo": "webkubor/dsh-bloom-theme",
+      "package": "@kubor/dsh-bloom-theme",
+      "category": "Themes & Appearance",
+      "license": "MIT",
+      "description": "A DeepSeek Harness Web theme bundle with Bloom palettes, configurable appearance settings, and a live client skin.",
+      "install_command": "dsh plugin add @kubor/dsh-bloom-theme",
+      "manifest_path": "package.json",
+      "entrypoint": "@kubor/dsh-bloom-theme",
+      "stars": 32,
+      "stars_at_addition": 32,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
+    },
+    {
       "name": "DSH Codex Subscription",
       "repo": "WSL043/dsh-codex-subscription",
       "package": "dsh-codex-subscription",
@@ -4411,6 +4846,21 @@
       "stars_at_addition": 32,
       "added_at": "2026-09-02",
       "verified_at": "2026-09-02"
+    },
+    {
+      "name": "DSH Computer Use macOS",
+      "repo": "988hj7tczd-oss/dsh-computer-use",
+      "package": "dsh-computer-use",
+      "category": "Input & Navigation",
+      "license": "MIT",
+      "description": "A macOS desktop-control DSH bundle with scoped screen observation, input actions, app launching, and safety checks.",
+      "install_command": "./install.sh",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-computer-use",
+      "stars": 32,
+      "stars_at_addition": 32,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
     },
     {
       "name": "DSH Full Remote",
@@ -4518,6 +4968,21 @@
       "verified_at": "2026-09-06"
     },
     {
+      "name": "DSH Evolve in Git",
+      "repo": "Kytolly/dsh-evolve-in-git",
+      "package": "dsh-evolve-in-git",
+      "category": "Memory & Knowledge",
+      "license": "MIT",
+      "description": "A DSH bundle for Git-backed memory, skill evolution, privacy filtering, and repository-aware workflow tools.",
+      "install_command": "dsh plugin --profile web add github:Kytolly/dsh-evolve-in-git",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-evolve-in-git",
+      "stars": 31,
+      "stars_at_addition": 31,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
+    },
+    {
       "name": "DSH File Review",
       "repo": "left0ver/dsh-file-review",
       "package": "dsh-file-review",
@@ -4546,6 +5011,21 @@
       "stars_at_addition": 31,
       "added_at": "2026-09-06",
       "verified_at": "2026-09-06"
+    },
+    {
+      "name": "DSH Knowledge",
+      "repo": "Soren-ABT/dsh-knowledge",
+      "package": "dsh-knowledge",
+      "category": "Memory & Knowledge",
+      "license": "AGPL-3.0",
+      "description": "A DSH knowledge bundle for document management, chunking, embeddings, retrieval, and a Web administration panel.",
+      "install_command": "dsh plugin --profile <name> add dsh-knowledge",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-knowledge",
+      "stars": 31,
+      "stars_at_addition": 31,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
     },
     {
       "name": "DSH Recall Plugin",
@@ -4608,6 +5088,21 @@
       "verified_at": "2026-09-02"
     },
     {
+      "name": "DSH Web LAN Access",
+      "repo": "AcidGr/dsh-web-lan-access",
+      "package": "dsh-web-lan-access",
+      "category": "Input & Navigation",
+      "license": "MIT",
+      "description": "A DSH Web bundle that exposes the service on a local network with dynamic LAN and VPN trust handling.",
+      "install_command": "dsh plugin --profile web add dsh-web-lan-access",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-web-lan-access",
+      "stars": 31,
+      "stars_at_addition": 31,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
+    },
+    {
       "name": "DSH Whale Report",
       "repo": "SenmuuuuW/dsh-whale-report",
       "package": "dsh-whale-report",
@@ -4636,6 +5131,21 @@
       "stars_at_addition": 31,
       "added_at": "2026-09-09",
       "verified_at": "2026-09-09"
+    },
+    {
+      "name": "fnOS DSH Apps",
+      "repo": "tnnevol/fn-os-apps",
+      "package": "@tnnevol/dsh-codebuddy, @tnnevol/dsh-codex-auth, and @tnnevol/dsh-fnos",
+      "category": "Workflow & Automation",
+      "license": "AGPL-3.0-only",
+      "description": "A suite of fnOS DSH bundles for CodeBuddy, Codex authentication, and fnOS integration in Web profiles.",
+      "install_command": "dsh plugin --profile web add @tnnevol/dsh-codebuddy@rc && dsh plugin --profile web add @tnnevol/dsh-codex-auth@rc && dsh plugin --profile web add @tnnevol/dsh-fnos@rc",
+      "manifest_path": "plugins/dsh-codebuddy-plugin/package.json",
+      "entrypoint": "@tnnevol/dsh-codebuddy, @tnnevol/dsh-codex-auth, and @tnnevol/dsh-fnos",
+      "stars": 31,
+      "stars_at_addition": 31,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
     },
     {
       "name": "Helmd",
@@ -4711,6 +5221,21 @@
       "stars_at_addition": 30,
       "added_at": "2026-09-02",
       "verified_at": "2026-09-02"
+    },
+    {
+      "name": "DSH Minigames",
+      "repo": "lhh010/dsh-minigames",
+      "package": "@dsh-external/dsh-minigames",
+      "category": "UI & Interfaces",
+      "license": "BSD-3-Clause",
+      "description": "A DSH Web bundle that adds a floating mini-games panel without changing the core conversation flow.",
+      "install_command": "dsh plugin --profile web add '@dsh-external/dsh-minigames@github:lhh010/dsh-minigames#v0.3.18'",
+      "manifest_path": "package.json",
+      "entrypoint": "@dsh-external/dsh-minigames",
+      "stars": 30,
+      "stars_at_addition": 30,
+      "added_at": "2026-09-13",
+      "verified_at": "2026-09-13"
     },
     {
       "name": "DSH Pipeline Kernel",
