@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-13",
+  "last_updated": "2026-09-17",
   "minimum_stars": 30,
   "plugins": [
     {
@@ -946,6 +946,21 @@
       "stars_at_addition": 325,
       "added_at": "2026-08-25",
       "verified_at": "2026-08-28"
+    },
+    {
+      "name": "DSH Hub Agent Tools",
+      "repo": "pax-beehive/dsh-hub-cli",
+      "package": "@dsh-plugin-hub/dsh-plugin",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness bundle that gives agents tools for inspecting, planning, applying, and rolling back reproducible plugin and profile installations.",
+      "install_command": "dsh plugin --profile web add @dsh-plugin-hub/dsh-plugin",
+      "manifest_path": "packages/dsh-plugin/package.json",
+      "entrypoint": "@dsh-plugin-hub/dsh-plugin",
+      "stars": 346,
+      "stars_at_addition": 346,
+      "added_at": "2026-09-17",
+      "verified_at": "2026-09-17"
     },
     {
       "name": "Harmony Next DSH",
@@ -3273,6 +3288,21 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "DSH Prompt Optimizer",
+      "repo": "WestFox-AwA/dsh-prompt-optimizer",
+      "package": "@dsh-external/dsh-prompt-optimizer",
+      "category": "Input & Navigation",
+      "license": "BSD-3-Clause",
+      "description": "A DeepSeek Harness bundle that analyzes and rewrites prompts with configurable optimization steps before model requests.",
+      "install_command": "dsh plugin --profile web add https://github.com/WestFox-AwA/dsh-prompt-optimizer/releases/latest/download/dsh-external-dsh-prompt-optimizer.tgz",
+      "manifest_path": "package.json",
+      "entrypoint": "@dsh-external/dsh-prompt-optimizer",
+      "stars": 55,
+      "stars_at_addition": 55,
+      "added_at": "2026-09-17",
+      "verified_at": "2026-09-17"
+    },
+    {
       "name": "DSH Token Pet",
       "repo": "Jimmy0123-ux/dsh-token-pet",
       "package": "dsh-token-pet",
@@ -3301,6 +3331,21 @@
       "stars_at_addition": 49,
       "added_at": "2026-08-22",
       "verified_at": "2026-08-28"
+    },
+    {
+      "name": "DSH Better Display",
+      "repo": "aa2246740/dsh-better-display",
+      "package": "dsh-better-display",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "A DeepSeek Harness Web bundle that adds improved message rendering, session display controls, and related conversation UI features.",
+      "install_command": "dsh plugin --profile web add github:aa2246740/dsh-better-display",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-better-display",
+      "stars": 54,
+      "stars_at_addition": 54,
+      "added_at": "2026-09-17",
+      "verified_at": "2026-09-17"
     },
     {
       "name": "DSH Prompt Enhancer",
@@ -4698,6 +4743,21 @@
       "verified_at": "2026-09-02"
     },
     {
+      "name": "DSH Better Edit",
+      "repo": "Rianico/dsh-better-edit",
+      "package": "dsh-better-edit",
+      "category": "Files & Runtime",
+      "license": "MIT",
+      "description": "A DeepSeek Harness bundle that provides hash-addressed read and edit tools for verified file changes.",
+      "install_command": "npx @deepseek-ai/dsh plugin --profile web add dsh-better-edit",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-better-edit",
+      "stars": 33,
+      "stars_at_addition": 33,
+      "added_at": "2026-09-17",
+      "verified_at": "2026-09-17"
+    },
+    {
       "name": "DSH Claude Provider",
       "repo": "MoFeng2223/dsh-claude-provider",
       "package": "@mofeng2223/dsh-claude-provider",
@@ -4818,6 +4878,21 @@
       "verified_at": "2026-09-09"
     },
     {
+      "name": "DSH Any Background",
+      "repo": "Tkingxiao/dsh-any-background",
+      "package": "dsh-any-background",
+      "category": "Themes & Appearance",
+      "license": "MIT",
+      "description": "A DeepSeek Harness Web appearance bundle for theme colors, image or video wallpapers, and per-surface opacity and blur.",
+      "install_command": "dsh plugin --profile web add dsh-any-background",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-any-background",
+      "stars": 32,
+      "stars_at_addition": 32,
+      "added_at": "2026-09-17",
+      "verified_at": "2026-09-17"
+    },
+    {
       "name": "DSH Bloom Theme",
       "repo": "webkubor/dsh-bloom-theme",
       "package": "@kubor/dsh-bloom-theme",
@@ -4923,6 +4998,21 @@
       "verified_at": "2026-09-02"
     },
     {
+      "name": "DSH Thinking Effort",
+      "repo": "hytime/dsh-thinking-effort",
+      "package": "@hytime/dsh-thinking-effort",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness bundle that adds reasoning-effort settings for models and default effort controls for subagents.",
+      "install_command": "dsh plugin --profile web add @hytime/dsh-thinking-effort",
+      "manifest_path": "package.json",
+      "entrypoint": "@hytime/dsh-thinking-effort",
+      "stars": 32,
+      "stars_at_addition": 32,
+      "added_at": "2026-09-17",
+      "verified_at": "2026-09-17"
+    },
+    {
       "name": "DSH-Code",
       "repo": "UNLINEARITY/dsh-code",
       "package": "dsh-code",
@@ -4951,6 +5041,21 @@
       "stars_at_addition": 31,
       "added_at": "2026-09-06",
       "verified_at": "2026-09-06"
+    },
+    {
+      "name": "DeepSeek Harness ACP",
+      "repo": "openma-ai/deepseek-harness-acp",
+      "package": "@openma/deepseek-harness-acp",
+      "category": "Files & Runtime",
+      "license": "Apache-2.0",
+      "description": "A DeepSeek Harness bundle that exposes sessions, tools, skills, and persistence through the Agent Client Protocol.",
+      "install_command": "dsh plugin --profile acp add @openma/deepseek-harness-acp@latest",
+      "manifest_path": "package.json",
+      "entrypoint": "@openma/deepseek-harness-acp",
+      "stars": 31,
+      "stars_at_addition": 31,
+      "added_at": "2026-09-17",
+      "verified_at": "2026-09-17"
     },
     {
       "name": "DSH AGY",
@@ -5026,6 +5131,21 @@
       "stars_at_addition": 31,
       "added_at": "2026-09-13",
       "verified_at": "2026-09-13"
+    },
+    {
+      "name": "DSH Mobile Gateway",
+      "repo": "Clarklevis1995/dsh-plugin-mobile-gateway",
+      "package": "dsh-plugin-mobile-gateway",
+      "category": "Input & Navigation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness Web bundle that provides authenticated mobile gateway access with session control, events, files, and device pairing.",
+      "install_command": "dsh plugin --profile web add dsh-plugin-mobile-gateway@latest",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-plugin-mobile-gateway",
+      "stars": 31,
+      "stars_at_addition": 31,
+      "added_at": "2026-09-17",
+      "verified_at": "2026-09-17"
     },
     {
       "name": "DSH Recall Plugin",
