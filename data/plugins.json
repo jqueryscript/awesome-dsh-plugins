@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-17",
+  "last_updated": "2026-09-22",
   "minimum_stars": 30,
   "plugins": [
     {
@@ -541,6 +541,21 @@
       "stars_at_addition": 35,
       "added_at": "2026-08-17",
       "verified_at": "2026-08-28"
+    },
+    {
+      "name": "DSH Plugin Shop",
+      "repo": "LivXue/dsh-plugin-shop",
+      "package": "dsh-plugin-shop",
+      "category": "UI & Interfaces",
+      "license": "Apache-2.0",
+      "description": "A DeepSeek Harness Web bundle for browsing, installing, enabling, and updating community plugins from a settings panel.",
+      "install_command": "dsh plugin --profile web add dsh-plugin-shop@0.8.2",
+      "manifest_path": "packages/dsh-plugin-shop/package.json",
+      "entrypoint": "dsh-plugin-shop",
+      "stars": 854,
+      "stars_at_addition": 854,
+      "added_at": "2026-09-22",
+      "verified_at": "2026-09-22"
     },
     {
       "name": "DSH Vision Toolkit",
@@ -1366,6 +1381,21 @@
       "stars_at_addition": 171,
       "added_at": "2026-08-22",
       "verified_at": "2026-08-28"
+    },
+    {
+      "name": "DSH Capsule",
+      "repo": "whDonline/dsh-capsule",
+      "package": "@dsh-capsule/adapter",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness capability-guard bundle for observing and governing sandbox escalation leases, managed capabilities, and audit events.",
+      "install_command": "git clone https://github.com/whDonline/dsh-capsule.git && dsh plugin --profile web add ./dsh-capsule/adapter",
+      "manifest_path": "adapter/package.json",
+      "entrypoint": "@dsh-capsule/adapter",
+      "stars": 195,
+      "stars_at_addition": 195,
+      "added_at": "2026-09-22",
+      "verified_at": "2026-09-22"
     },
     {
       "name": "Open Sea Skin",
@@ -2388,6 +2418,21 @@
       "verified_at": "2026-08-31"
     },
     {
+      "name": "DSH Plugin Hub Console",
+      "repo": "Noob-stupid/dsh-plugin-gating-hub",
+      "package": "@noob-stupid/dsh-plugin-console",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "A DeepSeek Harness Web bundle for viewing installed plugins, toggling profile rows, checking compatibility, and finding installable packages.",
+      "install_command": "dsh plugin --profile web add @noob-stupid/dsh-plugin-console",
+      "manifest_path": "package.json",
+      "entrypoint": "@noob-stupid/dsh-plugin-console",
+      "stars": 88,
+      "stars_at_addition": 88,
+      "added_at": "2026-09-22",
+      "verified_at": "2026-09-22"
+    },
+    {
       "name": "DSH Vision",
       "repo": "oil-oil/dsh-vision",
       "package": "@oil-oil/dsh-vision",
@@ -2808,6 +2853,21 @@
       "verified_at": "2026-09-13"
     },
     {
+      "name": "Jev DSH Decision Engine",
+      "repo": "Devin-AXIS/jev-dsh-decision",
+      "package": "dsh-jev-decision-model",
+      "category": "Workflow & Automation",
+      "license": "No standard license",
+      "description": "A DeepSeek Harness bundle that adds structured decisions for choosing tools, skills, task owners, and output-quality checks.",
+      "install_command": "git clone https://github.com/Devin-AXIS/jev-dsh-decision.git && dsh plugin --profile web add ./jev-dsh-decision",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-jev-decision-model",
+      "stars": 68,
+      "stars_at_addition": 68,
+      "added_at": "2026-09-22",
+      "verified_at": "2026-09-22"
+    },
+    {
       "name": "DSH Claude UX",
       "repo": "eri64/dsh-claude-ux",
       "package": "dsh-claude-ux",
@@ -3031,6 +3091,21 @@
       "stars_at_addition": 43,
       "added_at": "2026-08-25",
       "verified_at": "2026-08-28"
+    },
+    {
+      "name": "DSH Normify",
+      "repo": "yan-mc/dsh-normify",
+      "package": "@dsh-external/dsh-normify",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness bundle that enforces architecture rules, bilingual naming, and validation workflows for agent-written projects.",
+      "install_command": "dsh plugin --profile web-desktop add <dsh-normify-directory>",
+      "manifest_path": "package.json",
+      "entrypoint": "@dsh-external/dsh-normify",
+      "stars": 60,
+      "stars_at_addition": 60,
+      "added_at": "2026-09-22",
+      "verified_at": "2026-09-22"
     },
     {
       "name": "DSH Smooth Stream",
@@ -4053,6 +4128,21 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "DSH Plugins Collection",
+      "repo": "sjtuszh/dsh-plugins",
+      "package": "dsh-cost-panel, dsh-file-actions, and other bundles",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "A collection of DeepSeek Harness Web bundles for cost panels, file actions, and related interface utilities.",
+      "install_command": "dsh plugin --profile web add dsh-cost-panel",
+      "manifest_path": "dsh-cost-panel/package.json",
+      "entrypoint": "dsh-cost-panel, dsh-file-actions, and related bundles",
+      "stars": 40,
+      "stars_at_addition": 40,
+      "added_at": "2026-09-22",
+      "verified_at": "2026-09-22"
+    },
+    {
       "name": "DSH Raw HTML",
       "repo": "plolpl789/dsh-raw-html",
       "package": "dsh-raw-html",
@@ -4216,6 +4306,21 @@
       "stars_at_addition": 38,
       "added_at": "2026-09-06",
       "verified_at": "2026-09-06"
+    },
+    {
+      "name": "DSH Doublecheck",
+      "repo": "PerryLink/dsh-doublecheck",
+      "package": "dsh-doublecheck",
+      "category": "Workflow & Automation",
+      "license": "Apache-2.0",
+      "description": "A DeepSeek Harness bundle that adds requirement review, test-evidence gates, adversarial delivery review, and durable handoff reports.",
+      "install_command": "dsh plugin --profile web add dsh-doublecheck",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-doublecheck/grill and dsh-doublecheck/guard",
+      "stars": 38,
+      "stars_at_addition": 38,
+      "added_at": "2026-09-22",
+      "verified_at": "2026-09-22"
     },
     {
       "name": "DSH Gov Portal",
@@ -4428,6 +4533,21 @@
       "verified_at": "2026-09-06"
     },
     {
+      "name": "DSH Session Workbench",
+      "repo": "PolinniZhong/dsh-session-workbench",
+      "package": "dsh-session-workbench",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "A DeepSeek Harness Web bundle for searching sessions, browsing full-text results, and inserting cross-session references into the composer.",
+      "install_command": "dsh plugin --profile web add dsh-session-workbench",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-session-workbench",
+      "stars": 36,
+      "stars_at_addition": 36,
+      "added_at": "2026-09-22",
+      "verified_at": "2026-09-22"
+    },
+    {
       "name": "DSH Usage Plugin",
       "repo": "feiyang-dev/dsh-usage-plugin",
       "package": "@feiyang666/dsh-usage-plugin",
@@ -4486,6 +4606,21 @@
       "stars_at_addition": 35,
       "added_at": "2026-09-02",
       "verified_at": "2026-09-02"
+    },
+    {
+      "name": "DSH Data Quality",
+      "repo": "PerryLink/dsh-data-quality",
+      "package": "dsh-data-quality",
+      "category": "Workflow & Automation",
+      "license": "Apache-2.0",
+      "description": "A DeepSeek Harness bundle for profiling, cleaning, and verifying CSV, TSV, JSON, and JSONL datasets with stored reports.",
+      "install_command": "dsh plugin --profile web add dsh-data-quality",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-data-quality",
+      "stars": 35,
+      "stars_at_addition": 35,
+      "added_at": "2026-09-22",
+      "verified_at": "2026-09-22"
     },
     {
       "name": "DSH Lark Link",
@@ -4653,6 +4788,21 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "DSH Persistent Agent Team",
+      "repo": "wowyuarm/dsh-agent-team",
+      "package": "@wowyuarm/dsh-agent-team",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness Web bundle for persistent agent teams with member memory, workspaces, channels, and task threads.",
+      "install_command": "dsh plugin --profile web add @wowyuarm/dsh-agent-team",
+      "manifest_path": "package.json",
+      "entrypoint": "@wowyuarm/dsh-agent-team",
+      "stars": 34,
+      "stars_at_addition": 34,
+      "added_at": "2026-09-22",
+      "verified_at": "2026-09-22"
+    },
+    {
       "name": "DSH Pet Remielle",
       "repo": "Gin-7/dsh-pet-remielle",
       "package": "dsh-pet-remielle",
@@ -4803,6 +4953,21 @@
       "verified_at": "2026-09-02"
     },
     {
+      "name": "DSH OpenCode Palette",
+      "repo": "FeatherHunter/dsh-opencode-palette",
+      "package": "dsh-opencode-palette",
+      "category": "Themes & Appearance",
+      "license": "MIT",
+      "description": "A DeepSeek Harness Web bundle that adds 38 OpenCode-inspired color themes with one-click switching.",
+      "install_command": "dsh plugin --profile web add dsh-opencode-palette",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-opencode-palette",
+      "stars": 33,
+      "stars_at_addition": 33,
+      "added_at": "2026-09-22",
+      "verified_at": "2026-09-22"
+    },
+    {
       "name": "DSH Remote Suite",
       "repo": "Blank-not-black/dsh-Remote",
       "package": "dsh-remote-plugin",
@@ -4831,6 +4996,21 @@
       "stars_at_addition": 33,
       "added_at": "2026-09-09",
       "verified_at": "2026-09-09"
+    },
+    {
+      "name": "Lark Agent Bridge DSH",
+      "repo": "bihangchi9-creator/lark-agent-bridge",
+      "package": "@bihangchi9/lark-agent-bridge",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness bundle that connects Feishu and Lark chats to isolated local agent workspaces and persistent sessions.",
+      "install_command": "dsh plugin --profile web add link:/path/to/lark-agent-bridge",
+      "manifest_path": "package.json",
+      "entrypoint": "@bihangchi9/lark-agent-bridge",
+      "stars": 33,
+      "stars_at_addition": 33,
+      "added_at": "2026-09-22",
+      "verified_at": "2026-09-22"
     },
     {
       "name": "OpenMAIC DSH",
@@ -5011,6 +5191,36 @@
       "stars_at_addition": 32,
       "added_at": "2026-09-17",
       "verified_at": "2026-09-17"
+    },
+    {
+      "name": "DSH UI Skin Theme",
+      "repo": "chouxiaohuai/dsh-uiskin-theme",
+      "package": "uiskin-theme",
+      "category": "Themes & Appearance",
+      "license": "No standard license",
+      "description": "A DeepSeek Harness Web bundle that adds an ocean-themed interface, light and dark switching, and live thinking-time display.",
+      "install_command": "dsh plugin --profile web add github:chouxiaohuai/dsh-uiskin-theme#main",
+      "manifest_path": "package.json",
+      "entrypoint": "uiskin-theme",
+      "stars": 32,
+      "stars_at_addition": 32,
+      "added_at": "2026-09-22",
+      "verified_at": "2026-09-22"
+    },
+    {
+      "name": "DSH WorkBuddy Connector",
+      "repo": "dingminhua/dsh-connect-workbuddy",
+      "package": "dsh-connect-workbuddy",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness bundle that connects signed-in WorkBuddy accounts as selectable model providers and shows read-only account status.",
+      "install_command": "dsh plugin --profile web add dsh-connect-workbuddy",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-connect-workbuddy",
+      "stars": 32,
+      "stars_at_addition": 32,
+      "added_at": "2026-09-22",
+      "verified_at": "2026-09-22"
     },
     {
       "name": "DSH-Code",
@@ -5283,6 +5493,21 @@
       "verified_at": "2026-08-31"
     },
     {
+      "name": "Amadeus for DSH",
+      "repo": "yyxcnasd/amadeus-for-dsh",
+      "package": "amadeus-for-dsh",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "A DeepSeek Harness Web bundle that adds an Amadeus assistant modeled on Makise Kurisu from Steins;Gate 0.",
+      "install_command": "dsh plugin --profile web add github:yyxcnasd/amadeus-for-dsh",
+      "manifest_path": "package.json",
+      "entrypoint": "amadeus-for-dsh",
+      "stars": 30,
+      "stars_at_addition": 30,
+      "added_at": "2026-09-22",
+      "verified_at": "2026-09-22"
+    },
+    {
       "name": "Chinese Traditional Wisdom DSH",
       "repo": "dhicoc/dsh-chinese-traditional-wisdom-skill",
       "package": "@dhicoc/dsh-chinese-traditional-wisdom-skill",
@@ -5341,6 +5566,21 @@
       "stars_at_addition": 30,
       "added_at": "2026-09-02",
       "verified_at": "2026-09-02"
+    },
+    {
+      "name": "DSH KLine",
+      "repo": "FTShare-Lab/dsh_kline",
+      "package": "@ftshare-lab/dsh-kline",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "A DeepSeek Harness Web bundle for market data, candlestick charts, technical indicators, and FTShare-backed research tools.",
+      "install_command": "dsh plugin --profile web add github:FTShare-Lab/dsh_kline",
+      "manifest_path": "package.json",
+      "entrypoint": "@ftshare-lab/dsh-kline",
+      "stars": 30,
+      "stars_at_addition": 30,
+      "added_at": "2026-09-22",
+      "verified_at": "2026-09-22"
     },
     {
       "name": "DSH Minigames",
