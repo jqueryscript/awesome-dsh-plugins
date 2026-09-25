@@ -5,7 +5,7 @@
 [![Quality](https://github.com/jqueryscript/awesome-dsh-plugins/actions/workflows/quality.yml/badge.svg)](https://github.com/jqueryscript/awesome-dsh-plugins/actions/workflows/quality.yml)
 [![Update Stars](https://github.com/jqueryscript/awesome-dsh-plugins/actions/workflows/update-stars.yml/badge.svg)](https://github.com/jqueryscript/awesome-dsh-plugins/actions/workflows/update-stars.yml)
 
-**Last verified:** 2026-09-22 | **Minimum at admission:** 30 stars | **Plugins:** 378
+**Last verified:** 2026-09-22 | **Minimum at admission:** 30 stars | **Plugins:** 389
 
 ## Contents
 
@@ -60,6 +60,9 @@ Each category below contains the actual plugin entries. Entries within a categor
 
 - [Univer Office DSH](https://github.com/dream-num/dsh-univer-office) - **186 stars** | `Apache-2.0`. A DSH office bundle for creating and editing spreadsheets, documents, presentations, tables, canvases, and existing office files.
   - Install: `dsh plugin --profile web add dsh-univer-office`
+
+- [DSH DeepSeek Web Login](https://github.com/cv-superding/dsh-deepseek-web-login) - **144 stars** | `Apache-2.0`. Use chat.deepseek.com web models as a DSH language model provider.
+  - Install: `dsh plugin --profile desktop add dsh-deepseek-web-login`
 
 - [DSH Git Bash Preset](https://github.com/liceses/dsh-gitbash-preset) - **138 stars** | `MIT`. A DeepSeek Harness preset that configures Git Bash support and a ready-to-use terminal environment.
   - Install: `dsh plugin --profile web add @icelily/dsh-gitbash-preset`
@@ -117,6 +120,12 @@ Each category below contains the actual plugin entries. Entries within a categor
 
 - [DeepSeek Harness ACP](https://github.com/openma-ai/deepseek-harness-acp) - **31 stars** | `Apache-2.0`. A DeepSeek Harness bundle that exposes sessions, tools, skills, and persistence through the Agent Client Protocol.
   - Install: `dsh plugin --profile acp add @openma/deepseek-harness-acp@latest`
+
+- [DSH ChatGPT Subscription](https://github.com/Aa728848/dsh-chatgpt-subscription) - **31 stars** | `MIT`. Connect a ChatGPT subscription as a model provider in DSH.
+  - Install: `dsh plugin --profile web add @eddyskywalker/dsh-chatgpt-subscription`
+
+- [DSH OpenCode Go](https://github.com/Duskriver/dsh-opencode-go) - **31 stars** | `MIT`. Connect OpenCode Go models to the DSH model provider interface.
+  - Install: `dsh plugin --profile web add dsh-opencode-go@0.1.12`
 
 - [DSH Files](https://github.com/taxueseek/dsh-files) - **30 stars** | `MIT`. A DSH bundle for isolated file uploads, document reading, and cached text extraction across common file formats.
   - Install: `dsh plugin --profile web add git+https://github.com/taxueseek/dsh-files.git`
@@ -260,6 +269,9 @@ Each category below contains the actual plugin entries. Entries within a categor
 - [Mnemon](https://github.com/mnemon-dev/mnemon) - **534 stars** | `Apache-2.0`. A persistent memory plugin that supplies graph-based recall and cross-session knowledge to DSH agents.
   - Install: `dsh plugin --profile web add dsh-mnemon`
 
+- [ClearAI DSH](https://github.com/Clearailhc/clearai-dsh) - **508 stars** | `Apache-2.0`. Add an epistemic loop and local knowledge exploration to DeepSeek Harness.
+  - Install: `dsh plugin --profile web add clearai-dsh`
+
 - [MisakaNet DSH](https://github.com/Ikalus1988/MisakaNet) - **430 stars** | `Apache-2.0`. A DSH plugin for searching and sharing verified debugging lessons from a local, Git-backed knowledge base.
   - Install: `dsh plugin add git+https://github.com/Ikalus1988/MisakaNet.git`
 
@@ -304,6 +316,9 @@ Each category below contains the actual plugin entries. Entries within a categor
 
 - [DSH Turn Rewind](https://github.com/Anionex/dsh-turn-rewind) - **105 stars** | `BSD-3-Clause`. A DSH recovery plugin that records workspace changes and restores a conversation turn through its Change Ledger.
   - Install: `dsh plugin --profile web add @anionex/dsh-turn-rewind`
+
+- [DSH Project Brain](https://github.com/yj-liuzepeng/dsh-project-brain) - **77 stars** | `MIT`. Store project architecture and cross-session context for DSH agents.
+  - Install: `dsh plugin --profile web add github:yj-liuzepeng/dsh-project-brain#v0.7.0-beta.2`
 
 - [Meow Memory](https://github.com/Phant0Meow/dsh-meow-memory) - **73 stars** | `MIT`. A cross-session memory bundle with layered storage, BM25 retrieval, session capture, and a configurable Web panel.
   - Install: `dsh plugin --profile web add github:Phant0Meow/dsh-meow-memory`
@@ -364,6 +379,9 @@ Each category below contains the actual plugin entries. Entries within a categor
 
 - [Chinese Traditional Wisdom DSH](https://github.com/dhicoc/dsh-chinese-traditional-wisdom-skill) - **30 stars** | `MIT`. A DeepSeek Harness bundle that packages a local-first Chinese traditional wisdom consultation workflow.
   - Install: `dsh plugin add github:dhicoc/dsh-chinese-traditional-wisdom-skill`
+
+- [DSH Memoir](https://github.com/Qinling-Melon-Farmers/dsh-memoir) - **30 stars** | `Apache-2.0`. Keep local project memory available across DSH sessions.
+  - Install: `dsh plugin --profile web add dsh-memoir@0.8.0`
 
 - [DSH Research Report](https://github.com/PerryLink/dsh-research-report) - **30 stars** | `Apache-2.0`. A DeepSeek Harness bundle for producing evidence-linked research reports with verification states and audit artifacts.
   - Install: `dsh plugin --profile demo add dsh-research-report`
@@ -512,6 +530,9 @@ Each category below contains the actual plugin entries. Entries within a categor
 
 - [DSH Visualize](https://github.com/Nagi-ovo/dsh-visualize) - **225 stars** | `BSD-3-Clause`. An inline visualization plugin that renders interactive HTML fragments as sandboxed cards in DSH conversations.
   - Install: `dsh plugin --profile web add github:Nagi-ovo/dsh-visualize`
+
+- [EchoCat Skill Panel](https://github.com/VDERR/dsh-echocat-skill-panel) - **201 stars** | `MIT`. Audit skill calls and manage installed skills from the DSH interface.
+  - Install: `dsh plugin --profile web add dsh-echocat-skill-panel`
 
 - [DSH Plugins Marketplace](https://github.com/bradeGithub/DSH-Plugins-Marketplace) - **164 stars** | `MIT`. A Web plugin market for discovering, installing, updating, and removing community DSH plugins from the settings interface.
   - Install: `dsh plugin --profile web install bradeGithub/DSH-Plugins-Marketplace`
@@ -693,6 +714,9 @@ Each category below contains the actual plugin entries. Entries within a categor
 - [DSH-Code](https://github.com/UNLINEARITY/dsh-code) - **32 stars** | `MIT`. A terminal coding interface that runs as an out-of-tree DeepSeek Harness bundle with the official agent and tool ecosystem.
   - Install: `dsh plugin --profile cli add dsh-code@1.0.2`
 
+- [DSH Feishu](https://github.com/PGZXB/dsh-feishu) - **31 stars** | `MIT`. Control DSH from a Feishu panel with buttons for agent commands.
+  - Install: `npx @deepseek-ai/dsh plugin --profile feishu add @dsh-feishu/dsh-feishu@latest --allow-build=protobufjs`
+
 - [DSH File Review](https://github.com/left0ver/dsh-file-review) - **31 stars** | `MIT`. A DeepSeek Harness Web plugin that reviews files changed during an agent turn and presents the findings in the conversation.
   - Install: `dsh plugin --profile web add dsh-file-review`
 
@@ -704,6 +728,9 @@ Each category below contains the actual plugin entries. Entries within a categor
 
 - [DSH Workbench](https://github.com/loadingvx/deepseek-harness-workbench-plugin) - **31 stars** | `MIT`. A DeepSeek Harness Web workbench plugin with an editor, file and Git tools, session inspection, and workspace panels.
   - Install: `dsh plugin --profile web add dsh-workbench-plugin@0.1.32`
+
+- [DSH Better Reasoning Effort](https://github.com/HaoyueQin/dsh-better-reasoning-effort) - **30 stars** | `MIT`. Set reasoning effort levels for third-party models in the DSH Models page.
+  - Install: `dsh plugin --profile web add dsh-better-reasoning-effort`
 
 - [DSH Bottom Info Bar](https://github.com/songoao25/dsh-bottom-info-bar) - **30 stars** | `MIT`. A DeepSeek Harness information bar that shows the active provider and model, live balance, pricing status, and persisted session spending.
   - Install: `dsh plugin --profile web add dsh-bottom-info-bar`
@@ -1108,6 +1135,9 @@ Each category below contains the actual plugin entries. Entries within a categor
 - [DSH Lark Link](https://github.com/amlyczz/dsh-lark-link) - **35 stars** | `MIT`. A Feishu/Lark bridge with QR login, multi-agent modes, media exchange, and reusable DSH Web sessions.
   - Install: `dsh plugin --profile web add dsh-lark-link@latest --ignore-scripts`
 
+- [DSH Plugin Kit](https://github.com/hyzyn/dsh-plugin-kit) - **35 stars** | `Apache-2.0`. Install a bundle of DSH tools for profiles, prompts, MCP settings, search, and more.
+  - Install: `dsh plugin --profile web add @hyzyn/dsh-plugin-kit`
+
 - [DSH Save Money](https://github.com/zhu168/dsh-save-money) - **35 stars** | `MIT`. A DeepSeek Harness bundle for tracking model usage and helping reduce unnecessary token spending.
   - Install: `npx @deepseek-ai/dsh plugin --profile web add dsh-save-money`
 
@@ -1158,6 +1188,9 @@ Each category below contains the actual plugin entries. Entries within a categor
 
 - [DSH AGY](https://github.com/chaos-03x/dsh-agy) - **31 stars** | `MIT`. A DeepSeek Harness provider plugin for Google Antigravity OAuth login, model access, and multi-account rotation.
   - Install: `dsh plugin --profile web add dsh-agy`
+
+- [DSH MCP Connector](https://github.com/duhu2000/dsh-mcp-connector) - **31 stars** | `MIT`. Manage MCP server connections and search tools across active connections in DSH.
+  - Install: `dsh plugin --profile web add dsh-mcp-connector`
 
 - [DSH Recall Plugin](https://github.com/limbo947/dsh-recall-plugin) - **31 stars** | `MIT`. A DeepSeek Harness bundle that returns a conversation to the state captured when a message was sent.
   - Install: `dsh plugin --profile web add dsh-recall-plugin`

@@ -798,6 +798,21 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "ClearAI DSH",
+      "repo": "Clearailhc/clearai-dsh",
+      "package": "clearai-dsh",
+      "category": "Memory & Knowledge",
+      "license": "Apache-2.0",
+      "description": "Add an epistemic loop and local knowledge exploration to DeepSeek Harness.",
+      "install_command": "dsh plugin --profile web add clearai-dsh",
+      "manifest_path": "package.json",
+      "entrypoint": "clearai-dsh",
+      "stars": 508,
+      "stars_at_addition": 508,
+      "added_at": "2026-09-25",
+      "verified_at": "2026-09-25"
+    },
+    {
       "name": "DSH Browser",
       "repo": "Lum1104/dsh-browser",
       "package": "@deepseek-ai/dsh-bridge-browser",
@@ -1368,6 +1383,21 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "EchoCat Skill Panel",
+      "repo": "VDERR/dsh-echocat-skill-panel",
+      "package": "dsh-echocat-skill-panel",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "Audit skill calls and manage installed skills from the DSH interface.",
+      "install_command": "dsh plugin --profile web add dsh-echocat-skill-panel",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-echocat-skill-panel",
+      "stars": 201,
+      "stars_at_addition": 201,
+      "added_at": "2026-09-25",
+      "verified_at": "2026-09-25"
+    },
+    {
       "name": "DSH Agent RP",
       "repo": "hewzhew/dsh-agent-rp",
       "package": "@dsh-external/dsh-agent-rp",
@@ -1696,6 +1726,21 @@
       "stars_at_addition": 64,
       "added_at": "2026-08-17",
       "verified_at": "2026-08-28"
+    },
+    {
+      "name": "DSH DeepSeek Web Login",
+      "repo": "cv-superding/dsh-deepseek-web-login",
+      "package": "dsh-deepseek-web-login",
+      "category": "Files & Runtime",
+      "license": "Apache-2.0",
+      "description": "Use chat.deepseek.com web models as a DSH language model provider.",
+      "install_command": "dsh plugin --profile desktop add dsh-deepseek-web-login",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-deepseek-web-login",
+      "stars": 144,
+      "stars_at_addition": 144,
+      "added_at": "2026-09-25",
+      "verified_at": "2026-09-25"
     },
     {
       "name": "DSH Damage Pulse",
@@ -2626,6 +2671,21 @@
       "stars_at_addition": 78,
       "added_at": "2026-09-09",
       "verified_at": "2026-09-09"
+    },
+    {
+      "name": "DSH Project Brain",
+      "repo": "yj-liuzepeng/dsh-project-brain",
+      "package": "dsh-project-brain",
+      "category": "Memory & Knowledge",
+      "license": "MIT",
+      "description": "Store project architecture and cross-session context for DSH agents.",
+      "install_command": "dsh plugin --profile web add github:yj-liuzepeng/dsh-project-brain#v0.7.0-beta.2",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-project-brain",
+      "stars": 77,
+      "stars_at_addition": 77,
+      "added_at": "2026-09-25",
+      "verified_at": "2026-09-25"
     },
     {
       "name": "Russian Marketplace DSH",
@@ -4668,6 +4728,21 @@
       "verified_at": "2026-08-28"
     },
     {
+      "name": "DSH Plugin Kit",
+      "repo": "hyzyn/dsh-plugin-kit",
+      "package": "@hyzyn/dsh-plugin-kit",
+      "category": "Workflow & Automation",
+      "license": "Apache-2.0",
+      "description": "Install a bundle of DSH tools for profiles, prompts, MCP settings, search, and more.",
+      "install_command": "dsh plugin --profile web add @hyzyn/dsh-plugin-kit",
+      "manifest_path": "package.json",
+      "entrypoint": "@hyzyn/dsh-plugin-kit",
+      "stars": 35,
+      "stars_at_addition": 35,
+      "added_at": "2026-09-25",
+      "verified_at": "2026-09-25"
+    },
+    {
       "name": "DSH Save Money",
       "repo": "zhu168/dsh-save-money",
       "package": "dsh-save-money",
@@ -5283,6 +5358,21 @@
       "verified_at": "2026-09-06"
     },
     {
+      "name": "DSH ChatGPT Subscription",
+      "repo": "Aa728848/dsh-chatgpt-subscription",
+      "package": "@eddyskywalker/dsh-chatgpt-subscription",
+      "category": "Files & Runtime",
+      "license": "MIT",
+      "description": "Connect a ChatGPT subscription as a model provider in DSH.",
+      "install_command": "dsh plugin --profile web add @eddyskywalker/dsh-chatgpt-subscription",
+      "manifest_path": "package.json",
+      "entrypoint": "@eddyskywalker/dsh-chatgpt-subscription",
+      "stars": 31,
+      "stars_at_addition": 31,
+      "added_at": "2026-09-25",
+      "verified_at": "2026-09-25"
+    },
+    {
       "name": "DSH Evolve in Git",
       "repo": "Kytolly/dsh-evolve-in-git",
       "package": "dsh-evolve-in-git",
@@ -5296,6 +5386,21 @@
       "stars_at_addition": 31,
       "added_at": "2026-09-13",
       "verified_at": "2026-09-13"
+    },
+    {
+      "name": "DSH Feishu",
+      "repo": "PGZXB/dsh-feishu",
+      "package": "@dsh-feishu/dsh-feishu",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "Control DSH from a Feishu panel with buttons for agent commands.",
+      "install_command": "npx @deepseek-ai/dsh plugin --profile feishu add @dsh-feishu/dsh-feishu@latest --allow-build=protobufjs",
+      "manifest_path": "package.json",
+      "entrypoint": "@dsh-feishu/dsh-feishu",
+      "stars": 31,
+      "stars_at_addition": 31,
+      "added_at": "2026-09-25",
+      "verified_at": "2026-09-25"
     },
     {
       "name": "DSH File Review",
@@ -5343,6 +5448,21 @@
       "verified_at": "2026-09-13"
     },
     {
+      "name": "DSH MCP Connector",
+      "repo": "duhu2000/dsh-mcp-connector",
+      "package": "dsh-mcp-connector",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "Manage MCP server connections and search tools across active connections in DSH.",
+      "install_command": "dsh plugin --profile web add dsh-mcp-connector",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-mcp-connector",
+      "stars": 31,
+      "stars_at_addition": 31,
+      "added_at": "2026-09-25",
+      "verified_at": "2026-09-25"
+    },
+    {
       "name": "DSH Mobile Gateway",
       "repo": "Clarklevis1995/dsh-plugin-mobile-gateway",
       "package": "dsh-plugin-mobile-gateway",
@@ -5356,6 +5476,21 @@
       "stars_at_addition": 31,
       "added_at": "2026-09-17",
       "verified_at": "2026-09-17"
+    },
+    {
+      "name": "DSH OpenCode Go",
+      "repo": "Duskriver/dsh-opencode-go",
+      "package": "dsh-opencode-go",
+      "category": "Files & Runtime",
+      "license": "MIT",
+      "description": "Connect OpenCode Go models to the DSH model provider interface.",
+      "install_command": "dsh plugin --profile web add dsh-opencode-go@0.1.12",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-opencode-go",
+      "stars": 31,
+      "stars_at_addition": 31,
+      "added_at": "2026-09-25",
+      "verified_at": "2026-09-25"
     },
     {
       "name": "DSH Recall Plugin",
@@ -5523,6 +5658,21 @@
       "verified_at": "2026-08-31"
     },
     {
+      "name": "DSH Better Reasoning Effort",
+      "repo": "HaoyueQin/dsh-better-reasoning-effort",
+      "package": "dsh-better-reasoning-effort",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "Set reasoning effort levels for third-party models in the DSH Models page.",
+      "install_command": "dsh plugin --profile web add dsh-better-reasoning-effort",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-better-reasoning-effort",
+      "stars": 30,
+      "stars_at_addition": 30,
+      "added_at": "2026-09-25",
+      "verified_at": "2026-09-25"
+    },
+    {
       "name": "DSH Bottom Info Bar",
       "repo": "songoao25/dsh-bottom-info-bar",
       "package": "dsh-bottom-info-bar",
@@ -5581,6 +5731,21 @@
       "stars_at_addition": 30,
       "added_at": "2026-09-22",
       "verified_at": "2026-09-22"
+    },
+    {
+      "name": "DSH Memoir",
+      "repo": "Qinling-Melon-Farmers/dsh-memoir",
+      "package": "dsh-memoir",
+      "category": "Memory & Knowledge",
+      "license": "Apache-2.0",
+      "description": "Keep local project memory available across DSH sessions.",
+      "install_command": "dsh plugin --profile web add dsh-memoir@0.8.0",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-memoir",
+      "stars": 30,
+      "stars_at_addition": 30,
+      "added_at": "2026-09-25",
+      "verified_at": "2026-09-25"
     },
     {
       "name": "DSH Minigames",
