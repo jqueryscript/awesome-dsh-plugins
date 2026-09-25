@@ -775,7 +775,7 @@ Each category below contains the actual plugin entries. Entries within a categor
 
 ### Workflow & Automation
 
-- [Reactive Resume DSH Plugin](https://github.com/amruthpillai/reactive-resume) - **41.9k stars** | `MIT`. A DeepSeek Harness bundle that connects Reactive Resume to a session for reading, creating, and editing resumes and job applications.
+- [Reactive Resume DSH Plugin](https://github.com/reactive-resume/reactive-resume) - **41.9k stars** | `MIT`. A DeepSeek Harness bundle that connects Reactive Resume to a session for reading, creating, and editing resumes and job applications.
   - Install: `dsh plugin --profile web add dsh-plugin-reactive-resume`
 
 - [Ouroboros](https://github.com/Q00/ouroboros) - **5.7k stars** | `MIT`. A DeepSeek Harness bundle that exposes the Ouroboros spec-first development workflow as native tools and chat commands.

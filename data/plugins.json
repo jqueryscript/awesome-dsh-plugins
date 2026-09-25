@@ -19,7 +19,7 @@
     },
     {
       "name": "Reactive Resume DSH Plugin",
-      "repo": "amruthpillai/reactive-resume",
+      "repo": "reactive-resume/reactive-resume",
       "package": "dsh-plugin-reactive-resume",
       "category": "Workflow & Automation",
       "license": "MIT",
