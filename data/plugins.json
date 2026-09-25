@@ -154,7 +154,7 @@
     },
     {
       "name": "LoopX DSH",
-      "repo": "huangruiteng/loopx",
+      "repo": "loopx-project/loopx",
       "package": "dsh-loopx-plugin",
       "category": "Workflow & Automation",
       "license": "Apache-2.0",
@@ -588,21 +588,6 @@
       "verified_at": "2026-08-28"
     },
     {
-      "name": "Infinite Gen 3 DSH",
-      "repo": "Minglink/dsh-infinite-gen-3",
-      "package": "dsh-infinite-gen-3",
-      "category": "Workflow & Automation",
-      "license": "MIT",
-      "description": "A DSH prompt preset with an activation status bar and profile migration scripts for the Infinite Gen 3 workflow.",
-      "install_command": "bash install.sh",
-      "manifest_path": "package.json",
-      "entrypoint": "dsh-infinite-gen-3",
-      "stars": 801,
-      "stars_at_addition": 801,
-      "added_at": "2026-09-02",
-      "verified_at": "2026-09-02"
-    },
-    {
       "name": "DSH Pocket",
       "repo": "shaobeichen/dsh-pocket",
       "package": "dsh-pocket",
@@ -694,7 +679,7 @@
     },
     {
       "name": "AgentSight DSH",
-      "repo": "alibaba/anolisa",
+      "repo": "agentic-os-org/ANOLISA",
       "package": "@agentsight/dsh-plugin",
       "category": "Workflow & Automation",
       "license": "Apache-2.0",
@@ -720,21 +705,6 @@
       "stars": 606,
       "stars_at_addition": 175,
       "added_at": "2026-08-20",
-      "verified_at": "2026-08-28"
-    },
-    {
-      "name": "Infinite Gen 2 DSH",
-      "repo": "Minglink/dsh-infinite-gen-2",
-      "package": "dsh-infinite-gen-2",
-      "category": "Workflow & Automation",
-      "license": "MIT",
-      "description": "A DSH plugin that adds the Infinite Gen 2 prompt preset and an on-screen activation status bar.",
-      "install_command": "./install.sh",
-      "manifest_path": "package.json",
-      "entrypoint": "dsh-infinite-gen-2",
-      "stars": 586,
-      "stars_at_addition": 585,
-      "added_at": "2026-08-28",
       "verified_at": "2026-08-28"
     },
     {
@@ -814,12 +784,12 @@
     },
     {
       "name": "DSH Browser",
-      "repo": "Lum1104/dsh-browser",
-      "package": "@deepseek-ai/dsh-bridge-browser",
+      "repo": "omdsh-dev/dsh-browser",
+      "package": "@yuxianglin/dsh-bridge-browser",
       "category": "UI & Interfaces",
       "license": "MIT",
       "description": "A Chrome side-panel integration with a DSH bridge for reading pages and operating supported browser content.",
-      "install_command": "curl -fsSL https://raw.githubusercontent.com/Lum1104/dsh-browser/refs/heads/main/scripts/install.sh | bash",
+      "install_command": "curl -fsSL https://raw.githubusercontent.com/omdsh-dev/dsh-browser/refs/heads/main/scripts/install.sh | bash",
       "manifest_path": "packages/browser/bridge-browser/package.json",
       "entrypoint": "@deepseek-ai/dsh-bridge-browser",
       "stars": 503,
@@ -1969,7 +1939,7 @@
     },
     {
       "name": "DSH Harness Remote",
-      "repo": "liguobao/deepseek-harness-remote",
+      "repo": "liguobao/ds-harness-remote",
       "package": "ds-harness-remote",
       "category": "Input & Navigation",
       "license": "MIT",
@@ -2733,21 +2703,6 @@
       "verified_at": "2026-08-31"
     },
     {
-      "name": "DSH Plugin Console",
-      "repo": "Noob-stupid/dsh-plugin-hub",
-      "package": "@deepseek-ai/dsh-plugin-console",
-      "category": "UI & Interfaces",
-      "license": "MIT",
-      "description": "A DSH settings panel for enabling, disabling, inspecting, and installing community plugins from multiple sources.",
-      "install_command": "dsh plugin --profile web add github:Noob-stupid/dsh-plugin-hub",
-      "manifest_path": "package.json",
-      "entrypoint": "@deepseek-ai/dsh-plugin-console",
-      "stars": 73,
-      "stars_at_addition": 39,
-      "added_at": "2026-08-17",
-      "verified_at": "2026-08-28"
-    },
-    {
       "name": "DSH Usage Dock",
       "repo": "Aisland-SJL/dsh-usage",
       "package": "dsh-usage",
@@ -3109,13 +3064,13 @@
     },
     {
       "name": "DSH Mneme",
-      "repo": "modusensus/dsh-mneme",
+      "repo": "slow-stack/mneme",
       "package": "@modusensus/dsh-mneme",
       "category": "Memory & Knowledge",
       "license": "MIT",
       "description": "A DSH memory plugin for persistent project knowledge and recall across sessions.",
       "install_command": "dsh plugin --profile web add @modusensus/dsh-mneme",
-      "manifest_path": "package.json",
+      "manifest_path": "dsh-mneme/package.json",
       "entrypoint": "@modusensus/dsh-mneme",
       "stars": 63,
       "stars_at_addition": 44,
@@ -4560,21 +4515,6 @@
       "stars": 36,
       "stars_at_addition": 32,
       "added_at": "2026-08-25",
-      "verified_at": "2026-08-28"
-    },
-    {
-      "name": "DSH Lark Bridge",
-      "repo": "bihangchi9-creator/dsh-lark-bridge",
-      "package": "dsh-lark-bridge",
-      "category": "Workflow & Automation",
-      "license": "MIT",
-      "description": "A DeepSeek Harness bundle that connects Feishu and Lark group chats to isolated agent sessions and project directories.",
-      "install_command": "dsh plugin --profile web add link:/path/to/dsh-lark-bridge",
-      "manifest_path": "package.json",
-      "entrypoint": "dsh-lark-bridge",
-      "stars": 36,
-      "stars_at_addition": 35,
-      "added_at": "2026-08-24",
       "verified_at": "2026-08-28"
     },
     {
