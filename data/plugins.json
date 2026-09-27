@@ -813,6 +813,21 @@
       "verified_at": "2026-08-31"
     },
     {
+      "name": "ThoughtDAG",
+      "repo": "chenxiachan/thoughtdag",
+      "package": "dsh-thoughtdag",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "An editable conversation graph that lets DSH users choose and shape the context sent with each turn.",
+      "install_command": "dsh plugin --profile web add dsh-thoughtdag",
+      "manifest_path": "dsh/package.json",
+      "entrypoint": "dsh-thoughtdag",
+      "stars": 495,
+      "stars_at_addition": 495,
+      "added_at": "2026-09-27",
+      "verified_at": "2026-09-27"
+    },
+    {
       "name": "DSH At File",
       "repo": "FSMargoo/dsh-at-file",
       "package": "dsh-at-file",

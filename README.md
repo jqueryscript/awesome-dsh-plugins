@@ -5,7 +5,7 @@
 [![Quality](https://github.com/jqueryscript/awesome-dsh-plugins/actions/workflows/quality.yml/badge.svg)](https://github.com/jqueryscript/awesome-dsh-plugins/actions/workflows/quality.yml)
 [![Update Stars](https://github.com/jqueryscript/awesome-dsh-plugins/actions/workflows/update-stars.yml/badge.svg)](https://github.com/jqueryscript/awesome-dsh-plugins/actions/workflows/update-stars.yml)
 
-**Last verified:** 2026-09-22 | **Minimum at admission:** 30 stars | **Plugins:** 385
+**Last verified:** 2026-09-22 | **Minimum at admission:** 30 stars | **Plugins:** 386
 
 ## Contents
 
@@ -509,6 +509,9 @@ Each category below contains the actual plugin entries. Entries within a categor
 
 - [DSH Browser](https://github.com/omdsh-dev/dsh-browser) - **503 stars** | `MIT`. A Chrome side-panel integration with a DSH bridge for reading pages and operating supported browser content.
   - Install: `curl -fsSL https://raw.githubusercontent.com/omdsh-dev/dsh-browser/refs/heads/main/scripts/install.sh | bash`
+
+- [ThoughtDAG](https://github.com/chenxiachan/thoughtdag) - **495 stars** | `MIT`. An editable conversation graph that lets DSH users choose and shape the context sent with each turn.
+  - Install: `dsh plugin --profile web add dsh-thoughtdag`
 
 - [DSH GenUI](https://github.com/omdsh-dev/dsh-genui) - **362 stars** | `MIT`. A DSH rendering plugin for interactive UI components, charts, forms, quizzes, diagrams, and 3D scenes.
   - Install: `dsh plugin --profile web add git+https://github.com/omdsh-dev/dsh-genui.git`
