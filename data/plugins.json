@@ -5028,6 +5028,21 @@
       "verified_at": "2026-09-28"
     },
     {
+      "name": "StudyHub",
+      "repo": "EricWang1358/dsh-web-studyhub",
+      "package": "@ericwang1358/dsh-daily-flashcard",
+      "category": "Memory & Knowledge",
+      "license": "MIT",
+      "description": "Create source-linked flashcards and quizzes from course materials and recordings, then review them with spaced repetition.",
+      "install_command": "dsh plugin --profile web add https://github.com/EricWang1358/dsh-web-studyhub/releases/download/v2.7.1/ericwang1358-dsh-daily-flashcard-2.7.1.tgz",
+      "manifest_path": "package.json",
+      "entrypoint": "@ericwang1358/dsh-daily-flashcard",
+      "stars": 53,
+      "stars_at_addition": 53,
+      "added_at": "2026-10-07",
+      "verified_at": "2026-10-07"
+    },
+    {
       "name": "DSH Tether",
       "repo": "zexadev/dsh-tether",
       "package": "dsh-plugin-tether",
@@ -5838,6 +5853,21 @@
       "verified_at": "2026-09-28"
     },
     {
+      "name": "DSH Startup Screen",
+      "repo": "6shenhonghong9/dsh-startup-screen",
+      "package": "dsh-startup-screen",
+      "category": "Themes & Appearance",
+      "license": "MIT",
+      "description": "Add a startup animation with interactive authorization screens, sound effects, and configurable identity text.",
+      "install_command": "dsh plugin --profile web add https://github.com/6shenhonghong9/dsh-startup-screen/releases/download/v1.1.0/dsh-startup-screen-1.1.0.tgz",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-startup-screen",
+      "stars": 40,
+      "stars_at_addition": 40,
+      "added_at": "2026-10-07",
+      "verified_at": "2026-10-07"
+    },
+    {
       "name": "DSH Web UI Suite",
       "repo": "CAPTAIN1275/dsh-ui-web",
       "package": "@captain1275/dsh-web-ui-all",
@@ -6318,6 +6348,21 @@
       "verified_at": "2026-09-28"
     },
     {
+      "name": "DirectorX",
+      "repo": "LaplaceYoung/dsh-directorx",
+      "package": "dsh-directorx",
+      "category": "Workflow & Automation",
+      "license": "Apache-2.0",
+      "description": "Plan video projects on a storyboard canvas and use native DSH tools for media generation, editing, and FFmpeg quality checks.",
+      "install_command": "dsh plugin --profile web add /absolute/path/to/dsh-directorx",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-directorx",
+      "stars": 35,
+      "stars_at_addition": 35,
+      "added_at": "2026-10-07",
+      "verified_at": "2026-10-07"
+    },
+    {
       "name": "DSH Any Background",
       "repo": "Tkingxiao/dsh-any-background",
       "package": "dsh-any-background",
@@ -6346,6 +6391,21 @@
       "stars_at_addition": 31,
       "added_at": "2026-09-25",
       "verified_at": "2026-09-28"
+    },
+    {
+      "name": "DSH Live2D Pet",
+      "repo": "A8Chann/dsh-pet-live2d",
+      "package": "dsh-pet-live2d",
+      "category": "Themes & Appearance",
+      "license": "MIT; bundled model CC-BY-NC-SA-4.0; Live2D terms",
+      "description": "Add a draggable Live2D pet with cursor tracking, character interactions, outfits, and reactions to DSH session events.",
+      "install_command": "dsh plugin --profile web add dsh-pet-live2d",
+      "manifest_path": "dsh-live2d-pet/package.json",
+      "entrypoint": "dsh-pet-live2d",
+      "stars": 35,
+      "stars_at_addition": 35,
+      "added_at": "2026-10-07",
+      "verified_at": "2026-10-07"
     },
     {
       "name": "DSH QA Skills",
@@ -6618,6 +6678,21 @@
       "verified_at": "2026-10-03"
     },
     {
+      "name": "DSH IM Connect",
+      "repo": "MichengAI/dsh-im-connect",
+      "package": "@michengai/dsh-im-connect",
+      "category": "Input & Navigation",
+      "license": "Apache-2.0",
+      "description": "Connect messaging platforms to local DSH sessions for sending tasks, receiving replies, and handling questions and approvals.",
+      "install_command": "dsh plugin --profile web add @michengai/dsh-im-connect@latest --registry=https://registry.npmjs.org/",
+      "manifest_path": "package.json",
+      "entrypoint": "@michengai/dsh-im-connect",
+      "stars": 33,
+      "stars_at_addition": 33,
+      "added_at": "2026-10-07",
+      "verified_at": "2026-10-07"
+    },
+    {
       "name": "DSH Minigames",
       "repo": "lhh010/dsh-minigames",
       "package": "@dsh-external/dsh-minigames",
@@ -6721,6 +6796,21 @@
       "stars_at_addition": 33,
       "added_at": "2026-10-03",
       "verified_at": "2026-10-03"
+    },
+    {
+      "name": "Game Material Master",
+      "repo": "universe-st/dsh-game-material-master",
+      "package": "dsh-game-material-master",
+      "category": "Vision",
+      "license": "MIT",
+      "description": "Generate character turn videos and extract directional sprite images in a DSH game-asset workbench.",
+      "install_command": "dsh plugin --profile web add dsh-game-material-master",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-game-material-master",
+      "stars": 33,
+      "stars_at_addition": 33,
+      "added_at": "2026-10-07",
+      "verified_at": "2026-10-07"
     },
     {
       "name": "HTML Workbench DSH",
@@ -6843,6 +6933,21 @@
       "verified_at": "2026-10-03"
     },
     {
+      "name": "AI4Scholar",
+      "repo": "literaf/dsh-ai4scholar",
+      "package": "dsh-ai4scholar",
+      "category": "Memory & Knowledge",
+      "license": "MIT",
+      "description": "Search academic literature, retrieve paper text, and generate citations through native DSH tools backed by AI4Scholar.",
+      "install_command": "dsh plugin --profile web add dsh-ai4scholar",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-ai4scholar",
+      "stars": 31,
+      "stars_at_addition": 31,
+      "added_at": "2026-10-07",
+      "verified_at": "2026-10-07"
+    },
+    {
       "name": "DSH Claude Provider",
       "repo": "MoFeng2223/dsh-claude-provider",
       "package": "@mofeng2223/dsh-claude-provider",
@@ -6901,6 +7006,21 @@
       "stars_at_addition": 30,
       "added_at": "2026-09-25",
       "verified_at": "2026-09-28"
+    },
+    {
+      "name": "DSH Preset Enhance",
+      "repo": "bychv/dsh-preset-enhance",
+      "package": "dsh-preset-enhance",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "Import and edit SillyTavern presets, preview prompt messages, and manage tool settings for DSH modes and sessions.",
+      "install_command": "dsh plugin --profile web add dsh-preset-enhance@0.3.4-rc.2",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-preset-enhance",
+      "stars": 31,
+      "stars_at_addition": 31,
+      "added_at": "2026-10-07",
+      "verified_at": "2026-10-07"
     },
     {
       "name": "Godot Bridge DSH",
@@ -6963,6 +7083,21 @@
       "verified_at": "2026-10-03"
     },
     {
+      "name": "DeepCanary",
+      "repo": "Oscar-Williams/dsh-deepcanary",
+      "package": "dsh-deepcanary",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "Track tasks that need attention with a local inbox, grouped notifications, quiet hours, and reminder controls.",
+      "install_command": "dsh plugin --profile web add dsh-deepcanary@0.1.4-rc.1",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-deepcanary",
+      "stars": 30,
+      "stars_at_addition": 30,
+      "added_at": "2026-10-07",
+      "verified_at": "2026-10-07"
+    },
+    {
       "name": "DSH Better Input",
       "repo": "DIAG5/dsh-better-input",
       "package": "dsh-better-input",
@@ -7023,6 +7158,21 @@
       "verified_at": "2026-09-28"
     },
     {
+      "name": "DSH Live2D Pets",
+      "repo": "cyanfish-x/dsh-live2d-pets",
+      "package": "dsh-live2d-pets",
+      "category": "Themes & Appearance",
+      "license": "MIT; model and Live2D terms apply",
+      "description": "Add a Live2D companion with session-state reactions, selectable personas, and support for user-supplied models.",
+      "install_command": "dsh plugin --profile web add dsh-live2d-pets",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-live2d-pets",
+      "stars": 30,
+      "stars_at_addition": 30,
+      "added_at": "2026-10-07",
+      "verified_at": "2026-10-07"
+    },
+    {
       "name": "DSH Pipeline Kernel",
       "repo": "not-big-dog/DSH-pipeline-kernel",
       "package": "dsh-pipeline-kernel",
@@ -7081,6 +7231,21 @@
       "stars_at_addition": 31,
       "added_at": "2026-09-02",
       "verified_at": "2026-09-28"
+    },
+    {
+      "name": "DSH Zotero",
+      "repo": "Vncntvx/dsh-zotero",
+      "package": "dsh-zotero",
+      "category": "Memory & Knowledge",
+      "license": "MIT",
+      "description": "Search a local Zotero library, read notes and annotations, extract evidence, and generate academic citations.",
+      "install_command": "dsh plugin --profile web add dsh-zotero",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-zotero",
+      "stars": 30,
+      "stars_at_addition": 30,
+      "added_at": "2026-10-07",
+      "verified_at": "2026-10-07"
     },
     {
       "name": "Novel Writer DSH",
