@@ -393,6 +393,21 @@
       "verified_at": "2026-09-28"
     },
     {
+      "name": "SAG DSH",
+      "repo": "Zleap-AI/SAG",
+      "package": "@zleap-ai/dsh-sag",
+      "category": "Memory & Knowledge",
+      "license": "MIT",
+      "description": "Search and read a SAG knowledge base, upload documents, and manage stored content through native DSH tools.",
+      "install_command": "dsh plugin --profile web add @zleap-ai/dsh-sag@0.2.0",
+      "manifest_path": "integrations/dsh-sag/packages/dsh-sag/package.json",
+      "entrypoint": "@zleap-ai/dsh-sag",
+      "stars": 2559,
+      "stars_at_addition": 2559,
+      "added_at": "2026-10-10",
+      "verified_at": "2026-10-10"
+    },
+    {
       "name": "DSH Purge",
       "repo": "YuJunZhiXue/dsh-purge",
       "package": "dsh-purge",
@@ -556,6 +571,21 @@
       "stars_at_addition": 1386,
       "added_at": "2026-10-03",
       "verified_at": "2026-10-03"
+    },
+    {
+      "name": "OMA DSH",
+      "repo": "first-fluke/oh-my-agent",
+      "package": "dsh-plugin-oma",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "Run configured OMA validation hooks around DSH tool calls and turn completion in an initialized OMA project.",
+      "install_command": "dsh plugin --profile web add ./integrations/dsh --ignore-scripts",
+      "manifest_path": "integrations/dsh/package.json",
+      "entrypoint": "dsh-plugin-oma",
+      "stars": 1337,
+      "stars_at_addition": 1337,
+      "added_at": "2026-10-10",
+      "verified_at": "2026-10-10"
     },
     {
       "name": "Aegis",
@@ -1036,6 +1066,21 @@
       "stars_at_addition": 81,
       "added_at": "2026-09-09",
       "verified_at": "2026-09-28"
+    },
+    {
+      "name": "Obelisk DSH",
+      "repo": "tommy0103/obelisk",
+      "package": "@obelisk/dsh-obelisk-plugin",
+      "category": "Memory & Knowledge",
+      "license": "AGPL-3.0-only",
+      "description": "Load the packaged Obelisk agent skill through a dedicated DSH bundle with context-window integration.",
+      "install_command": "npm ci && npm run build:core && npm run build --workspace @obelisk/dsh-obelisk-plugin && dsh plugin --profile web add --workspace-root ./packages/dsh-plugin",
+      "manifest_path": "packages/dsh-plugin/package.json",
+      "entrypoint": "@obelisk/dsh-obelisk-plugin",
+      "stars": 571,
+      "stars_at_addition": 571,
+      "added_at": "2026-10-10",
+      "verified_at": "2026-10-10"
     },
     {
       "name": "ModSearch",
@@ -1983,6 +2028,21 @@
       "verified_at": "2026-09-28"
     },
     {
+      "name": "Jev DSH",
+      "repo": "luobosibing2/dsh-jev-plugin",
+      "package": "@dsh-jev/plugin",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "Add Jev agent supervision, shared findings, interjections, and approval controls for DSH 0.1.7-rc.2.",
+      "install_command": "pnpm install --frozen-lockfile --ignore-scripts && pnpm run build && mkdir -p dist && pnpm -C packages/jev pack --pack-destination ../../dist && dsh --profile jev --from-default-profile web --dump-default-config && dsh plugin --profile jev add ./dist/dsh-jev-plugin-0.1.0.tgz",
+      "manifest_path": "package.json",
+      "entrypoint": "@dsh-jev/plugin",
+      "stars": 201,
+      "stars_at_addition": 201,
+      "added_at": "2026-10-10",
+      "verified_at": "2026-10-10"
+    },
+    {
       "name": "SandBase Skills DSH",
       "repo": "sandbaseai/sandbase-skills",
       "package": "@sandbaseai/dsh-skills",
@@ -2131,6 +2191,21 @@
       "stars_at_addition": 153,
       "added_at": "2026-08-16",
       "verified_at": "2026-09-28"
+    },
+    {
+      "name": "AgentDescent DSH",
+      "repo": "Birfy/agentdescent",
+      "package": "dsh-agentdescent",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "Run parallel improvement tasks for skills, prompts, agent definitions, and code through an AgentDescent DSH bundle.",
+      "install_command": "pip install \"agentdescent[mcp]\" && dsh plugin --profile web add link:/absolute/path/to/agentdescent/integrations/dsh-agentdescent",
+      "manifest_path": "integrations/dsh-agentdescent/package.json",
+      "entrypoint": "dsh-agentdescent",
+      "stars": 182,
+      "stars_at_addition": 182,
+      "added_at": "2026-10-10",
+      "verified_at": "2026-10-10"
     },
     {
       "name": "DSH Research Report",
@@ -3528,6 +3603,21 @@
       "verified_at": "2026-10-03"
     },
     {
+      "name": "DSH Browser Crossplatform",
+      "repo": "youbaiyun/dsh-browser-crossplatform",
+      "package": "dsh-browser-crossplatform",
+      "category": "Input & Navigation",
+      "license": "MIT",
+      "description": "Connect a browser extension to DSH for browser control, page interaction, and image interpretation.",
+      "install_command": "dsh plugin --profile web add dsh-browser-crossplatform@0.38.5",
+      "manifest_path": "packages/bridge/package.json",
+      "entrypoint": "dsh-browser-crossplatform",
+      "stars": 93,
+      "stars_at_addition": 93,
+      "added_at": "2026-10-10",
+      "verified_at": "2026-10-10"
+    },
+    {
       "name": "DSH ImageGen",
       "repo": "dickpy/dsh-imagegen",
       "package": "@dickpy/dsh-imagegen",
@@ -4623,6 +4713,36 @@
       "verified_at": "2026-09-28"
     },
     {
+      "name": "DSH Ops",
+      "repo": "T-Auto/dsh-ops",
+      "package": "dsh-ops",
+      "category": "Files & Runtime",
+      "license": "MIT AND Apache-2.0",
+      "description": "Add Windows shell, file, and background-job tools with Bash, PowerShell, and Rust components.",
+      "install_command": "dsh plugin --profile web add dsh-ops@0.2.4",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-ops",
+      "stars": 62,
+      "stars_at_addition": 62,
+      "added_at": "2026-10-10",
+      "verified_at": "2026-10-10"
+    },
+    {
+      "name": "DSH Sieve",
+      "repo": "Sev7eEn7/dsh-sieve",
+      "package": "dsh-sieve",
+      "category": "Memory & Knowledge",
+      "license": "MIT",
+      "description": "Filter tool output, prune conversation history, and control skill disclosure with an optional Web settings panel.",
+      "install_command": "dsh plugin --profile web add dsh-sieve@0.2.0 dsh-sieve-web@0.2.0",
+      "manifest_path": "packages/dsh-sieve/package.json",
+      "entrypoint": "dsh-sieve",
+      "stars": 62,
+      "stars_at_addition": 62,
+      "added_at": "2026-10-10",
+      "verified_at": "2026-10-10"
+    },
+    {
       "name": "Morning Star DSH",
       "repo": "btspoony/mstar-harness",
       "package": "@mstar-harness/dsh",
@@ -4636,6 +4756,21 @@
       "stars_at_addition": 49,
       "added_at": "2026-08-17",
       "verified_at": "2026-09-28"
+    },
+    {
+      "name": "DSH Codex Effort Slider",
+      "repo": "Microqian2th/dsh-codex-effort-slider",
+      "package": "dsh-codex-effort-slider",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "Adjust Codex reasoning effort from a slider in the DSH conversation interface.",
+      "install_command": "dsh plugin --profile web add link:/absolute/path/to/dsh-codex-effort-slider",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-codex-effort-slider",
+      "stars": 61,
+      "stars_at_addition": 61,
+      "added_at": "2026-10-10",
+      "verified_at": "2026-10-10"
     },
     {
       "name": "DSH Usage Billing",
@@ -4786,6 +4921,21 @@
       "stars_at_addition": 32,
       "added_at": "2026-09-02",
       "verified_at": "2026-09-28"
+    },
+    {
+      "name": "Contexera Agent Team",
+      "repo": "Contexera/dsh-agent-team",
+      "package": "@contexera/dsh-agent-team",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "Coordinate persistent agents with shared channels, tasks, notes, and memory across DSH sessions.",
+      "install_command": "dsh plugin --profile web add @contexera/dsh-agent-team@0.2.2",
+      "manifest_path": "package.json",
+      "entrypoint": "@contexera/dsh-agent-team",
+      "stars": 56,
+      "stars_at_addition": 56,
+      "added_at": "2026-10-10",
+      "verified_at": "2026-10-10"
     },
     {
       "name": "DSH DeepRead",
@@ -6993,6 +7143,21 @@
       "verified_at": "2026-10-03"
     },
     {
+      "name": "DSH Git Bash Shell",
+      "repo": "KannaKuron/dsh-gitbash-shell",
+      "package": "dsh-gitbash-shell",
+      "category": "Files & Runtime",
+      "license": "MIT",
+      "description": "Run agent shell commands through Git Bash on Windows and manage the shell settings in DSH.",
+      "install_command": "dsh plugin --profile web add dsh-gitbash-shell@0.34.2",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-gitbash-shell",
+      "stars": 31,
+      "stars_at_addition": 31,
+      "added_at": "2026-10-10",
+      "verified_at": "2026-10-10"
+    },
+    {
       "name": "DSH Memoir",
       "repo": "Qinling-Melon-Farmers/dsh-memoir",
       "package": "dsh-memoir",
@@ -7143,6 +7308,21 @@
       "verified_at": "2026-10-03"
     },
     {
+      "name": "DSH Gomoku",
+      "repo": "omdsh-dev/dsh-gomoku",
+      "package": "@yejiming/dsh-gomoku",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "Play Gomoku against an agent or watch agents compete through an interactive DSH conversation board.",
+      "install_command": "dsh plugin --profile web add @yejiming/dsh-gomoku@0.0.3",
+      "manifest_path": "package.json",
+      "entrypoint": "@yejiming/dsh-gomoku",
+      "stars": 30,
+      "stars_at_addition": 30,
+      "added_at": "2026-10-10",
+      "verified_at": "2026-10-10"
+    },
+    {
       "name": "DSH KLine",
       "repo": "FTShare-Lab/dsh_kline",
       "package": "@ftshare-lab/dsh-kline",
@@ -7203,6 +7383,36 @@
       "verified_at": "2026-10-03"
     },
     {
+      "name": "DSH Russian Language",
+      "repo": "GooDAnDReaDY/dsh-russian-lang",
+      "package": "@goodandready/dsh-russian-lang",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "Add Russian interface translations, locale overrides, and translation controls to DSH.",
+      "install_command": "dsh plugin --profile web add @goodandready/dsh-russian-lang@0.3.41",
+      "manifest_path": "package.json",
+      "entrypoint": "@goodandready/dsh-russian-lang",
+      "stars": 30,
+      "stars_at_addition": 30,
+      "added_at": "2026-10-10",
+      "verified_at": "2026-10-10"
+    },
+    {
+      "name": "DSH Skills Management",
+      "repo": "weibaohui/skills-management",
+      "package": "@weibaohui/skills-management",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "Browse, install, remove, and manage skill visibility across DSH and other coding-agent skill directories.",
+      "install_command": "dsh plugin --profile web add @weibaohui/skills-management@0.9.1 -w",
+      "manifest_path": "package.json",
+      "entrypoint": "@weibaohui/skills-management",
+      "stars": 30,
+      "stars_at_addition": 30,
+      "added_at": "2026-10-10",
+      "verified_at": "2026-10-10"
+    },
+    {
       "name": "DSH Wallpaper Share",
       "repo": "YRN-playmaker/dsh-wallpaper_share",
       "package": "dsh-wallpaper_share",
@@ -7261,6 +7471,21 @@
       "stars_at_addition": 30,
       "added_at": "2026-10-03",
       "verified_at": "2026-10-03"
+    },
+    {
+      "name": "Upstash DSH",
+      "repo": "upstash/skills",
+      "package": "upstash-skills",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "Register Upstash SDK skills and its local MCP server through a dedicated DSH bundle with managed credentials.",
+      "install_command": "dsh plugin --profile web add github:upstash/skills",
+      "manifest_path": "package.json",
+      "entrypoint": "upstash-skills/.dsh-plugin/index.mjs",
+      "stars": 30,
+      "stars_at_addition": 30,
+      "added_at": "2026-10-10",
+      "verified_at": "2026-10-10"
     },
     {
       "name": "DSH Toolbox Suite",
