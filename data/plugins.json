@@ -363,6 +363,21 @@
       "verified_at": "2026-09-28"
     },
     {
+      "name": "Answer Me with HTML DSH",
+      "repo": "QingYunA/answer-me-with-html",
+      "package": "answer-me-with-html",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "Register a bundled skill that creates self-contained HTML explanations with diagrams and formatted mathematics.",
+      "install_command": "dsh plugin --profile web add github:QingYunA/answer-me-with-html",
+      "manifest_path": "package.json",
+      "entrypoint": "@deepseek-ai/dsh-skill-filesystem",
+      "stars": 3253,
+      "stars_at_addition": 3253,
+      "added_at": "2026-10-13",
+      "verified_at": "2026-10-13"
+    },
+    {
       "name": "Codex Taskboard DSH Integration",
       "repo": "chuspeeism/dashi-taskboard",
       "package": "dsh-codex-taskboard",
@@ -751,6 +766,21 @@
       "stars_at_addition": 854,
       "added_at": "2026-09-22",
       "verified_at": "2026-09-28"
+    },
+    {
+      "name": "StudyMate DSH",
+      "repo": "Miaotofu01/Study-Mate",
+      "package": "@yunmiao/studymate",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "Add learning and question-answering presets, study materials, and progress tracking for math and computer science.",
+      "install_command": "dsh plugin --profile web add @yunmiao/studymate@2.0.1",
+      "manifest_path": "package.json",
+      "entrypoint": "@yunmiao/studymate",
+      "stars": 916,
+      "stars_at_addition": 916,
+      "added_at": "2026-10-13",
+      "verified_at": "2026-10-13"
     },
     {
       "name": "DSH Vision Toolkit",
@@ -1698,6 +1728,21 @@
       "verified_at": "2026-09-28"
     },
     {
+      "name": "CortexDB DSH Memory",
+      "repo": "liliang-cn/cortexdb",
+      "package": "cortexdb-dsh-memory",
+      "category": "Memory & Knowledge",
+      "license": "MIT",
+      "description": "Connect DSH conversations to CortexDB for persistent memory storage and retrieval.",
+      "install_command": "dsh plugin --profile web add cortexdb-dsh-memory@2.125.0",
+      "manifest_path": "plugins/dsh-cortexdb-memory/package.json",
+      "entrypoint": "cortexdb-dsh-memory",
+      "stars": 285,
+      "stars_at_addition": 285,
+      "added_at": "2026-10-13",
+      "verified_at": "2026-10-13"
+    },
+    {
       "name": "DSH Tianshu TUI",
       "repo": "huiliyi37/dsh-tianshu-tui",
       "package": "@huiliyi37/dsh-tianshu-tui",
@@ -2611,6 +2656,21 @@
       "stars_at_addition": 36,
       "added_at": "2026-08-17",
       "verified_at": "2026-09-28"
+    },
+    {
+      "name": "DSH WeChat Channel",
+      "repo": "xcisxc29/dsh-wechat",
+      "package": "dsh-wechat-plugin",
+      "category": "Input & Navigation",
+      "license": "MIT",
+      "description": "Control a desktop DSH agent from WeChat through a dedicated messaging channel bundle.",
+      "install_command": "dsh plugin --profile desktop add dsh-wechat-plugin@0.43.1",
+      "manifest_path": "packages/bundle/package.json",
+      "entrypoint": "dsh-wechat-plugin",
+      "stars": 153,
+      "stars_at_addition": 153,
+      "added_at": "2026-10-13",
+      "verified_at": "2026-10-13"
     },
     {
       "name": "CreatPPT DSH",
@@ -4758,6 +4818,21 @@
       "verified_at": "2026-09-28"
     },
     {
+      "name": "MultiVibe DSH Companion",
+      "repo": "thibautrey/multivibe",
+      "package": "dsh-multivibe",
+      "category": "UI & Interfaces",
+      "license": "Apache-2.0",
+      "description": "Connect DSH to a MultiVibe gateway and display available models and connection status in a sidebar panel.",
+      "install_command": "dsh plugin add https://github.com/thibautrey/multivibe/releases/download/dsh-multivibe-v0.1.0/dsh-multivibe-0.1.0.tgz",
+      "manifest_path": "plugins/dsh-multivibe/package.json",
+      "entrypoint": "dsh-multivibe",
+      "stars": 62,
+      "stars_at_addition": 62,
+      "added_at": "2026-10-13",
+      "verified_at": "2026-10-13"
+    },
+    {
       "name": "DSH Codex Effort Slider",
       "repo": "Microqian2th/dsh-codex-effort-slider",
       "package": "dsh-codex-effort-slider",
@@ -4906,6 +4981,21 @@
       "stars_at_addition": 34,
       "added_at": "2026-09-13",
       "verified_at": "2026-09-28"
+    },
+    {
+      "name": "DSH Prompt Market",
+      "repo": "yi-yezhiqiu/dsh-prompt-market",
+      "package": "dsh-prompt-market",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "Browse, search, favorite, and insert prompts through a panel beside the DSH conversation composer.",
+      "install_command": "dsh plugin --profile desktop add dsh-prompt-market@0.1.3",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-prompt-market",
+      "stars": 57,
+      "stars_at_addition": 57,
+      "added_at": "2026-10-13",
+      "verified_at": "2026-10-13"
     },
     {
       "name": "Cloader DSH Taskboard",
@@ -5883,6 +5973,36 @@
       "verified_at": "2026-09-28"
     },
     {
+      "name": "DSH Persona Library",
+      "repo": "huaizhuanghub/dsh-persona-dafeiyu",
+      "package": "dsh-persona-dafeiyu",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "Choose built-in personas, import custom personas, and switch the active persona without restarting DSH.",
+      "install_command": "dsh plugin --profile web add dsh-persona-dafeiyu@0.4.1",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-persona-dafeiyu",
+      "stars": 41,
+      "stars_at_addition": 41,
+      "added_at": "2026-10-13",
+      "verified_at": "2026-10-13"
+    },
+    {
+      "name": "DSH Pixel Whale",
+      "repo": "lhh010/dsh-ui-whale",
+      "package": "@dsh-external/dsh-ui-whale",
+      "category": "Themes & Appearance",
+      "license": "BSD-3-Clause",
+      "description": "Add a pixel whale companion that reacts to conversation activity in the DSH Web interface.",
+      "install_command": "dsh plugin --profile web add \"@dsh-external/dsh-ui-whale@github:lhh010/dsh-ui-whale#v0.3.27\"",
+      "manifest_path": "package.json",
+      "entrypoint": "@dsh-external/dsh-ui-whale",
+      "stars": 41,
+      "stars_at_addition": 41,
+      "added_at": "2026-10-13",
+      "verified_at": "2026-10-13"
+    },
+    {
       "name": "DSH Plugin Guide",
       "repo": "PerryLink/dsh-plugin-guide",
       "package": "dsh-plugin-guide",
@@ -5913,6 +6033,21 @@
       "verified_at": "2026-09-28"
     },
     {
+      "name": "DSH Stable Diffusion Bridge Guard",
+      "repo": "savinglighting/dsh-sd-bridge-guard",
+      "package": "dsh-sd-bridge-guard",
+      "category": "Vision",
+      "license": "MIT",
+      "description": "Connect a local Stable Diffusion WebUI to DSH for image generation, editing, and model management.",
+      "install_command": "dsh plugin add link:/absolute/path/to/dsh-sd-bridge-guard",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-sd-bridge-guard",
+      "stars": 41,
+      "stars_at_addition": 41,
+      "added_at": "2026-10-13",
+      "verified_at": "2026-10-13"
+    },
+    {
       "name": "SkillRoute DSH",
       "repo": "erichare/skillroute",
       "package": "@skillroute/dsh-plugin",
@@ -5941,6 +6076,21 @@
       "stars_at_addition": 41,
       "added_at": "2026-10-03",
       "verified_at": "2026-10-03"
+    },
+    {
+      "name": "VibeGuard DSH",
+      "repo": "majiayu000/vibeguard",
+      "package": "@vibeguard-ai/dsh",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "Forward DSH Bash events to an installed VibeGuard Rust runtime for command policy checks and outcome logging.",
+      "install_command": "dsh plugin --profile demo add @vibeguard-ai/dsh@0.1.0",
+      "manifest_path": "plugins/dsh/package.json",
+      "entrypoint": "@vibeguard-ai/dsh",
+      "stars": 41,
+      "stars_at_addition": 41,
+      "added_at": "2026-10-13",
+      "verified_at": "2026-10-13"
     },
     {
       "name": "DSH Kimino Theme",
@@ -6228,6 +6378,21 @@
       "verified_at": "2026-10-03"
     },
     {
+      "name": "DSH Windows Computer Use",
+      "repo": "Yu-tao-Li/dsh-computer-use-win",
+      "package": "dsh-computer-use-win",
+      "category": "Input & Navigation",
+      "license": "MIT",
+      "description": "Control Windows applications through a bundled MCP bridge with UI Automation, screenshots, OCR, and input tools.",
+      "install_command": "dsh plugin --profile web add dsh-computer-use-win@0.2.6",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-computer-use-win",
+      "stars": 38,
+      "stars_at_addition": 38,
+      "added_at": "2026-10-13",
+      "verified_at": "2026-10-13"
+    },
+    {
       "name": "DSH WorkBuddy Account Pool",
       "repo": "XDTrees/dsh-workbuddy-xdpool",
       "package": "dsh-workbuddy-xdpool",
@@ -6256,6 +6421,21 @@
       "stars_at_addition": 38,
       "added_at": "2026-09-13",
       "verified_at": "2026-09-28"
+    },
+    {
+      "name": "Whale Craft DSH",
+      "repo": "yzi1b/whale-craft",
+      "package": "whale_craft",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "Let DSH agents explore, build, and chat on Minecraft servers through native game tools.",
+      "install_command": "dsh plugin --profile web add whale_craft@0.2.0-beta.2",
+      "manifest_path": "package.json",
+      "entrypoint": "whale_craft",
+      "stars": 38,
+      "stars_at_addition": 38,
+      "added_at": "2026-10-13",
+      "verified_at": "2026-10-13"
     },
     {
       "name": "Custom DSH UI",
@@ -6316,6 +6496,21 @@
       "stars_at_addition": 40,
       "added_at": "2026-09-22",
       "verified_at": "2026-09-28"
+    },
+    {
+      "name": "DSH Todo Plus",
+      "repo": "shuxidemosheng/dsh-tool-todo-plus",
+      "package": "dsh-tool-todo-plus",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "Add priority tags, Markdown checklist rendering, and a floating task panel alongside the built-in todo tool.",
+      "install_command": "dsh plugin --profile web add dsh-tool-todo-plus@0.7.3",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-tool-todo-plus",
+      "stars": 37,
+      "stars_at_addition": 37,
+      "added_at": "2026-10-13",
+      "verified_at": "2026-10-13"
     },
     {
       "name": "DSH Trading",
@@ -6558,6 +6753,21 @@
       "verified_at": "2026-10-07"
     },
     {
+      "name": "DSH Prompt",
+      "repo": "FeatherHunter/dsh-prompt",
+      "package": "dsh-prompt",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "Insert preset and custom prompt templates into DSH conversations through a prompt toolbox.",
+      "install_command": "dsh plugin --profile web add dsh-prompt@0.4.13",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-prompt",
+      "stars": 35,
+      "stars_at_addition": 35,
+      "added_at": "2026-10-13",
+      "verified_at": "2026-10-13"
+    },
+    {
       "name": "DSH QA Skills",
       "repo": "fishzjp/qa-skills",
       "package": "dsh-qa-skills",
@@ -6631,6 +6841,21 @@
       "stars_at_addition": 30,
       "added_at": "2026-09-22",
       "verified_at": "2026-09-28"
+    },
+    {
+      "name": "DSH Agent Studio",
+      "repo": "thissensen/dsh-agent-studio",
+      "package": "dsh-agent-studio",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "Configure agent prompts, tools, skills, subagents, and fallback models through a visual DSH interface.",
+      "install_command": "dsh plugin --profile web add dsh-agent-studio@0.1.5",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-agent-studio",
+      "stars": 34,
+      "stars_at_addition": 34,
+      "added_at": "2026-10-13",
+      "verified_at": "2026-10-13"
     },
     {
       "name": "DSH Better Edit",
@@ -7188,6 +7413,51 @@
       "verified_at": "2026-10-07"
     },
     {
+      "name": "DSH Prompt Hardener",
+      "repo": "ffyfox/dsh-prompt-hardener",
+      "package": "dsh-prompt-hardener",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "Add configurable prompt rules and checks for coding tasks in DSH.",
+      "install_command": "dsh plugin --profile web add dsh-prompt-hardener@0.4.0",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-prompt-hardener",
+      "stars": 31,
+      "stars_at_addition": 31,
+      "added_at": "2026-10-13",
+      "verified_at": "2026-10-13"
+    },
+    {
+      "name": "DSH Remote SSH",
+      "repo": "ZhangFengshun/dsh-remote-ssh",
+      "package": "@zhangfengshun/dsh-remote-ssh",
+      "category": "Files & Runtime",
+      "license": "MIT",
+      "description": "Connect remote workspaces over SSH with file browsing, editing, and integrated terminals in DSH.",
+      "install_command": "dsh plugin --profile web add @zhangfengshun/dsh-remote-ssh@2.4.27",
+      "manifest_path": "package.json",
+      "entrypoint": "@zhangfengshun/dsh-remote-ssh",
+      "stars": 31,
+      "stars_at_addition": 31,
+      "added_at": "2026-10-13",
+      "verified_at": "2026-10-13"
+    },
+    {
+      "name": "DSH SkillHub",
+      "repo": "aa2246740/dsh-skillhub",
+      "package": "@aa2246740/dsh-skillhub",
+      "category": "Workflow & Automation",
+      "license": "MIT",
+      "description": "Manage local skill visibility and MCP server switches from a DSH settings panel.",
+      "install_command": "dsh plugin --profile web add @aa2246740/dsh-skillhub@1.0.7",
+      "manifest_path": "package.json",
+      "entrypoint": "@aa2246740/dsh-skillhub",
+      "stars": 31,
+      "stars_at_addition": 31,
+      "added_at": "2026-10-13",
+      "verified_at": "2026-10-13"
+    },
+    {
       "name": "Godot Bridge DSH",
       "repo": "Smalldy/godot-bridge",
       "package": "godot-bridge",
@@ -7278,6 +7548,21 @@
       "verified_at": "2026-10-03"
     },
     {
+      "name": "DSH Browser Control",
+      "repo": "caob23/dsh-browser-control",
+      "package": "@caob23/dsh-browser-control",
+      "category": "Input & Navigation",
+      "license": "AGPL-3.0-only",
+      "description": "Connect a Chrome extension to DSH for browser control through a local WebSocket bridge.",
+      "install_command": "dsh plugin --profile web add @caob23/dsh-browser-control@1.0.17",
+      "manifest_path": "package.json",
+      "entrypoint": "@caob23/dsh-browser-control",
+      "stars": 30,
+      "stars_at_addition": 30,
+      "added_at": "2026-10-13",
+      "verified_at": "2026-10-13"
+    },
+    {
       "name": "DSH Chinese Pro",
       "repo": "magian1127/deepseek-harness-zh_pro",
       "package": "deepseek-harness-zh_pro",
@@ -7291,6 +7576,21 @@
       "stars_at_addition": 30,
       "added_at": "2026-10-03",
       "verified_at": "2026-10-03"
+    },
+    {
+      "name": "DSH Effort Slider",
+      "repo": "yuhub233/dsh-effort-slider",
+      "package": "dsh-effort-slider",
+      "category": "UI & Interfaces",
+      "license": "MIT",
+      "description": "Adjust model reasoning effort through a visual slider with orchestration controls and subagent token-rate readouts.",
+      "install_command": "dsh plugin add github:yuhub233/dsh-effort-slider",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-effort-slider",
+      "stars": 30,
+      "stars_at_addition": 30,
+      "added_at": "2026-10-13",
+      "verified_at": "2026-10-13"
     },
     {
       "name": "DSH Firefly Theme",
@@ -7353,6 +7653,21 @@
       "verified_at": "2026-10-07"
     },
     {
+      "name": "DSH Office Tools",
+      "repo": "kw78/dsh-office-tools",
+      "package": "dsh-office-tools",
+      "category": "Files & Runtime",
+      "license": "MIT",
+      "description": "Create, read, and update Word, Excel, and PowerPoint files with tools targeting the DSH 0.1.2 package family.",
+      "install_command": "dsh plugin --profile web add dsh-office-tools@1.0.6",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-office-tools",
+      "stars": 30,
+      "stars_at_addition": 30,
+      "added_at": "2026-10-13",
+      "verified_at": "2026-10-13"
+    },
+    {
       "name": "DSH Pipeline Kernel",
       "repo": "not-big-dog/DSH-pipeline-kernel",
       "package": "dsh-pipeline-kernel",
@@ -7411,6 +7726,21 @@
       "stars_at_addition": 30,
       "added_at": "2026-10-10",
       "verified_at": "2026-10-10"
+    },
+    {
+      "name": "DSH SSH Ops",
+      "repo": "caoyiwei850/dsh-ssh-ops",
+      "package": "dsh-ssh-ops",
+      "category": "Files & Runtime",
+      "license": "MIT",
+      "description": "Add remote SSH operations, database tools, and a terminal panel for the DSH 0.1.2 package family.",
+      "install_command": "dsh plugin --profile web add dsh-ssh-ops@0.3.20",
+      "manifest_path": "package.json",
+      "entrypoint": "dsh-ssh-ops",
+      "stars": 30,
+      "stars_at_addition": 30,
+      "added_at": "2026-10-13",
+      "verified_at": "2026-10-13"
     },
     {
       "name": "DSH Wallpaper Share",
