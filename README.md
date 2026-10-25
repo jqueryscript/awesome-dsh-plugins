@@ -2,9 +2,6 @@
 
 > A verified, category-organized list of community plugins for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness), with exact GitHub Star counts.
 
-[![Quality](https://github.com/jqueryscript/awesome-dsh-plugins/actions/workflows/quality.yml/badge.svg)](https://github.com/jqueryscript/awesome-dsh-plugins/actions/workflows/quality.yml)
-[![Update Stars](https://github.com/jqueryscript/awesome-dsh-plugins/actions/workflows/update-stars.yml/badge.svg)](https://github.com/jqueryscript/awesome-dsh-plugins/actions/workflows/update-stars.yml)
-
 **Last verified:** 2026-09-28 | **Minimum at admission:** 30 stars | **Plugins:** 631
 
 **Latest additions:** 2026-10-25. Existing entries retain their previous Star snapshots.
@@ -31,7 +28,7 @@ The `dsh-plugin` GitHub topic is a discovery signal, not proof. This list exclud
 
 ## Plugins by category
 
-Each category below contains the actual plugin entries. Entries within a category are sorted by exact live GitHub Stars.
+Each category below contains the actual plugin entries. Entries within a category are sorted by recorded GitHub Stars.
 
 <!-- BEGIN GENERATED CATEGORY LIST -->
 ### Files & Runtime
