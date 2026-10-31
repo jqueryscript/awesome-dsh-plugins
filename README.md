@@ -1848,6 +1848,9 @@ Each category below contains the actual plugin entries. Entries within a categor
 - [DSH Usage Plugin](https://github.com/feiyang-dev/dsh-usage-plugin) - **36 stars** | `MIT`. A DeepSeek Harness bundle for viewing usage statistics and token consumption during sessions.
   - Install: `dsh plugin --profile web add @feiyang666/dsh-usage-plugin`
 
+- [YBKK AIOS](https://github.com/01men/ybkkasi) - **36 stars** | `MIT`. A self-hosted control plane that registers MCP servers, skills, agents, AI apps, model channels, SaaS connectors and NAS storage as governed assets, with per-tool RBAC, cost attribution by department, agent and skill, dependency topology and an append-only audit trail.
+  - Install: `dsh plugin --profile web add github:01men/ybkkasi`
+
 - [DirectorX](https://github.com/LaplaceYoung/dsh-directorx) - **35 stars** | `Apache-2.0`. Plan video projects on a storyboard canvas and use native DSH tools for media generation, editing, and FFmpeg quality checks.
   - Install: `dsh plugin --profile web add /absolute/path/to/dsh-directorx`
 
