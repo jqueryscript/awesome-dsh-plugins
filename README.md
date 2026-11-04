@@ -1842,6 +1842,9 @@ Each category below contains the actual plugin entries. Entries within a categor
 - [VibeGuard DSH](https://github.com/majiayu000/vibeguard) - **41 stars** | `MIT`. Forward DSH Bash events to an installed VibeGuard Rust runtime for command policy checks and outcome logging.
   - Install: `dsh plugin --profile demo add @vibeguard-ai/dsh@0.1.0`
 
+- [AgentCompare](https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare) - **40 stars** | `MIT`. Compares two isolated Vite implementations in DSH conversations with shared checks, live previews, and reviewed adoption.
+  - Install: `dsh plugin --profile web add dsh-agent-compare@0.2.0-alpha.18`
+
 - [DSH Lark Link](https://github.com/amlyczz/dsh-lark-link) - **40 stars** | `MIT`. A Feishu/Lark bridge with QR login, multi-agent modes, media exchange, and reusable DSH Web sessions.
   - Install: `dsh plugin --profile web add dsh-lark-link@latest --ignore-scripts`
 
