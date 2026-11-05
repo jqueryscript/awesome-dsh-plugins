@@ -1636,7 +1636,7 @@ Each category below contains the actual plugin entries. Entries within a categor
   - Install: `dsh plugin --profile web add dsh-rewind-plugin`
 
 - [AgentCompare](https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare) - **96 stars** | `MIT`. Compares two isolated Vite implementations in DSH conversations with shared checks, live previews, and reviewed adoption.
-  - Install: `dsh plugin --profile web add dsh-agent-compare@1.0.1`
+  - Install: `dsh plugin --profile web add dsh-agent-compare@1.1.0`
 
 - [Superpowers DSH](https://github.com/LayneChai/superpowers-dsh) - **95 stars** | `MIT`. A DeepSeek Harness bundle that packages the Superpowers development workflow as native DSH skills.
   - Install: `dsh plugin --profile web add github:LayneChai/superpowers-dsh`
